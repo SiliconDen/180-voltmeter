@@ -1,5 +1,22 @@
 <?xml version="1.0"?>
 <!--Custom Compiler Version W-2024.09-SP1-2-->
 <file-format version="2.0" name="synopsysPrefs"/>
-<preferences/>
+<preferences>
+	<pref name="dbGenerateCellViewEditor" value="Symbol Editor"/>
+	<pref name="deCanvasMouseZoomFactor" value="1.1"/>
+	<pref name="giPromptCloseMultipleTabs" value="true"/>
+	<pref name="leAbstractGenOptionSetDefault" value=""/>
+	<pref name="saResultsDir" value="./simulation"/>
+	<pref name="xtDRCICVIncludePaths" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../DRC_ICV/"/>
+	<pref name="xtDRCICVRunsetFile" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../DRC_ICV/gf180mcu_drc.rs"/>
+	<pref name="xtDRCLayDBFormat" value="Stream"/>
+	<pref name="xtLPEOpenParasiticView" value="false"/>
+	<pref name="xtLVSICVIncludePaths" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../LVS_ICV/LVS/ICV/"/>
+	<pref name="xtLVSICVRunsetFile" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../LVS_ICV/LVS/ICV/cmos018hv.3p3.6v.lvs.rs"/>
+	<pref name="xtLVSLayDBFormat" value="Stream"/>
+	<pref name="xtNetlistingPrefixes" value="background_netlisting pw_shell_netlist"/>
+	<pref name="xtSAEShellJobLimit" value="2"/>
+	<pref name="xtSAEShellPrefixes" value="pw_shell_results_viewer"/>
+	<pref name="xtSimulationPrefixes" value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS FineSimProVCSSpectre HSIMHSPICE PrimeSim PrimeSimVCS PrimeSimXA PrimeSimXAVCS XAEldo XAHSPICE XASpectre XAVCSHSPICE"/>
+</preferences>
 

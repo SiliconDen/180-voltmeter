@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Fri Aug 22 16:40:32 2025
+<!-- created by Custom Compiler (TM), build #, on Wed Aug 27 14:16:01 2025
 -->
 <synopsysFile version="1.1" name="synopsysRecentFiles">
-        <recentFiles/>
+        <recentFiles>
+                <file cell="main_opamp" library="integrator" mode="write" view="symbol" file="schematicSymbol"/>
+                <file cell="tb_main_opamp" library="integrator" mode="write" view="schematic" file="schematic"/>
+                <file cell="main_opamp" library="integrator" mode="write" view="schematic" file="schematic"/>
+        </recentFiles>
 </synopsysFile>
