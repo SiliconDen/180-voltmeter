@@ -1,5 +1,6 @@
 export PDK_DIR=/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu
-export EDITOR=vi	# DH, 09/04/25
+export EDITOR=vi	# can be whatever though. DH, 09/04/25
+# also this is irrelevant if you choose to use the internal editor under general options in cc
 
 if [ ! -f ${PWD}/lib.defs ]; then
   cp $PDK_DIR/setup/lib.defs .
@@ -7,6 +8,8 @@ fi
 
 # loads versions used for freepdk3
 # TODO find newest version that works for everything (no glibc issues)
+#	Maybe done? More testing needed.
+
 #ml syn/W-2024.09-SP2
 ml syn
 #ml primesim/W-2024.09-SP1-2
