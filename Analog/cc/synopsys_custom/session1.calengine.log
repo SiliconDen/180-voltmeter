@@ -1,84 +1,39 @@
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 739.52MB -*-
+  -*- memory usage : 756.46MB -*-
   -*- CPU Time :     0.10s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 739.52MB -*-
+  -*- memory usage : 756.46MB -*-
   -*- CPU Time :     0.10s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.47MB -*-
+  -*- memory usage : 759.42MB -*-
   -*- CPU Time :     0.10s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.47MB -*-
+  -*- memory usage : 759.42MB -*-
   -*- CPU Time :     0.10s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.47MB -*-
+  -*- memory usage : 759.42MB -*-
   -*- CPU Time :     0.10s -*-
-sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results}
+sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results}
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.87MB -*-
+  -*- memory usage : 759.81MB -*-
   -*- CPU Time :     0.10s -*-
-[17:50:50.410] I| Setup simulation complete: 
-    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results 
-    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/resultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s0.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s1.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s2.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s3.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s4.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s5.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s6.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s7.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s8.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s9.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s10.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s11.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s12.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s13.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s14.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s15.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s16.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s17.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s18.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s19.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s20.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s21.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s22.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s23.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s24.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s25.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s26.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s27.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s28.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s29.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s30.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s31.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s32.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s33.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s34.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s35.dc ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/primesim_wdf/dc_s36.dc ... ***
-   *** Loading waveform file finished ***
-   *** Evaluating Equations... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/postResultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/post1.wave ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/postResultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/post2.wave ... ***
-Nominal: Start to call cckDBHandler to create handler
-Nominal: Start to integrate database
-Start to post process[17:50:51.460] I| Start generating post results database...
-[17:51:31.700] I| Setup simulation complete: 
-    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results 
-    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results
-   *** Loading waveform file finished ***
-   *** Evaluating Equations... ***
-Nominal: Start to call cckDBHandler to create handler
-Nominal: Start to integrate database
-Start to post process[17:51:31.790] I| Start generating post results database...
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 759.81MB -*-
+  -*- CPU Time :     0.10s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 759.81MB -*-
+  -*- CPU Time :     0.10s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 759.81MB -*-
+  -*- CPU Time :     0.10s -*-
 sx_exit
+[18:45:52.120] I| Exit process.

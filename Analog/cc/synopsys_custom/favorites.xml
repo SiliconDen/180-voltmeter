@@ -1,27 +1,15 @@
 <?xml version="1.0"?>
-<!-- created by PrimeWave Design Environment (TM), build #, on Sat Sep  6 19:14:12 2025
+<!-- created by Custom Compiler (TM), build #, on Sun Sep  7 19:12:42 2025
 -->
 <synopsysFile name="synopsysFavoriteDevices" version="1.0">
         <favoriteDevices viewType="maskLayout"/>
         <favoriteDevices viewType="schematic">
-                <cellView view="symbol" library="analogLib" cell="res">
+                <cellView cell="res" library="analogLib" view="symbol">
                         <alias name="res"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView view="symbol" library="gf180mcu" cell="nfet_03v3">
-                        <alias name="nfet_03v3"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView view="symbol" library="gf180mcu" cell="pfet_03v3">
-                        <alias name="pfet_03v3"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView view="symbol" library="analogLib" cell="vdc">
-                        <alias name="vdc"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView view="symbol" library="analogLib" cell="gnd">
-                        <alias name="gnd"/>
+                <cellView cell="cap_mim_2f0fF" library="gf180mcu" view="symbol">
+                        <alias name="cap_mim_2f0fF"/>
                         <category name="Recently Placed"/>
                 </cellView>
         </favoriteDevices>

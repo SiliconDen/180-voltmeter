@@ -8,7 +8,7 @@ if {[db::getCount [gi::getWorkspaces dmLibraryManager -windowType [gi::getWindow
 gi::createWorkspace dmLibraryManager -title "Library Manager" -windowType dmLibraryManager -default true
 }
 if {[db::getCount [gi::getWorkspaces lxFloorplan -windowType [gi::getWindowTypes lxFloorplan]]] == 0 } {
-gi::createWorkspace lxFloorplan -title "Floorplan" -windowType lxFloorplan -default true
+gi::createWorkspace lxFloorplan -title "Floorplan" -windowType lxFloorplan -default false
 }
 if {[db::getCount [gi::getWorkspaces teWorkspace -windowType [gi::getWindowTypes teText]]] == 0 } {
 gi::createWorkspace teWorkspace -title "Text Editor Workspace" -windowType teText -default true
@@ -26,7 +26,7 @@ if {[db::getCount [gi::getWorkspaces lxSDLseSchematic -windowType [gi::getWindow
 gi::createWorkspace lxSDLseSchematic -title "SDL" -windowType seSchematic -default false
 }
 if {[db::getCount [gi::getWorkspaces lxSDLFloorplan -windowType [gi::getWindowTypes lxFloorplan]]] == 0 } {
-gi::createWorkspace lxSDLFloorplan -title "SDL" -windowType lxFloorplan -default false -initProc lx::_impl::initFloorplan
+gi::createWorkspace lxSDLFloorplan -title "SDL" -windowType lxFloorplan -default true -initProc lx::_impl::initFloorplan
 }
 if {[db::getCount [gi::getWorkspaces ueUDDWorkspace -windowType [gi::getWindowTypes leLayout]]] == 0 } {
 gi::createWorkspace ueUDDWorkspace -title "UDD" -windowType leLayout -default false

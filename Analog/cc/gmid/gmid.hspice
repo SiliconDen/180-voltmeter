@@ -1,3 +1,0 @@
-.dc Vgs Lin 501 0.0 0.6
-.probe dc par(‘mn0:GMO/I1(mn0)’)
-.probe dc par(‘mp1:GMO/I1(mp1)’)

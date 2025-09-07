@@ -1,0 +1,83 @@
+### WaveView session file (version X-2025.06-1 build Jun 19, ) ###
+### saved at 19:12:39 on Sun Sep  7 2025 ###
+wdf 0 "/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 1 "/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/postResultsMap.xml" load=open "title=ac:acMeasure1" "atype=ac:acMeasure1" 
+wdf 2 "/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 3 "/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=ac:acMeasure1" "atype=ac:acMeasure1" 
+cvt_begin
+  cvt_expr 0 0 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=0 fidx=1 wave2d alias='diff_mode_gain' 
+  cvt_expr 1 0 'phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'phase("v(out)"/"v(diff)")' target_id=0 fidx=1 wave2d alias='diff_mode_phase' 
+  cvt_expr 2 1 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=2 fidx=3 alias='diff_mode_gain' 
+  cvt_expr 3 1 'phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'phase("v(out)"/"v(diff)")' target_id=2 fidx=3 alias='diff_mode_phase' 
+cvt_end
+scalar list
+printtitle "ac:ac Sun Sep  7 2025 18:50:46"
+waveview_begin 1  stack  offset=0 xaxis=log name_b=81 mntr_b=81 name_width=66 "name=ac" showtitle=true "wvtitle=argershm:tb_main_opamp:diff_mode_gain:ac" 
+  panel_begin linear pidx=0 spath=name+file axis2=true xlabel="freq(Hz)" yaxis=db 
+    line src=wdf lidx=0 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:0:1:1 autoset=true alias="diff_mode_gain" disp=show swphead=true swpline=true 
+    line src=wdf lidx=1 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=1 attr=1:1:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=2 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=2 attr=2:2:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=3 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=3 attr=3:3:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=4 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=4 attr=4:4:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=5 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=5 attr=5:5:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=6 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=6 attr=6:6:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=7 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=7 attr=7:7:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=8 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=8 attr=8:0:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=9 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=9 attr=0:1:1:1 autoset=true alias="diff_mode_gain" disp=show swpline=true 
+    line src=wdf lidx=10 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=1:2:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swphead=true swpline=true 
+    line src=wdf lidx=11 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=1 attr=2:3:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=12 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=2 attr=3:4:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=13 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=3 attr=4:5:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=14 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=4 attr=5:6:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=15 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=5 attr=6:7:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=16 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=6 attr=7:0:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=17 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=7 attr=8:1:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=18 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=8 attr=0:2:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=19 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" swidx=9 attr=1:3:1:1 autoset=true alias="diff_mode_phase" disp=show axis2=true swpline=true 
+    line src=wdf lidx=20 derv_sig=1 fidx=2 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:4:1:1 alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=21 derv_sig=1 fidx=2 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=1:3:1:1 alias="diff_mode_phase" disp=show axis2=true 
+    line src=wdf lidx=22 derv_sig=1 fidx=2 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:4:1:0 alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=23 derv_sig=1 fidx=2 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=1:5:1:0 alias="diff_mode_phase" disp=show axis2=true 
+  panel_end
+waveview_end
+waveview_begin 2  horiz  mntr_b=66 style=1 "name=ac_sweep" showtitle=true "wvtitle=argershm:tb_main_opamp:diff_mode_gain:ac_sweep" 
+  panel_begin linear pidx=0 ridx=0 cidx=0 topname=0 npos=66 spath=name+file marker=on xvar=1|L 
+    line src=wdf lidx=0 fidx=1 "delim=." sigtype=7 "name=diff_mode_phase_cp" attr=0:0:1:0 autoset=true alias="diff_mode_phase_cp" disp=show swphead=true swpline=true 
+  panel_end
+waveview_end
+waveview_begin 3  stack  offset=0 xaxis=log name_b=195 mntr_b=289 name_width=180 mcur=4.46602867344063e+00 xcur=1.82880080838949e+07 vc=cur-pnl "name=ac" showtitle=true "wvtitle=argershm:tb_main_opamp:diff_mode_gain:ac" 
+  panel_begin linear pidx=0 spath=name+file axis2=true xlabel="freq(Hz)" yaxis=db ymin=1.78829715031122e-03 ymax=4.93043047332998e+05 ymin2=-1.25476816608997e+02 ymax2=1.49116955017301e+02 
+    line src=wdf lidx=0 derv_sig=1 fidx=2 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:0:1:0 autoset=true alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=1 derv_sig=1 fidx=2 "delim=.^" sigtype=7 "name=phase(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=1:1:1:0 autoset=true alias="diff_mode_phase" disp=show axis2=true 
+  panel_end
+waveview_end
+browserClosed
+
+#Custom Plot Section
+simulation_begin test=diff_mode_gain history=1 idx=984700002
+run_type 1
+view_list
+  3 ac
+  17 ac_sweep
+  3 ac
+end_view_list
+equation_list
+  diff_mode_gain str=db20(v(/out, analysisName="ac")/v(/diff, analysisName="ac"))
+  diff_mode_phase str=phase(v(/out, analysisName="ac")/v(/diff, analysisName="ac"))
+  diff_mode_phase_cp str=phase_m(v(/out, analysisName="ac")/v(/diff, analysisName="ac"))
+end_equation_list
+original_sim
+sim_id=diff_mode_gain
+history_point=1
+sim_idx=984700002
+sim_dir=/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+from_virtuoso=0
+is_output=1
+is_mtb=0
+hasViewer=0
+{"sim_id":"diff_mode_gain","sae_session":"saeSession1","sae_session_desc":"","directory":"/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results","results_directory":"./simulation","results_absdirectory":"/home/argershm/180-voltmeter/Analog/cc/simulation","post_results_dir":"/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results","save_post_results_in_session":"0","is_mc_multiple_run":"0","is_sim_sweep_run":"0","is_data_driven_sweep":"false","runDirDelimiter":",","test_suite_info":"argershm:tb_main_opamp:schematic","history_index":"1","history_name":"history_1","history_desc":"Run Simulation","is_mtb":"0","id":"984700002","child":"0","description":"","design_str":"argershm:tb_main_opamp:schematic","simulator":"PrimeSim","newResultsFormat":"0","is_initial":"0","sim_wave_removed":"0","chart_list":[],"isSaeAging":"0","saeAgingSimMode":"3","sonoma":"1","sonomaInc":"0","incPartial":"update","sim_netlist_removed":"0","modelIncPath":"/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE","isbreviate_historyname":"false","history_check":"false","ischange_historyname":"false","autoPlot":"1","isDirPlot":"0","invokeFrom":"OPV","save_format":"","incomplete_type":"","corparams":"","exportImageSize":"636*254","isWorstCaseAnalysis":"0","dspfIncludeOptions":"0","sweepUseDesignVar":"0","hasMSIPAceScripts":"0","equation_list":[{"equa_id":"equa#0","index":"1","equa_name":"","equa_schem":"","type":"","resultType":"","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"true","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"0","description":"","saveImage":"0","precision":"0","poor":"","poorHigh":"","poorLow":"","poorType":"","measExpr":"","eqnIdx":"","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"","orgErrMsg":"","suffix":"","imageTitle":""},{"equa_id":"equa#1","index":"2","equa_name":"diff_mode_gain","equa_schem":"db20(v(/out, analysisName=\"ac\")/v(/diff, analysisName=\"ac\"))","type":"expression","resultType":"ac","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"1","description":"","saveImage":"0","precision":"6","poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","measExpr":"","eqnIdx":"1","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"1","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t","is_meas":0,"is_ra_equation":0},{"equa_id":"equa#2","index":"3","equa_name":"diff_mode_phase","equa_schem":"phase(v(/out, analysisName=\"ac\")/v(/diff, analysisName=\"ac\"))","type":"expression","resultType":"ac","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"1","description":"","saveImage":"0","precision":"6","poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","measExpr":"","eqnIdx":"2","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"2","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t","is_meas":0,"is_ra_equation":0},{"equa_id":"equa#3","index":"4","equa_name":"diff_mode_phase_cp","equa_schem":"phase_m(v(/out, analysisName=\"ac\")/v(/diff, analysisName=\"ac\"))","type":"expression","resultType":"ac","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"1","description":"","saveImage":"0","precision":"6","poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","measExpr":"","eqnIdx":"3","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"3","orgErrMsg":"","suffix":"","imageTitle":"%e %c %s %m %t","is_meas":3,"is_ra_equation":0}],"probe_list":[],"ace_list":[],"model_list":[{"file":"ngspice/design.ngspice:"},{"file":"ngspice/sm141064.ngspice:cap_mim"},{"file":"ngspice/sm141064.ngspice:res"},{"file":"ngspice/sm141064.ngspice:res_typical"},{"file":"ngspice/sm141064.ngspice:typical"},{"file":"ngspice/sm141064.ngspice:mimcap_typical"},{"file":"ngspice/sm141064.ngspice:typical"},{"file":"ngspice/sm141064_mim.ngspice:cap_mim_new"}],"globalModel_list":[],"globalTemperature_list":[{"file":"25:Celsius"}],"design_variables_list":[["CL","1f"],["R_load","1G"],["vcm","0"],["vdd","3.3"],["vdm","1"],["vcm_dc","1.2"],["i_bias","1u"],["L_bias","10u"],["L_gm","1u"],["L_tail","10u"],["L_tail_out","1u"],["W_bias","10u"],["W_gm","10u"],["W_tail","10u"],["W_tail_out","5u"],["en","1"],["L_tail_out_p","20u"],["L","1u"]],"corner_group_params_list":[],"analyses_list":[["ac","{Sweep Variable: Frequency (Hz) Sweep Type: Logarithmic }"],["dc","{Operating Point}"]],"modelGrp_list":[],"corner_list":[],"no_value_corner_param_list":[],"monte_list":[],"monteSigma":"","targetSigma":"","monteUseDesignVar":"0","monteUseIterList":"","sweep_list":[],"job_list":[]}
+end_original_sim
+original_map
+{"sae_session":"saeSession1","map_list":[{"schemName":"v(/out,analysisName=\"ac\")","waveName":"v(out)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false},{"schemName":"v(/diff,analysisName=\"ac\")","waveName":"v(diff)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false},{"schemName":"v(/out,analysisName=\"ac\")","waveName":"v(out)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"3","is_expression":false},{"schemName":"v(/diff,analysisName=\"ac\")","waveName":"v(diff)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"3","is_expression":false},{"schemName":"v(/out,analysisName=\"ac\")","waveName":"v(out)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"4","is_expression":false},{"schemName":"v(/diff,analysisName=\"ac\")","waveName":"v(diff)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"4","is_expression":false}],"result_list":[{"file_name":"resultsMap.xml","resultID":"resFile0"},{"file_name":"postResultsMap.xml","is_post":"TRUE"}]}
+end_original_map
+simulation_end

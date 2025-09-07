@@ -1,4 +1,7 @@
 INCLUDE $SYNOPSYS_CUSTOM_INSTALL/samples/lib.defs
 DEFINE gf180mcu $PDK_DIR/Models_HSPICE
-DEFINE integrator ./integrator
-DEFINE gmid ./gmid
+DEFINE argershm ./argershm
+DEFINE jckesle ./jckesle
+DEFINE dhocken ./dhocken
+DEFINE COMMON ./COMMON
+DEFINE hpmcclea ./hpmcclea

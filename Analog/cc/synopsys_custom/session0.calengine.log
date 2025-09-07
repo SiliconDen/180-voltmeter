@@ -1,72 +1,59 @@
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 739.52MB -*-
+  -*- memory usage : 756.47MB -*-
   -*- CPU Time :     0.09s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 739.52MB -*-
+  -*- memory usage : 756.47MB -*-
   -*- CPU Time :     0.09s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.47MB -*-
+  -*- memory usage : 759.43MB -*-
   -*- CPU Time :     0.09s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.47MB -*-
+  -*- memory usage : 759.43MB -*-
   -*- CPU Time :     0.09s -*-
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.47MB -*-
+  -*- memory usage : 759.43MB -*-
   -*- CPU Time :     0.09s -*-
-sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results}
+sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results}
    *** running Tcl script ... ***
    ***   -*- Tcl script done -*- ***
-  -*- memory usage : 742.87MB -*-
+  -*- memory usage : 759.82MB -*-
   -*- CPU Time :     0.09s -*-
-[16:22:48.890] I| Setup simulation complete: 
-    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
-    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/primesim_wdf/ac.ac ... ***
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 759.82MB -*-
+  -*- CPU Time :     0.09s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 759.82MB -*-
+  -*- CPU Time :     0.09s -*-
+   *** running Tcl script ... ***
+   ***   -*- Tcl script done -*- ***
+  -*- memory usage : 759.82MB -*-
+  -*- CPU Time :     0.09s -*-
+[18:59:23.800] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml ... ***
+   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/ac.ac ... ***
    *** Loading waveform file finished ***
    *** Evaluating Equations... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post2.wave ... ***
+   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml ... ***
+   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave ... ***
 Nominal: Start to call cckDBHandler to create handler
 Nominal: Start to integrate database
-Start to post process[16:22:49.930] I| Start generating post results database...
-[16:22:57.020] I| Setup simulation complete: 
-    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
-    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+Start to post process[18:59:23.830] I| Start generating post results database...
+[18:59:29.590] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
    *** Loading waveform file finished ***
    *** Evaluating Equations... ***
 Nominal: Start to call cckDBHandler to create handler
 Nominal: Start to integrate database
-Start to post process[16:22:57.070] I| Start generating post results database...
-[16:23:45.150] I| Setup simulation complete: 
-    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
-    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/primesim_wdf/ac.ac ... ***
-   *** Loading waveform file finished ***
-   *** Evaluating Equations... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave ... ***
-Nominal: Start to call cckDBHandler to create handler
-Nominal: Start to integrate database
-Start to post process[16:23:45.220] I| Start generating post results database...
-[17:47:33.600] I| Setup simulation complete: 
-    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
-    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/primesim_wdf/ac.ac ... ***
-   *** Loading waveform file finished ***
-   *** Evaluating Equations... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml ... ***
-   *** loading waveform file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave ... ***
-Nominal: Start to call cckDBHandler to create handler
-Nominal: Start to integrate database
-Start to post process[17:47:33.690] I| Start generating post results database...
+Start to post process[18:59:29.630] I| Start generating post results database...
 sx_exit
+[19:12:39.490] I| Exit process.

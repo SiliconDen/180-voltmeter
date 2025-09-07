@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Sep  7 19:12:39 2025-->
+<file-format name="stateData" version="1.0">
+ <attribute value="1" name="dcop_splitted" type="giBoolean"/>
+ <attribute value="" name="description" type="giString"/>
+ <attribute value="argershm/tb_main_opamp/schematic" name="design" type="dmCellView"/>
+ <attribute value="" name="dspfInfo" type="giString"/>
+ <attribute value="1" name="enabled" type="giBoolean"/>
+ <attribute value="0" name="enabledJobClass" type="giBoolean"/>
+ <attribute value="" name="migratedSimulator" type="giString"/>
+ <attribute value="diff_mode_gain" name="name" type="giString"/>
+ <attribute value="argershm/tb_main_opamp/diff_mode_gain" name="openaccessState" type="dmCellView"/>
+ <attribute value="PrimeSim" name="simulator" type="giString"/>
+ <comment></comment>
+ <resultsDir>./simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

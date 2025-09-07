@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<!--Created by Custom Compiler (TM), build , on Wed Aug 27 13:09:01 2025-->
+<file-format name="stateData" version="1.0">
+ <attribute name="dcop_splitted" value="0" type="giBoolean"/>
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="design" value="argershm/tb_main_opamp/schematic" type="dmCellView"/>
+ <attribute name="enabled" value="1" type="giBoolean"/>
+ <attribute name="enabledJobClass" value="0" type="giBoolean"/>
+ <attribute name="migratedSimulator" value="" type="giString"/>
+ <attribute name="name" value="default" type="giString"/>
+ <attribute name="openaccessState" value="//" type="dmCellView"/>
+ <attribute name="simulator" value="PrimeSim" type="giString"/>
+ <comment/>
+ <resultsDir>./simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

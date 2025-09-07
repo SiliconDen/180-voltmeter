@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Sep  7 18:18:51 2025-->
+<file-format name="stateCategory" version="1.0">
+ <object name="environmentOptions" type="saEnvironmentOptions" version="1">
+  <attribute name="accuracyLevel" type="giString" value="Default"/>
+  <attribute name="auto" type="giBoolean" value="0"/>
+  <attribute name="caseSensitive" type="giString" value="Lower"/>
+  <attribute name="commandLineOptions" type="giString" value=""/>
+  <attribute name="enableGPU" type="giInt" value="0"/>
+  <attribute name="enableParallelSim" type="giBoolean" value="0"/>
+  <attribute name="ignoreParasitics" type="giBoolean" value="0"/>
+  <attribute name="includeGlobal" type="giBoolean" value="1"/>
+  <attribute name="includePath" type="giString" value="{${PDK_DIR}/Models_HSPICE/}"/>
+  <attribute name="netlistLanguage" type="giString" value="HSPICE"/>
+  <attribute name="numGPUProcesses" type="giInt" value="1"/>
+  <attribute name="numProcesses" type="giInt" value="1"/>
+  <attribute name="outputDataFormat" type="giString" value="psf"/>
+  <attribute name="stopViewList" type="giString" value="hspice hspiceD"/>
+  <attribute name="switchViewList" type="giString" value="hspice hspiceD schematic spice veriloga"/>
+  <attribute name="use64Bit" type="giBoolean" value="1"/>
+ </object>
+</file-format>

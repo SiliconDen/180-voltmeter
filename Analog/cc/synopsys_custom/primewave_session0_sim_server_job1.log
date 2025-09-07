@@ -1,9 +1,9 @@
-[21:58:56.89] /o 
+[18:05:16.66] /o 
               /c                          PrimeWave Design Environment 
               /c 
-              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
-              /c              Based on Custom Infrastructure
-              /c Version W-2024.09-SP1-2
+              /c                  Version X-2025.06-1 for linux64 - Jun 19, 2025
+              /c                Based on Custom Infrastructure
+              /c Version X-2025.06-1
               /c 
               /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
               /c    This software and the associated documentation are proprietary to Synopsys,
@@ -21,177 +21,20 @@
               /c             Inclusivity and Diversity" (Refer to article 000036315 at
               /c                         https://solvnetplus.synopsys.com)
               /c 
-              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
-              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eea5061164a898209ca82bbda58325a9da73eb6ddaf230aa49f93a5ef511cc936b9bc92c9b828d539a5de9be1e9f362545 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job1 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
-              /c Execution time: Fri Sep  5 21:58:55 2025
+              /c Build  (OPT) Config 11973341 compiled on Thu Jun 19 11:23:12 2025 for CentOS64 7.3
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eece6575fd8107b25ed6c7980de498070fc2511cd128a4b2dec1cb7792ad947542dc4ef3d848d665ead1122c6190c499e9 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job1 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Sun Sep  7 18:05:15 2025
               /c Host: claws-compute3.ece.ncsu.edu
               /c Working directory: /home/argershm/180-voltmeter/Analog/cc
               /c 
-[21:59:00.42] /m Information: Registering ICV PERC package...
-[21:59:00.76] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
-[21:59:00.88] /o 
-[21:59:00.90] /i source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl
-[21:59:01.01] /o SimServer socket started on claws-compute3.ece.ncsu.edu:46291
-[21:59:01.05] /m Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs &&  /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_cA0EQB -unique_string 424077b79e1069ee1c44674076045de3d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e141517c6a29adbd09cd7bcbac861e565f3 -lic_type 2   -parent_cc_pid 1904445  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs/viewer.log 2>&1"
-[21:59:01.34] /o ==== Received Msg ====
-              /c len=197 sourceSoc=sock3ca79300 msgIndex=33 rawMsg=AppendTask /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/task0/sim_script0.tcl 0 saeSession0 1 overwrite
-[21:59:01.34] /o 
-[21:59:01.48] /m Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
-              /c WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
-              /c To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
-[21:59:01.96] /m Information: "Starting incremental netlisting for design "integrator/tb_main_opamp/schematic"..." (NETLISTING-010)
-[21:59:01.98] /o Loading: Callback files...
-[21:59:01.98] /o 
-              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
-              /c 
-              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
-[21:59:01.98] /o 
-[21:59:02.01] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
-[21:59:02.01] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
-[21:59:02.02] /o 	#######################################
-[21:59:02.02] /o 	CC-PDK Library Name	: gf180MCU Open
-[21:59:02.02] /o 	#######################################
-[21:59:02.02] /o 
-[21:59:02.02] /o Netlisting
-[21:59:02.02] /o Creating output directories
-[21:59:02.11] /o No Design Integrity rule violations found in "integrator/tb_main_opamp/schematic"
-[21:59:02.11] /o Scanning: integrator/tb_main_opamp/schematic
-[21:59:02.18] /o Scanning: integrator/main_opamp/schematic
-[21:59:02.39] /m Information: 
-[21:59:02.39] /o Checking "analogLib/ideal_balun/schematic"
-[21:59:02.39] /o No rule violations found in "analogLib/ideal_balun/schematic"
-[21:59:02.39] /o Scanning: analogLib/ideal_balun/schematic
-[21:59:02.47] /o Computing terminal lists
-[21:59:02.47] /o Processing terminals of module integrator/main_opamp/schematic
-[21:59:02.47] /o Processing terminals of module analogLib/ideal_balun/schematic
-[21:59:02.48] /o Processing terminals of module integrator/tb_main_opamp/schematic
-[21:59:02.48] /o Starting netlisting
-[21:59:02.50] /o Formatting integrator/main_opamp/schematic
-[21:59:02.51] /m Information: "integrator main_opamp schematic" renetlisted. (NETLISTING-056)
-[21:59:02.53] /m Information: "Netlisting design "integrator/tb_main_opamp/schematic" finished successfully." (NETLISTING-012)
-[21:59:02.54] /# Composing simulator input file for design "integrator/tb_main_opamp/schematic"...
-[21:59:02.65] /# Simulator input file composed successfully for design "integrator/tb_main_opamp/schematic"
-[21:59:02.65] /m Information: Save ouputs to /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/outputs.tcl for AVA evaluation.
-[21:59:02.84] /o 
-[21:59:03.00] /# Composing simulator input file for design "integrator/tb_main_opamp/schematic" for 12 iterations...
-[21:59:03.04] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=10u                               
-[21:59:03.07] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=20u                               
-[21:59:03.11] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=30u                               
-[21:59:03.14] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=40u                               
-[21:59:03.18] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=50u                               
-[21:59:03.21] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=60u                               
-[21:59:03.25] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=10u                                
-[21:59:03.28] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=20u                                
-[21:59:03.32] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=30u                                
-[21:59:03.35] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=40u                                
-[21:59:03.39] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=50u                                
-[21:59:03.40] /# Simulator input file composed successfully for design "integrator/tb_main_opamp/schematic"
-[21:59:03.42] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=60u                                
-[21:59:03.48] /o                         Launching jobs for testbench diff_mode_gain started                        
-[21:59:03.48] /# Starting 12 PrimeSimSPICE simulations for design: integrator/tb_main_opamp/schematic
-[21:59:03.49] /o                         Creating jobs for testbench diff_mode_gain (0 / 12)                        
-[21:59:03.50] /o                            Launching 12 jobs for testbench diff_mode_gain                           
-[21:59:04.34] /# Simulations launched successfully for design: integrator/tb_main_opamp/schematic
-[21:59:04.34] /o                         Launching jobs for testbench diff_mode_gain finished                        
-[21:59:04.73] /m Information: 0 of 1 testbench(es) done. (PW_GUI-714)
-[21:59:07.07] /m Information: Job distribution master (saeSession0,diff_mode_gain.Simulation_Simulation session:session0 testbench:diff_mode_gain) : up to 3 job running workers.
-[21:59:14.07] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=10u (PW-651)
-[21:59:14.17] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=20u (PW-651)
-[21:59:14.18] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=30u (PW-651)
-[21:59:16.37] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=60u (PW-651)
-[21:59:16.38] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=40u (PW-651)
-[21:59:16.39] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=50u (PW-651)
-[21:59:18.57] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=10u (PW-651)
-[21:59:18.58] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=20u (PW-651)
-[21:59:18.67] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=30u (PW-651)
-[21:59:20.77] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=50u (PW-651)
-[21:59:20.87] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=40u (PW-651)
-[21:59:20.88] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=60u (PW-651)
-[21:59:20.89] /# Netlisting and simulation completed for testbench: diff_mode_gain in 19s
-[21:59:20.89] /# Evaluating and plotting outputs...
-[21:59:20.93] /m Information: Jobs distribution master quit! (PW_GUI-822)
-[21:59:20.93] /# Evaluating and plotting completed for testbench: diff_mode_gain in 0s
-[21:59:20.95] /m Information: 1 of 1 testbench(es) done. (PW_GUI-714)
-[22:00:47.19] /o ==== Received Msg ====
-              /c len=197 sourceSoc=sock4d3673e0 msgIndex=34 rawMsg=AppendTask /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/task1/sim_script1.tcl 1 saeSession0 1 overwrite
-[22:00:47.19] /o 
-[22:00:47.30] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
-[22:00:47.31] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
-[22:00:47.88] /m Information: "Starting incremental netlisting for design "integrator/tb_main_opamp/schematic"..." (NETLISTING-010)
-[22:00:47.88] /o Netlisting
-[22:00:47.88] /o Creating output directories
-[22:00:47.97] /o No Design Integrity rule violations found in "integrator/tb_main_opamp/schematic"
-[22:00:47.97] /o Scanning: integrator/tb_main_opamp/schematic
-[22:00:48.02] /o Scanning: integrator/main_opamp/schematic
-[22:00:48.20] /m Information: 
-[22:00:48.20] /o Checking "analogLib/ideal_balun/schematic"
-[22:00:48.20] /o No rule violations found in "analogLib/ideal_balun/schematic"
-[22:00:48.20] /o Scanning: analogLib/ideal_balun/schematic
-[22:00:48.28] /o Computing terminal lists
-[22:00:48.28] /o Processing terminals of module integrator/main_opamp/schematic
-[22:00:48.29] /o Processing terminals of module analogLib/ideal_balun/schematic
-[22:00:48.29] /o Processing terminals of module integrator/tb_main_opamp/schematic
-[22:00:48.29] /o Starting netlisting
-[22:00:48.33] /m Information: "Netlisting design "integrator/tb_main_opamp/schematic" finished successfully." (NETLISTING-012)
-[22:00:48.34] /# Composing simulator input file for design "integrator/tb_main_opamp/schematic"...
-[22:00:48.42] /# Simulator input file composed successfully for design "integrator/tb_main_opamp/schematic"
-[22:00:48.43] /m Information: Save ouputs to /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/outputs.tcl for AVA evaluation.
-[22:00:48.60] /o 
-[22:00:48.75] /# Composing simulator input file for design "integrator/tb_main_opamp/schematic" for 12 iterations...
-[22:00:48.79] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=10u                               
-[22:00:48.82] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=20u                               
-[22:00:48.85] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=30u                               
-[22:00:48.89] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=40u                               
-[22:00:48.92] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=50u                               
-[22:00:48.95] /o                               sweep:L_bias=0.6u, L_gm=0.28u, W_gm=60u                               
-[22:00:48.99] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=10u                                
-[22:00:49.02] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=20u                                
-[22:00:49.06] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=30u                                
-[22:00:49.09] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=40u                                
-[22:00:49.12] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=50u                                
-[22:00:49.14] /# Simulator input file composed successfully for design "integrator/tb_main_opamp/schematic"
-[22:00:49.16] /o                                sweep:L_bias=1u, L_gm=0.28u, W_gm=60u                                
-[22:00:49.19] /o                         Launching jobs for testbench diff_mode_gain started                        
-[22:00:49.20] /# Starting 12 PrimeSimSPICE simulations for design: integrator/tb_main_opamp/schematic
-[22:00:49.20] /o                         Creating jobs for testbench diff_mode_gain (0 / 12)                        
-[22:00:49.22] /o                            Launching 12 jobs for testbench diff_mode_gain                           
-[22:00:50.06] /# Simulations launched successfully for design: integrator/tb_main_opamp/schematic
-[22:00:50.06] /o                         Launching jobs for testbench diff_mode_gain finished                        
-[22:00:50.06] /o 
-[22:00:50.22] /m Information: 1 of 2 testbench(es) done. (PW_GUI-714)
-[22:00:53.07] /m Information: Job distribution master (saeSession0,diff_mode_gain.Simulation_Simulation session:session1 testbench:diff_mode_gain) : up to 3 job running workers.
-[22:01:00.07] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=30u (PW-651)
-[22:01:00.17] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=10u (PW-651)
-[22:01:00.18] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=20u (PW-651)
-[22:01:02.37] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=40u (PW-651)
-[22:01:02.38] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=50u (PW-651)
-[22:01:02.47] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=0.6u, L_gm=0.28u, W_gm=60u (PW-651)
-[22:01:04.57] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=20u (PW-651)
-[22:01:04.58] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=10u (PW-651)
-[22:01:04.67] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=30u (PW-651)
-[22:01:06.77] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=50u (PW-651)
-[22:01:06.78] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=40u (PW-651)
-[22:01:06.87] /# Simulation completed successfully for design: integrator/tb_main_opamp/schematic point: L_bias=1u, L_gm=0.28u, W_gm=60u (PW-651)
-[22:01:06.88] /# Netlisting and simulation completed for testbench: diff_mode_gain in 19s
-[22:01:06.88] /# Evaluating and plotting outputs...
-[22:01:06.93] /m Information: Jobs distribution master quit! (PW_GUI-822)
-[22:01:06.93] /# Evaluating and plotting completed for testbench: diff_mode_gain in 0s
-[22:01:07.01] /m Information: 2 of 2 testbench(es) done. (PW_GUI-714)
-[22:03:58.39] /o ==== Received Msg ====
-              /c len=8 sourceSoc=sock4d3673e0 msgIndex=41 rawMsg=idleExit
-[22:03:58.39] /o 
-[22:03:58.49] /m Information: Exiting simulation server process. (PW_GUI-984)
-[22:03:59.27] /o Shutdown time: Fri Sep  5 22:03:59 2025
-[22:03:59.27] /o Elapsed session real time: 5.05 minutes
-[22:03:59.27] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_5_215855_1904445.log
-[22:03:59.28] /e Error: {}
+[18:05:20.97] /m Information: Registering ICV PERC package...
+[18:05:21.23] /o 
+[18:05:21.32] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[18:05:21.38] /i source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl
+[18:05:21.50] /o SimServer socket started on claws-compute3.ece.ncsu.edu:39721
+[18:05:21.88] /m Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs &&  /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/../packages/swv/bin/swv  -bg_gui=shell  -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_X4gA3H -unique_string 424077b79e1069ee10cd94173b0fcfbcd6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e147fe797e3626b691876f47198451c7978 -lic_type 2   -parent_cc_pid 3458305  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs/viewer.log 2>&1"
+[18:06:51.01] /m Information: Exiting simulation server process. (PW_GUI-984)
+[18:06:51.78] /o Shutdown time: Sun Sep  7 18:06:51 2025
+[18:06:51.78] /o Elapsed session real time: 1.6 minutes
+[18:06:51.78] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_7_180515_3458305.log
+[18:06:51.78] /e Error: {}

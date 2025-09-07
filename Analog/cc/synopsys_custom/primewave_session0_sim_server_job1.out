@@ -1,0 +1,57 @@
+
+
+                         PrimeWave Design Environment 
+
+                 Version X-2025.06-1 for linux64 - Jun 19, 2025
+               Based on Custom Infrastructure
+Version X-2025.06-1
+
+                    Copyright (c) 2004 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Build  (OPT) Config 11973341 compiled on Thu Jun 19 11:23:12 2025 for CentOS64 7.3
+Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eece6575fd8107b25ed6c7980de498070fc2511cd128a4b2dec1cb7792ad947542dc4ef3d848d665ead1122c6190c499e9 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job1 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+Execution time: Sun Sep  7 18:05:15 2025
+Host: claws-compute3.ece.ncsu.edu
+Working directory: /home/argershm/180-voltmeter/Analog/cc
+
+
+Information: Registering ICV PERC package...
+
+
+> 
+Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+> 
+SimServer socket started on claws-compute3.ece.ncsu.edu:39721
+> 
+Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs &&  /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/../packages/swv/bin/swv  -bg_gui=shell  -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_X4gA3H -unique_string 424077b79e1069ee10cd94173b0fcfbcd6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e147fe797e3626b691876f47198451c7978 -lic_type 2   -parent_cc_pid 3458305  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs/viewer.log 2>&1"
+> 
+Information: Exiting simulation server process. (PW_GUI-984)
+> 
+Shutdown time: Sun Sep  7 18:06:51 2025
+> 
+Elapsed session real time: 1.6 minutes
+> 
+Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_7_180515_3458305.log
+> 
+Error: {}
+> 
+Information: Feature 'SynopsysCustomLayout' checked in. (LICENSE-004)
+> 
+Information: Feature 'CustomInfrastructure' checked in. (LICENSE-004)
+> 
+Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+> 

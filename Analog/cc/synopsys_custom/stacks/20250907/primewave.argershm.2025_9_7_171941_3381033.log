@@ -1,0 +1,40 @@
+[17:19:43.35] /o 
+              /c                          PrimeWave Design Environment 
+              /c 
+              /c                  Version X-2025.06-1 for linux64 - Jun 19, 2025
+              /c                Based on Custom Infrastructure
+              /c Version X-2025.06-1
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11973341 compiled on Thu Jun 19 11:23:12 2025 for CentOS64 7.3
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069ee2e24c8ceabf7c31ad6c7980de498070fc2511cd128a4b2dec1cb7792ad947542d03d2127e0f6b3620886ae5e20d8441e -python 0 -log pw_shell_session0_job1 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Sun Sep  7 17:19:41 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[17:19:47.13] /m Information: Registering ICV PERC package...
+[17:19:47.37] /o 
+[17:19:47.43] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[17:19:47.43] /i catch {source /tmp/copyScript29752}; ::sa::_backgroundSaeShell::signalProcessReady 1757279980 3368409
+[17:19:47.44] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[17:19:47.88] /i ::wf::updateViewerLicense 2
+[17:19:47.88] /i ::wf::updateViewerLicense 2
+[17:20:23.65] /o signal number = 15
+              /c Information: Received "Terminate" signal. Sending  PID: 3378158 UID: 434593 Process name: "/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/ipc_wrapper". Process is terminated.
+[17:20:23.65] /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

@@ -1,9 +1,9 @@
-[21:42:49.93] /o 
+[18:48:45.95] /o 
               /c                          PrimeWave Design Environment 
               /c 
-              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
-              /c              Based on Custom Infrastructure
-              /c Version W-2024.09-SP1-2
+              /c                  Version X-2025.06-1 for linux64 - Jun 19, 2025
+              /c                Based on Custom Infrastructure
+              /c Version X-2025.06-1
               /c 
               /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
               /c    This software and the associated documentation are proprietary to Synopsys,
@@ -21,23 +21,80 @@
               /c             Inclusivity and Diversity" (Refer to article 000036315 at
               /c                         https://solvnetplus.synopsys.com)
               /c 
-              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
-              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eea5061164a898209ca82bbda58325a9da73eb6ddaf230aa49f93a5ef511cc936be41898cfcf46737e8ac6cdb3c714b307 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job2 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
-              /c Execution time: Fri Sep  5 21:42:48 2025
+              /c Build  (OPT) Config 11973341 compiled on Thu Jun 19 11:23:12 2025 for CentOS64 7.3
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eee7ab9d0dea0002dbd6c7980de498070fc2511cd128a4b2dec1cb7792ad947542abd5d320575340b383b46b2c7a0ed69d -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job2 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Sun Sep  7 18:48:44 2025
               /c Host: claws-compute3.ece.ncsu.edu
               /c Working directory: /home/argershm/180-voltmeter/Analog/cc
               /c 
-[21:42:53.32] /m Information: Registering ICV PERC package...
-[21:42:53.65] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
-[21:42:53.88] /o 
-[21:42:53.89] /i source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl
-[21:42:54.00] /o SimServer socket started on claws-compute3.ece.ncsu.edu:39599
-[21:42:54.05] /m Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs &&  /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_DEGD9i -unique_string 424077b79e1069ee198015397555f9b9d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e149df80815669d4ef6aa87bd065f119abd -lic_type 2   -parent_cc_pid 1878394  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs/viewer.log 2>&1"
-[21:45:20.37] /o ==== Received Msg ====
-              /c len=8 sourceSoc=sock54c6c890 msgIndex=40 rawMsg=idleExit
-[21:45:20.37] /o 
-[21:45:20.48] /m Information: Exiting simulation server process. (PW_GUI-984)
-[21:45:21.25] /o Shutdown time: Fri Sep  5 21:45:21 2025
-[21:45:21.25] /o Elapsed session real time: 2.53 minutes
-[21:45:21.25] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_5_214248_1878394.log
-[21:45:21.25] /e Error: {}
+[18:48:50.09] /m Information: Registering ICV PERC package...
+[18:48:50.33] /o 
+[18:48:50.39] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[18:48:50.89] /i source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/sim_server_init.tcl
+[18:48:51.00] /o SimServer socket started on claws-compute3.ece.ncsu.edu:33859
+[18:48:51.41] /m Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/logs &&  /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/../packages/swv/bin/swv  -bg_gui=shell  -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_QY0zHQ -unique_string 424077b79e1069ee7e5f1b0a206b60c2d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e14d2bc822b117c2b18a518f400f835448b -lic_type 2   -parent_cc_pid 3705371  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/logs/viewer.log 2>&1"
+[18:50:34.15] /o ==== Received Msg ====
+              /c len=196 sourceSoc=sock44e41520 msgIndex=1 rawMsg=AppendTask /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/task0/sim_script0.tcl 0 saeSession1 1 overwrite 
+[18:50:34.15] /o 
+[18:50:34.25] /m Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
+              /c WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
+              /c To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
+[18:50:34.73] /m Information: "Starting incremental netlisting for design "argershm/tb_main_opamp/schematic"..." (NETLISTING-010)
+[18:50:34.75] /o /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+[18:50:34.76] /o Loading: Callback files...
+[18:50:34.76] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[18:50:34.76] /o 
+[18:50:34.80] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[18:50:34.80] /o 	#######################################
+[18:50:34.80] /o 	CC-PDK Library Name	: gf180MCU Open
+[18:50:34.80] /o 	#######################################
+[18:50:34.80] /o 
+[18:50:34.80] /o Netlisting
+[18:50:34.86] /o /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/samples/analogLib
+[18:50:34.93] /m Information: 
+[18:50:34.93] /o Checking "argershm/tb_main_opamp/schematic"
+[18:50:34.93] /o No rule violations found in "argershm/tb_main_opamp/schematic"
+[18:50:34.93] /o No Design Integrity rule violations found in "argershm/tb_main_opamp/schematic"
+[18:50:35.07] /o /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/samples/basic
+[18:50:35.09] /m Information: 
+[18:50:35.09] /o Checking "analogLib/ideal_balun/schematic"
+[18:50:35.09] /o No rule violations found in "analogLib/ideal_balun/schematic"
+[18:50:35.61] /m Information: "argershm main_ota_compensated schematic" renetlisted. (NETLISTING-056)
+[18:50:35.62] /m Information: "Netlisting design "argershm/tb_main_opamp/schematic" finished successfully." (NETLISTING-012)
+[18:50:35.64] /# Composing simulator input file for design "argershm/tb_main_opamp/schematic"...
+[18:50:35.75] /# Simulator input file composed successfully for design "argershm/tb_main_opamp/schematic"
+[18:50:35.76] /m Information: Save ouputs to /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/outputs.tcl for AVA evaluation.
+[18:50:35.87] /o 
+[18:50:36.12] /# Starting PrimeSimSPICE simulation for design: argershm/tb_main_opamp/schematic
+[18:50:36.97] /m Information: 0 of 1 testbench(es) done. (PW_GUI-714)
+[18:50:39.07] /m Information: Job distribution master (saeSession1,diff_mode_gain.Simulation_Simulation session:session0 testbench:diff_mode_gain) : up to 1 job running workers.
+[18:50:46.67] /# Simulation completed successfully for design: argershm/tb_main_opamp/schematic  (PW-651)
+[18:50:46.68] /# Netlisting and simulation completed for testbench: diff_mode_gain in 12s
+[18:50:46.68] /# Evaluating and plotting outputs...
+[18:50:46.88] /r giWindowId 1
+[18:50:46.88] /r giWindowGeometry 1024x768
+[18:50:47.84] /m Information: Jobs distribution master quit! (PW_GUI-822)
+[18:50:48.72] /# Evaluating and plotting completed for testbench: diff_mode_gain in 2s
+[18:50:48.78] /m Information: 1 of 1 testbench(es) done. (PW_GUI-714)
+[18:55:25.38] /o ==== Received Msg ====
+              /c len=8 sourceSoc=sock44e41520 msgIndex=3 rawMsg=idleExit
+[18:55:25.38] /o 
+[18:55:25.50] /m Information: Exiting simulation server process. (PW_GUI-984)
+[18:55:26.20] /o Shutdown time: Sun Sep  7 18:55:26 2025
+[18:55:26.20] /o Elapsed session real time: 6.68 minutes
+[18:55:26.20] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_7_184844_3705371.log
+[18:55:26.21] /e Error: {}

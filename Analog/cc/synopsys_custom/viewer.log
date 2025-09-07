@@ -1,2 +1,37 @@
- ** SX started using preference settings in '/tmp/tmp_sae_spxrc_a30Usd'
-sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results}
+ ** SX started using preference settings in '/tmp/tmp_sae_spxrc_u7zB3j'
+sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results}
+[18:48:42.510] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:48:42.540] I| wvpp_output_all start
+[18:48:42.550] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/resultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1u/results/ac.ac
+[18:48:42.560] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/post1.wave
+::wf::_scalarValueDB::scalarValue2736577139
+[18:48:43.370] I| wvpp_output_all end
+[18:50:47.770] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[18:50:47.780] I| wvpp_output_all start
+[18:50:47.780] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/ac.ac
+[18:50:47.790] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave
+::wf::_scalarValueDB::scalarValue3205918942
+[18:50:47.830] I| wvpp_output_all end
+[18:59:23.750] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[18:59:23.870] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[18:59:23.880] I| wvpp_output_all start
+::wf::_scalarValueDB::scalarValue3973100009
+[18:59:23.910] I| wvpp_output_all end
+[18:59:29.590] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[18:59:29.690] I| Setup simulation complete: 
+    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[18:59:29.700] I| wvpp_output_all start
+::wf::_scalarValueDB::scalarValue4268039687
+[18:59:29.720] I| wvpp_output_all end
+sx_exit

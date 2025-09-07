@@ -1,17 +1,34 @@
 <?xml version="1.0"?>
-<!--Custom Compiler Version W-2024.09-SP1-2-->
+<!--Custom Compiler Version X-2025.06-1-->
 <file-format version="2.0" name="synopsysPrefs"/>
 <preferences>
 	<pref name="dbGenerateCellViewEditor" value="Symbol Editor"/>
 	<pref name="dbImportTextCheckVCSVersion" value="true"/>
 	<pref name="deCanvasMouseZoomFactor" value="1.1"/>
+	<pref name="deDescendMode" value="auto"/>
+	<pref name="deDescendRead" value="true"/>
+	<pref name="dePropertyEditorSingleMultiItemMode" value="multi"/>
 	<pref name="giPromptCloseMultipleTabs" value="true"/>
 	<pref name="leAbstractGenOptionSetDefault" value=""/>
+	<pref name="saAnnotateDcNodeVoltages" value="true"/>
+	<pref name="saAnnotateDcOpValues" value="true"/>
+	<pref name="saBackgroundNetlist" value="false"/>
+	<pref name="saFineSimProModelsFiles" value="{ngspice/design.ngspice {}} {ngspice/sm141064.ngspice typical} {ngspice/sm141064.ngspice res_typical} {ngspice/sm141064.ngspice mimcap_typical} {ngspice/sm141064.ngspice bjt_typical} {ngspice/sm141064.ngspice moscap_typical} {ngspice/sm141064.ngspice diode_typical}"/>
+	<pref name="saFineSimProModelsIncludePath" value="${PDK_DIR}/Models_HSPICE/"/>
+	<pref name="saHSPICEModelsFiles" value="{ngspice/design.ngspice {}} {ngspice/sm141064.ngspice typical} {ngspice/sm141064.ngspice res_typical} {ngspice/sm141064.ngspice mimcap_typical} {ngspice/sm141064.ngspice bjt_typical} {ngspice/sm141064.ngspice moscap_typical} {ngspice/sm141064.ngspice diode_typical}"/>
+	<pref name="saHSPICEModelsIncludePath" value="${PDK_DIR}/Models_HSPICE/"/>
+	<pref name="saPrimeSimEnvOptsIncludePath" value="${PDK_DIR}/Models_HSPICE/"/>
+	<pref name="saPrimeSimEnvOptsNetlistLanguage" value="HSPICE"/>
+	<pref name="saPrimeSimModelsFiles" value="{ngspice/design.ngspice {}} {ngspice/sm141064.ngspice typical} {ngspice/sm141064.ngspice res_typical} {ngspice/sm141064.ngspice mimcap_typical} {ngspice/sm141064.ngspice bjt_typical} {ngspice/sm141064.ngspice moscap_typical} {ngspice/sm141064.ngspice diode_typical}"/>
+	<pref name="saPrimeSimModelsIncludePath" value="${PDK_DIR}/Models_HSPICE/"/>
 	<pref name="saResultsDir" value="./simulation"/>
+	<pref name="seIgnoreInstDialogMode" value="false"/>
+	<pref name="seShowIgnoreInstInfo" value="true"/>
 	<pref name="wfWVWaveViewGeomLast" value="false"/>
 	<pref name="xtDRCICVIncludePaths" value="${PDK_DIR}/DRC_ICV/"/>
 	<pref name="xtDRCICVRunsetFile" value="${PDK_DIR}/DRC_ICV/gf180mcu_drc.rs"/>
 	<pref name="xtDRCLayDBFormat" value="Stream"/>
+	<pref name="xtEMIRLPEStarTcadGrdFile" value="${PDK_DIR}/PEX_StarRC/latest/gf180mcu_1p5m_1tm_11k_sp_smim_OPTB/gf180mcu_1p5m_1tm_11k_sp_smim_OPTB_typ.nxtgrd"/>
 	<pref name="xtLPEOpenParasiticView" value="false"/>
 	<pref name="xtLVSICVIncludePaths" value="${PDK_DIR}/LVS_ICV/LVS/ICV/"/>
 	<pref name="xtLVSICVRunsetFile" value="${PDK_DIR}/LVS_ICV/LVS/ICV/cmos018hv.3p3.6v.lvs.rs"/>
@@ -19,6 +36,7 @@
 	<pref name="xtNetlistingPrefixes" value="background_netlisting pw_shell_netlist"/>
 	<pref name="xtSAEShellJobLimit" value="2"/>
 	<pref name="xtSAEShellPrefixes" value="pw_shell_results_viewer"/>
+	<pref name="xtShowJobKillConfirmation" value="false"/>
 	<pref name="xtSimulationPrefixes" value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS FineSimProVCSSpectre HSIMHSPICE PrimeSim PrimeSimVCS PrimeSimXA PrimeSimXAVCS XAEldo XAHSPICE XASpectre XAVCSHSPICE"/>
 </preferences>
 

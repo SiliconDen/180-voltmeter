@@ -1,0 +1,40 @@
+arrayName {}
+arraySize {-1}
+cdplJobId {}
+cmdLine {cd /home/argershm/180-voltmeter/Analog/cc && sh /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session1/runSimServer }
+creationTime {1757283526}
+data {jobName primewave_session0_sim_server_job2 runFile /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session1/runSimServer serverId stb.integrator.tb_main_opamp.schematic.session1 resultsDir /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session1 simulator simServer rawJobName primewave_sim_server##3533993}
+dataReadyProc {}
+defaultViewFile {}
+deferred {0}
+exitProc {::sa::_simServer::_jobExited}
+exitStatus {-1}
+exitTime {-1}
+files {}
+gridOptions {}
+group {oa:0x499715b0}
+host {localhost}
+inFd {}
+isCalling {0}
+isLocallyQueued {0}
+isQueued {0}
+isTerminating {0}
+jobClass {oa:0x46392b80}
+jobType {batch}
+menuProc {sa::_utils::populateSimServerJobCSM}
+name {primewave_session0_sim_server_job2_1}
+outFd {}
+procId {3535020}
+queueEngine {}
+queueIdentifier {}
+readOnlyFiles {/home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job2.out /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job2.log}
+ready {0}
+readyProc {}
+remoteSubmit {0}
+runDesc {background primewave simulation server process}
+saveRequired {0}
+startTime {1757283526}
+status {RUNNING}
+submitHost {}
+this {oa:0x4d5b51f0}
+type {xtJob}
