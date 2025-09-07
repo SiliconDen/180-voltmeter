@@ -24,8 +24,4 @@ ml vcs			# DH, 09/04/25
 ml verdi		# DH, 09/04/25
 ml hspice		# DH, 09/04/25
 
-# unsure if needed
-# ml icvalidator/W-2024.09-SP2
-# ml icvalidator/
-
 custom_compiler &
