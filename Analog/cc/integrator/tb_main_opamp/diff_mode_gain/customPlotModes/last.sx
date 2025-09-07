@@ -1,0 +1,58 @@
+### WaveView session file (version W-2024.09-SP1-2 build Jan 15, ) ###
+### saved at 20:15:16 on Fri Sep  5 2025 ###
+wdf 0 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 1 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=opBegin:opBeginMeasure1" "atype=opBegin:opBeginMeasure1" 
+wdf 2 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=opBegin:opMeasure1" "atype=opBegin:opMeasure1" 
+wdf 3 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 4 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=null:null1" "atype=null:null1" 
+wdf 5 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 6 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=null:null1" "atype=null:null1" 
+wdf 7 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 8 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=null:null1" "atype=null:null1" 
+wdf 9 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml" load=used "title=ac:ac" "atype=ac:ac" 
+wdf 10 "/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml" load=open "title=null:null1" "atype=null:null1" 
+cvt_begin
+  cvt_expr 0 1 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=0 fidx=1 alias='diff_mode_gain' 
+  cvt_expr 1 1 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=3 fidx=4 alias='diff_mode_gain' 
+  cvt_expr 2 1 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=5 fidx=6 alias='diff_mode_gain' 
+  cvt_expr 3 1 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=7 fidx=8 alias='diff_mode_gain' 
+  cvt_expr 4 1 'db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))' 'db20("v(out)"/"v(diff)")' target_id=9 fidx=10 alias='diff_mode_gain' 
+cvt_end
+scalar list
+waveview_begin 1  stack  offset=0 xaxis=log name_b=196 mntr_b=266 name_width=181 mcur=6.43717998357411e+06 vc=cur-pnl "name=ac" showtitle=true "wvtitle=integrator:tb_main_opamp:diff_mode_gain:ac" 
+  panel_begin linear pidx=0 spath=name+file xlabel="freq(Hz)" yaxis=db ymin=6.64787084021392e-04 ymax=3.31382899564306e+03 
+    line src=wdf lidx=0 derv_sig=1 fidx=0 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:0:1:1 autoset=true alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=1 derv_sig=1 fidx=3 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:1:1:1 alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=2 derv_sig=1 fidx=5 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:2:1:1 alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=3 derv_sig=1 fidx=7 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:3:1:1 alias="diff_mode_gain" disp=show 
+    line src=wdf lidx=4 derv_sig=1 fidx=9 "delim=.^" sigtype=7 "name=db20(v(/out,analysisName=ac)/v(/diff,analysisName=ac))" attr=0:4:1:0 alias="diff_mode_gain" disp=show 
+  panel_end
+waveview_end
+browserClosed
+
+#Custom Plot Section
+simulation_begin test=diff_mode_gain history=1 idx=1001001
+run_type 1
+view_list
+  3 ac
+end_view_list
+probe_list
+end_probe_list
+equation_list
+  diff_mode_gain str=db20(v(/out, analysisName="ac")/v(/diff, analysisName="ac"))
+end_equation_list
+original_sim
+sim_id=diff_mode_gain
+history_point=1
+sim_idx=1001001
+sim_dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+from_virtuoso=0
+is_output=1
+is_mtb=0
+hasViewer=0
+{"sim_id":"diff_mode_gain","sae_session":"saeSession0","sae_session_desc":"","directory":"/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results","results_directory":"./simulation","results_absdirectory":"/home/argershm/180-voltmeter/Analog/cc/simulation","post_results_dir":"/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results","save_post_results_in_session":"0","is_mc_multiple_run":"0","is_sim_sweep_run":"0","is_data_driven_sweep":"false","runDirDelimiter":",","test_suite_info":"integrator:tb_main_opamp:schematic","history_index":"1","history_name":"history_1","history_desc":"Run Simulation","is_mtb":"0","id":"1001001","child":"0","description":"","design_str":"integrator:tb_main_opamp:schematic","simulator":"PrimeSim","newResultsFormat":"0","is_initial":"0","sim_wave_removed":"0","chart_list":[],"isSaeAging":"0","saeAgingSimMode":"3","sonoma":"1","sonomaInc":"0","incPartial":"full","sim_netlist_removed":"0","modelIncPath":"/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE","isbreviate_historyname":"false","history_check":"false","ischange_historyname":"false","autoPlot":"1","isDirPlot":"0","invokeFrom":"SIM_DONE","save_format":"","incomplete_type":"","corparams":"","exportImageSize":"636*254","isWorstCaseAnalysis":"0","dspfIncludeOptions":"0","sweepUseDesignVar":"0","hasMSIPAceScripts":"0","equation_list":[{"equa_id":"equa#0","index":"1","equa_name":"","equa_schem":"","type":"","resultType":"","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"true","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"0","description":"","saveImage":"0","precision":"0","poor":"","poorHigh":"","poorLow":"","poorType":"","measExpr":"","eqnIdx":"","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"","orgErrMsg":"","suffix":""},{"equa_id":"equa#1","index":"2","equa_name":"diff_mode_gain","equa_schem":"db20(v(/out, analysisName=\"ac\")/v(/diff, analysisName=\"ac\"))","type":"expression","resultType":"ac","anaName":"","enable":true,"is_plot":true,"plotType":"auto","logicRadix":"auto","color":"","units":"","ParamConditions":"","isGlobal":"false","x_axis":"","x_axis_scale":"auto","y_axis_scale":"auto","goal":"","show_in_rv":"1","description":"","saveImage":"0","precision":"6","poor":"0%","poorHigh":"","poorLow":"","poorType":"Greater Than","measExpr":"","eqnIdx":"1","specEqu":false,"forceRecal":false,"originalExpr":"","measWaveDep":false,"lineIdx":"1","orgErrMsg":"","suffix":"","is_meas":0,"is_ra_equation":0}],"probe_list":[],"ace_list":[],"model_list":[{"file":"ngspice/design.ngspice:"},{"file":"ngspice/sm141064.ngspice:typical"}],"globalModel_list":[],"globalTemperature_list":[{"file":"25:Celsius"}],"design_variables_list":[["CL","1p"],["R_load","1M"],["vcm","0"],["vdd","3.3"],["vdm","1"],["vcm_dc","vdd/2"],["i_bias","10u"],["W_gm","10u"],["W_tail","10u"],["W_tail_out","10u"],["en","1"]],"corner_group_params_list":[],"analyses_list":[["ac","{Sweep Variable: Frequency (Hz) Sweep Type: Logarithmic }"],["dc","{Operating Point}"]],"modelGrp_list":[],"corner_list":[],"no_value_corner_param_list":[],"monte_list":[],"monteSigma":"","monteUseDesignVar":"0","sweep_list":[],"job_list":[]}
+end_original_sim
+original_map
+{"sae_session":"saeSession0","map_list":[{"schemName":"v(/out,analysisName=\"ac\")","waveName":"v(out)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false},{"schemName":"v(/diff,analysisName=\"ac\")","waveName":"v(diff)","resultID":"resFile0","resultType":"ac","analysisName":"ac","dataType":"","time":"","paramName":"","type":"anytype","display_type":"analogv","paramConditions":"","bits":"","lo":"0.0","hi":"0.0","percent":false,"expr_index":"2","is_expression":false}],"result_list":[{"file_name":"resultsMap.xml","resultID":"resFile0"},{"file_name":"postResultsMap.xml","is_post":"TRUE"}]}
+end_original_map
+simulation_end

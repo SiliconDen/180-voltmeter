@@ -1,0 +1,63 @@
+[13:14:47.85] /o 
+              /c                                    pw_worker™ 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application pw_worker -gui 0 -localDir /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.0.181401/logs/w1
+              /c Execution time: Wed Aug 27 13:14:46 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[13:14:51.75] /m Information: Registering ICV PERC package...
+[13:14:51.88] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[13:14:52.06] /o source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.0.181401/ccFile.tcl OK
+[13:14:52.06] /o LibDefs : /home/argershm/180-voltmeter/Analog/cc/lib.defs
+[13:14:52.24] /o new worker create session at loading state!
+[13:14:52.24] /o history_1
+[13:14:52.42] /o Loading: Callback files...
+[13:14:52.42] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[13:14:52.42] /o 
+[13:14:52.46] /o 	#######################################
+[13:14:52.46] /o 	CC-PDK Library Name	: gf180MCU Open
+[13:14:52.46] /o 	#######################################
+[13:14:52.46] /o 
+[13:14:52.58] /o source /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/.nw_preference_script.tcl OK!
+[13:14:52.58] /o DSPF Options: {hierDelim==|}||{termDelim==:}||{fingerChar==@}||{multiplierString==_nettran_}||{aggregateCurrent==1}||{MOSTermNames==d g s b}||{MOSTermOrder==D G S B}||{MOSTermDspfNames==DRC GATE SRC BULK}||{firstChars==XM}||{probeHierDelim==/}||{caseSensitive==1}||{firstChar==M}||{hierPrefix==X}||{nodePrefix==M}||{plotTermVoltageForNet==0}||{mapNetToMosTerminal==}||{mapSlashDelimToDot==1}||{probePortCurrent==1}||{busBit==[]}||{removeNodePrefix==1}||{nlConDelim==.}||{mosModelType==auto}||{keepSchName==0}
+[13:14:52.58] /o _workerLoadStateAction done!
+[13:14:52.58] /o _getSimulationDetails : 
+[13:14:52.58] /o tbName=diff_mode_gain, Mtb=0
+[13:14:52.58] /o Got stb tb ok!
+[13:14:52.58] /o Self resultsDir: ./simulation
+[13:14:52.58] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[13:14:52.64] /o Nominal run.
+[13:14:52.72] /o _createResultsMap done!
+[13:14:52.72] /o New worker simulation done for nomial run.
+[13:14:52.72] /o >>>resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results,masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+[13:14:52.74] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/.unitedSimFinished
+[13:14:52.79] /o New worker simulation done for nomial run finished!
+[13:14:52.79] /o _simulationDoneAction done without exception!
+[13:15:13.79] /o Shutdown time: Wed Aug 27 13:15:13 2025
+[13:15:13.79] /o Elapsed session real time: 0.45 minutes
+[13:15:13.79] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.0.181401/logs/w1/logs/pw_worker.argershm.2025_8_27_131446_182245.log

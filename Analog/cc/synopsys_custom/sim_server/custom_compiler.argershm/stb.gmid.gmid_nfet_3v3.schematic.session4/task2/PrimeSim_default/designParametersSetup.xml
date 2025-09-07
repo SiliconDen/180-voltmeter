@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Sep  4 18:15:09 2025-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="designParametersSetup">
+  <object type="saDesignParametersSetup" version="1" name="designParametersSetup">
+   <collection name="cellviews">
+    <object type="saCellViewParameters" version="1" name="cellviews">
+     <attribute type="giString" value="gmid_nfet_3v3" name="cellName"/>
+     <attribute type="giBoolean" value="1" name="enabled"/>
+     <collection name="instanceParameters">
+      <object type="saInstanceParameters" version="1" name="instanceParameters">
+       <attribute type="giBoolean" value="1" name="enabled"/>
+       <attribute type="giString" value="" name="groupName"/>
+       <attribute type="giString" value="//MN0" name="instanceName"/>
+       <collection name="parameters"/>
+      </object>
+     </collection>
+     <attribute type="giString" value="gmid" name="libName"/>
+     <attribute type="giString" value="schematic" name="viewName"/>
+    </object>
+   </collection>
+   <attribute type="giBoolean" value="1" name="enabled"/>
+   <collection name="occurrences"/>
+  </object>
+ </collection>
+</file-format>

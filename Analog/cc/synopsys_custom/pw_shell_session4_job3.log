@@ -1,0 +1,99 @@
+[18:05:13.26] /o 
+              /c                          PrimeWave Design Environment 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069ee007c9cb2fe8bc338d6c7980de498070fc2511cd128a4b2dec1cb7792ad947542dc4ef3d848d665eae8fa06657387b4ec -python 0 -log pw_shell_session4_job3 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Thu Sep  4 18:05:11 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[18:05:17.08] /m Information: Registering ICV PERC package...
+[18:05:17.44] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[18:05:17.44] /i catch {source /tmp/copyScript59184}; ::sa::_backgroundSaeShell::signalProcessReady 1757023509 3878190
+[18:05:17.45] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 8
+[18:05:17.88] /o 
+[18:05:17.88] /i ::sa::_backgroundSaeShell::runScript /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName PrimeSim_default resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[18:05:18.07] /m Information: Loading preferences from /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/pw_shell_session_prefs.xml
+[18:05:18.16] /o Loading: Callback files...
+[18:05:18.16] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[18:05:18.16] /o 
+[18:05:18.20] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[18:05:18.20] /o 	#######################################
+[18:05:18.20] /o 	CC-PDK Library Name	: gf180MCU Open
+[18:05:18.20] /o 	#######################################
+[18:05:18.20] /o 
+[18:05:18.29] /m Information: Start incremental database creation...
+[18:05:18.29] /m Information: Create Iter role param id map
+[18:05:18.31] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName PrimeSim_default resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[18:05:18.31] /o false
+[18:09:34.37] /i ::wf::viewerExited
+[18:09:35.73] /i ::wf::updateViewerLicense 2
+[18:10:23.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:10:23.87] /i ::sa::_backgroundSaeShell::parentRunning
+[18:10:23.87] /o false
+[18:11:11.07] /i ::sa::_backgroundSaeShell::runScript /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName PrimeSim_default resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[18:11:11.07] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[18:11:11.08] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[18:11:11.25] /m Information: Loading preferences from /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/pw_shell_session_prefs.xml
+[18:11:11.38] /m Information: Start incremental database creation...
+[18:11:11.39] /m Information: Create Iter role param id map
+[18:11:11.45] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName PrimeSim_default resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[18:11:11.45] /o false
+[18:11:11.45] /o 
+[18:14:01.47] /i ::wf::viewerExited
+[18:14:02.92] /i ::wf::updateViewerLicense 2
+[18:14:22.47] /i ::wf::viewerExited
+[18:14:23.91] /i ::wf::updateViewerLicense 2
+[18:14:46.27] /i ::wf::viewerExited
+[18:14:47.70] /i ::wf::updateViewerLicense 2
+[18:15:26.00] /i ::sa::_backgroundSaeShell::runScript /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName PrimeSim_default resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[18:15:26.01] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[18:15:26.01] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[18:15:26.18] /m Information: Loading preferences from /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/pw_shell_session_prefs.xml
+[18:15:26.33] /m Information: Start incremental database creation...
+[18:15:26.33] /m Information: Create Iter role param id map
+[18:15:26.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession2 uniqueSessionName {} testbenchName PrimeSim_default resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[18:15:26.38] /o false
+[18:15:26.38] /o 
+[18:15:43.57] /i ::wf::viewerExited
+[18:15:45.06] /i ::wf::updateViewerLicense 2
+[18:16:23.67] /i ::sa::_backgroundSaeShell::exit
+[18:16:23.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[18:16:24.49] /o Shutdown time: Thu Sep  4 18:16:24 2025
+[18:16:24.49] /o Elapsed session real time: 11.2 minutes
+[18:16:24.49] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_4_180511_3949517.log
+[18:16:24.50] /i ::wf::viewerExited

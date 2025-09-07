@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Aug 27 13:09:01 2025-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saDesignVariables" name="designVariables">
+  <attribute type="giBoolean" name="includeGlobal" value="1"/>
+  <collection name="variableGroupDefs"/>
+  <collection name="variableGroups"/>
+  <attribute type="giString" name="variableSet" value="default"/>
+  <collection name="variableSets">
+   <object version="1" type="saDesignVariableSet" name="variableSets">
+    <collection name="designVariables">
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="CL"/>
+      <attribute type="giBoolean" name="useDpo" value="0"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="1p"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="R_load"/>
+      <attribute type="giBoolean" name="useDpo" value="0"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="100k"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="vcm"/>
+      <attribute type="giBoolean" name="useDpo" value="0"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="0"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="vdd"/>
+      <attribute type="giBoolean" name="useDpo" value="0"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="3.3"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="vdm"/>
+      <attribute type="giBoolean" name="useDpo" value="0"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="1"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" name="description" value=""/>
+      <attribute type="giString" name="name" value="vcm_dc"/>
+      <attribute type="giBoolean" name="useDpo" value="0"/>
+      <attribute type="giBoolean" name="useLocal" value="1"/>
+      <attribute type="giString" name="value" value="vdd/2"/>
+      <attribute type="enVariableType" name="variableType" value="none"/>
+     </object>
+    </collection>
+    <attribute type="giString" name="name" value="default"/>
+   </object>
+  </collection>
+ </object>
+</file-format>

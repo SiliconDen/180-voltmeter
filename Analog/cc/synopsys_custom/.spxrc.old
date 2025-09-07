@@ -1,0 +1,11 @@
+### auto-generated spxrc ###
+waveview_geom_last 0
+def_ac_stack magphase
+reload_confirm false
+default_hist_one true
+signame_popup true
+trace_parm_popup true
+use_cc_keybindings true
+sync_alias false
+default_x_var false
+export_notation false

@@ -1,0 +1,26 @@
+total 52
+lrwxrwxrwx. 1 argershm NCSU   75 2025-08-27 13:14:34.214240859 -0400 cnl -> ../../../../../netlist/integrator/tb_main_opamp/schematic/PrimeSimSPICE/cnl
+lrwxrwxrwx. 1 argershm NCSU   79 2025-08-27 13:14:42.265245495 -0400 netlist -> ../../../../../netlist/integrator/tb_main_opamp/schematic/PrimeSimSPICE/netlist
+-rw-r--r--. 1 argershm NCSU  127 2025-08-27 13:14:43.345246117 -0400 .netlistHeader
+lrwxrwxrwx. 1 argershm NCSU    9 2025-08-27 13:14:43.368246130 -0400 .netlist -> ./netlist
+-rw-r--r--. 1 argershm NCSU   98 2025-08-27 13:14:43.368246130 -0400 .modelFiles
+-rw-r--r--. 1 argershm NCSU    8 2025-08-27 13:14:43.370246131 -0400 .temperature
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.371246131 -0400 .dataBlock
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.374246134 -0400 .variation
+-rw-r--r--. 1 argershm NCSU   59 2025-08-27 13:14:43.374246134 -0400 .designVariables
+-rw-r--r--. 1 argershm NCSU   28 2025-08-27 13:14:43.376246134 -0400 .optionsFormat
+-rw-r--r--. 1 argershm NCSU  168 2025-08-27 13:14:43.389246142 -0400 .outputs
+-rw-r--r--. 1 argershm NCSU  214 2025-08-27 13:14:43.407246152 -0400 .globalOptions
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.408246153 -0400 .includeNetlist
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.410246154 -0400 .convergence
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.418246158 -0400 .measures
+-rw-r--r--. 1 argershm NCSU   35 2025-08-27 13:14:43.418246158 -0400 .analyses
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.419246160 -0400 .dspf
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.420246160 -0400 .vcd
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.421246161 -0400 .pspice
+-rw-r--r--. 1 argershm NCSU    0 2025-08-27 13:14:43.422246161 -0400 .endOfNetlist
+-rw-r--r--. 1 argershm NCSU 3963 2025-08-27 13:14:43.427246164 -0400 primesim.spi
+-rwxr--r--. 1 argershm NCSU  562 2025-08-27 13:14:43.746246348 -0400 runSimulation
+drwxr-xr-x. 2 argershm NCSU 4096 2025-08-27 13:14:44.911247018 -0400 .
+-rw-r--r--. 1 argershm NCSU  555 2025-08-27 13:14:45.271247226 -0400 .simRun.xml
+drwxr-xr-x. 6 argershm NCSU 4096 2025-08-27 13:14:52.794251562 -0400 ..

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Sep  6 11:32:45 2025-->
+<file-format version="1.0" name="stateCategory">
+ <object type="saModelSetup" version="1" name="models">
+  <attribute type="giBoolean" value="1" name="includeGlobal"/>
+  <attribute type="giString" value="${PDK_DIR}/Models_HSPICE/" name="includePath"/>
+  <collection name="modelFiles">
+   <object type="saModelFile" version="1" name="modelFiles">
+    <attribute type="giBoolean" value="1" name="enabled"/>
+    <attribute type="giString" value="ngspice/design.ngspice" name="filename"/>
+    <attribute type="giString" value="" name="section"/>
+   </object>
+   <object type="saModelFile" version="1" name="modelFiles">
+    <attribute type="giBoolean" value="1" name="enabled"/>
+    <attribute type="giString" value="ngspice/sm141064.ngspice" name="filename"/>
+    <attribute type="giString" value="typical" name="section"/>
+   </object>
+  </collection>
+  <collection name="modelGroupDefs"/>
+  <collection name="modelGroups"/>
+ </object>
+</file-format>

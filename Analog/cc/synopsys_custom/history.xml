@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Wed Aug 27 14:16:01 2025
+<!-- created by PrimeWave Design Environment (TM), build #, on Sat Sep  6 19:14:11 2025
 -->
-<synopsysFile version="1.1" name="synopsysRecentFiles">
+<synopsysFile name="synopsysRecentFiles" version="1.1">
         <recentFiles>
-                <file cell="main_opamp" library="integrator" mode="write" view="symbol" file="schematicSymbol"/>
-                <file cell="tb_main_opamp" library="integrator" mode="write" view="schematic" file="schematic"/>
-                <file cell="main_opamp" library="integrator" mode="write" view="schematic" file="schematic"/>
+                <file view="symbol" library="integrator" mode="write" file="schematicSymbol" cell="main_opamp"/>
+                <file view="schematic" library="integrator" mode="write" file="schematic" cell="main_opamp"/>
+                <file view="diff_mode_gain" library="integrator" mode="write" file="saeState" cell="tb_main_opamp"/>
+                <file view="schematic" library="integrator" mode="write" file="schematic" cell="tb_main_opamp"/>
+                <file view="PrimeSim_default" library="gmid" mode="write" file="saeState" cell="gmid_nfet_3v3"/>
         </recentFiles>
 </synopsysFile>

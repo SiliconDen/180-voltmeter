@@ -1,0 +1,6 @@
+total 12
+drwxr-xr-x. 3 argershm NCSU   35 2025-09-04 17:02:33.304181203 -0400 ..
+drwxr-xr-x. 3 argershm NCSU   67 2025-09-04 17:02:34.680181891 -0400 .
+-rw-r--r--. 1 argershm NCSU 1106 2025-09-04 17:02:34.695181898 -0400 netlist
+drwxr-xr-x. 6 argershm NCSU 4096 2025-09-04 17:02:34.696181899 -0400 cnl
+-rw-r--r--. 1 argershm NCSU  694 2025-09-04 17:02:34.700181901 -0400 .simRun.xml

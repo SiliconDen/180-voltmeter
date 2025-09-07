@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--pw_worker Based on Custom Infrastructure
+Version W-2024.09-SP1-2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="saFineSimProModelsFiles" value="{ngspice/design.ngspice {}} {ngspice/sm141064.ngspice typical}"/>
+	<pref name="saFineSimProModelsIncludePath" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/"/>
+	<pref name="saHSPICEModelsFiles" value="{ngspice/design.ngspice {}} {ngspice/sm141064.ngspice typical}"/>
+	<pref name="saHSPICEModelsIncludePath" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/"/>
+	<pref name="saIndependentProcessesDistributionMode" value="LocalHost"/>
+	<pref name="saPrimeSimEnvOptsIncludePath" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/"/>
+	<pref name="saPrimeSimEnvOptsNetlistLanguage" value="HSPICE"/>
+	<pref name="saPrimeSimModelsFiles" value="{ngspice/design.ngspice {}} {aliases.spice {}} {ngspice/sm141064.ngspice typical}"/>
+	<pref name="saPrimeSimModelsIncludePath" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/"/>
+	<pref name="saResultsDir" value="./simulation"/>
+	<pref name="xtDRCICVIncludePaths" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../DRC_ICV/"/>
+	<pref name="xtDRCICVRunsetFile" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../DRC_ICV/gf180mcu_drc.rs"/>
+	<pref name="xtDRCLayDBFormat" value="Stream"/>
+	<pref name="xtJobManagerSaveFilename" value="~/.sae_jobs.xml"/>
+	<pref name="xtLPEOpenParasiticView" value="false"/>
+	<pref name="xtLVSICVIncludePaths" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../LVS_ICV/LVS/ICV/"/>
+	<pref name="xtLVSICVRunsetFile" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/../LVS_ICV/LVS/ICV/cmos018hv.3p3.6v.lvs.rs"/>
+	<pref name="xtLVSLayDBFormat" value="Stream"/>
+</preferences>
+

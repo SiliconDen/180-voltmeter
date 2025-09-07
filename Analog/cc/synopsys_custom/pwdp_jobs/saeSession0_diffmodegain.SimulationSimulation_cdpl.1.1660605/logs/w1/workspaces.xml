@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- created by pw_worker (TM), build #, on Fri Sep  5 19:20:10 2025
+-->
+<synopsysFile name="synopsysWorkspace" version="2.2">
+    <workspace title="Layout" default="1" name="leLayout">
+        <overlay windowType="leLayout"/>
+    </workspace>
+    <workspace title="Schematic" default="1" name="seSchematic">
+        <overlay windowType="seSchematic"/>
+    </workspace>
+    <workspace title="Library Manager" default="1" name="dmLibraryManager">
+        <overlay windowType="dmLibraryManager"/>
+    </workspace>
+    <workspace title="Floorplan" default="1" name="lxFloorplan">
+        <overlay windowType="lxFloorplan"/>
+    </workspace>
+    <workspace title="Text Editor Workspace" default="1" name="teWorkspace">
+        <overlay windowType="teText"/>
+    </workspace>
+</synopsysFile>

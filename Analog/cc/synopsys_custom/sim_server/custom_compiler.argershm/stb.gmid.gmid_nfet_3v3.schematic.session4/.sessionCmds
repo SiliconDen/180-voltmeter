@@ -1,0 +1,120 @@
+1757023856462#0: ::sa::_simServer::_removeFromMsgList true 12
+
+1757023856980#1: ::sa::_simServer::openSimServerProgressDialog stb.gmid.gmid_nfet_3v3.schematic.session4 {Creating simulation server environment done} 
+
+1757023856983#2: sa::showBgNetlistAndRunProgressDialog::printMsg {} {Creating structural netlist for testbench PrimeSim_default ...} {}
+
+1757023858065#3: sa::showBgNetlistAndRunProgressDialog::printMsg {} {Creating final netlist for testbench PrimeSim_default ...} {}
+
+1757023858068#4: ::sa::_simServer::preSimulationStartCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1
+
+1757023858353#5: sa::showBgNetlistAndRunProgressDialog::printMsg {} {                                         Composing Nominal                                         } {}
+
+1757023858396#6: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                       Launching jobs for testbench PrimeSim_default started                       }
+
+1757023858401#7: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                        Creating jobs for testbench PrimeSim_default (0 / 1)                        }
+
+1757023858403#8: ::sa::_simServer::simulationStartCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1 0
+
+1757023858404#9: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                          Launching 1 jobs for testbench PrimeSim_default                          }
+
+1757023859260#10: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                       Launching jobs for testbench PrimeSim_default finished                       }
+
+1757023859266#11: ::sa::_simServer::closeSimServerProgressDialog stb.gmid.gmid_nfet_3v3.schematic.session4 {Creating simulation jobs completed.} 
+
+1757023869476#12: ::sa::_coreUtils::printMessage {Simulation completed successfully for design: gmid/gmid_nfet_3v3/schematic  (PW-651)} -severity information
+
+1757023869521#13: ::sa::_simServer::simulationDoneCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1 success 0
+
+1757023871104#14: ::sa::_simServer::calculationDoneCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results {} 1 1000001
+
+1757023871105#15: ::sa::_coreUtils::printMessage {Evaluating and plotting completed for testbench: PrimeSim_default in 2s} -severity information
+
+1757023871108#16: ::sa::_simServer::seqRunRunNextTestbenches stb.gmid.gmid_nfet_3v3.schematic.session4 {PrimeSim_default} {Complete}
+
+1757023979247#17: ::sa::_simServer::_removeFromMsgList true 13
+
+1757023979810#18: ::sa::_simServer::openSimServerProgressDialog stb.gmid.gmid_nfet_3v3.schematic.session4 {Creating simulation server environment done} 
+
+1757023979813#19: sa::showBgNetlistAndRunProgressDialog::printMsg {} {Creating structural netlist for testbench PrimeSim_default ...} {}
+
+1757023982205#20: sa::showBgNetlistAndRunProgressDialog::printMsg {} {Creating final netlist for testbench PrimeSim_default ...} {}
+
+1757023982208#21: ::sa::_simServer::preSimulationStartCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1
+
+1757023982493#22: sa::showBgNetlistAndRunProgressDialog::printMsg {} {                                         Composing Nominal                                         } {}
+
+1757023982527#23: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                       Launching jobs for testbench PrimeSim_default started                       }
+
+1757023982530#24: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                        Creating jobs for testbench PrimeSim_default (0 / 1)                        }
+
+1757023982532#25: ::sa::_simServer::simulationStartCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1 0
+
+1757023982533#26: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                          Launching 1 jobs for testbench PrimeSim_default                          }
+
+1757023983360#27: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                       Launching jobs for testbench PrimeSim_default finished                       }
+
+1757023983529#28: ::sa::_simServer::closeSimServerProgressDialog stb.gmid.gmid_nfet_3v3.schematic.session4 {Creating simulation jobs completed.} 
+
+1757023994275#29: ::sa::_coreUtils::printMessage {Simulation completed successfully for design: gmid/gmid_nfet_3v3/schematic  (PW-651)} -severity information
+
+1757023994289#30: ::sa::_simServer::simulationDoneCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1 success 0
+
+1757023995272#31: ::sa::_simServer::calculationDoneCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results {} 1 1001001
+
+1757023995274#32: ::sa::_coreUtils::printMessage {Evaluating and plotting completed for testbench: PrimeSim_default in 1s} -severity information
+
+1757023995278#33: ::sa::_simServer::seqRunRunNextTestbenches stb.gmid.gmid_nfet_3v3.schematic.session4 {PrimeSim_default} {Complete}
+
+1757024041479#34: ::sa::_simServer::_removeFromMsgList false 13
+
+1757024042940#35: ::sa::_simServer::_removeFromMsgList false 14
+
+1757024062479#36: ::sa::_simServer::_removeFromMsgList false 15
+
+1757024063920#37: ::sa::_simServer::_removeFromMsgList false 16
+
+1757024086281#38: ::sa::_simServer::_removeFromMsgList false 17
+
+1757024087720#39: ::sa::_simServer::_removeFromMsgList false 18
+
+1757024109722#40: ::sa::_simServer::_removeFromMsgList true 14
+
+1757024110280#41: ::sa::_simServer::openSimServerProgressDialog stb.gmid.gmid_nfet_3v3.schematic.session4 {Creating simulation server environment done} 
+
+1757024110283#42: sa::showBgNetlistAndRunProgressDialog::printMsg {} {Creating structural netlist for testbench PrimeSim_default ...} {}
+
+1757024112980#43: sa::showBgNetlistAndRunProgressDialog::printMsg {} {Creating final netlist for testbench PrimeSim_default ...} {}
+
+1757024112983#44: ::sa::_simServer::preSimulationStartCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1
+
+1757024113255#45: sa::showBgNetlistAndRunProgressDialog::printMsg {} {                                         Composing Nominal                                         } {}
+
+1757024113290#46: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                       Launching jobs for testbench PrimeSim_default started                       }
+
+1757024113294#47: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                        Creating jobs for testbench PrimeSim_default (0 / 1)                        }
+
+1757024113296#48: ::sa::_simServer::simulationStartCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1 0
+
+1757024113296#49: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                          Launching 1 jobs for testbench PrimeSim_default                          }
+
+1757024114122#50: sa::showBgNetlistAndRunProgressDialog::printMsg {} {} {                       Launching jobs for testbench PrimeSim_default finished                       }
+
+1757024114271#51: ::sa::_simServer::closeSimServerProgressDialog stb.gmid.gmid_nfet_3v3.schematic.session4 {Creating simulation jobs completed.} 
+
+1757024125375#52: ::sa::_coreUtils::printMessage {Simulation completed successfully for design: gmid/gmid_nfet_3v3/schematic  (PW-651)} -severity information
+
+1757024125389#53: ::sa::_simServer::simulationDoneCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results history_1 1 success 0
+
+1757024126098#54: ::sa::_simServer::calculationDoneCallback stb.gmid.gmid_nfet_3v3.schematic.session4 PrimeSim_default /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results {} 1 1002001
+
+1757024126100#55: ::sa::_coreUtils::printMessage {Evaluating and plotting completed for testbench: PrimeSim_default in 1s} -severity information
+
+1757024126102#56: ::sa::_simServer::seqRunRunNextTestbenches stb.gmid.gmid_nfet_3v3.schematic.session4 {PrimeSim_default} {Complete}
+
+1757024143583#57: ::sa::_simServer::_removeFromMsgList false 19
+
+1757024145084#58: ::sa::_simServer::_removeFromMsgList false 20
+
+1757024183684#59: ::sa::_simServer::_removeFromMsgList false 21
+

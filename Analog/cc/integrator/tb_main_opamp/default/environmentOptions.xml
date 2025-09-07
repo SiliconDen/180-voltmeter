@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Aug 27 13:09:01 2025-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saEnvironmentOptions" name="environmentOptions">
+  <attribute type="giString" name="accuracyLevel" value="Default"/>
+  <attribute type="giBoolean" name="auto" value="0"/>
+  <attribute type="giString" name="caseSensitive" value="Lower"/>
+  <attribute type="giString" name="commandLineOptions" value=""/>
+  <attribute type="giInt" name="enableGPU" value="0"/>
+  <attribute type="giBoolean" name="enableParallelSim" value="0"/>
+  <attribute type="giBoolean" name="ignoreParasitics" value="0"/>
+  <attribute type="giBoolean" name="includeGlobal" value="1"/>
+  <attribute type="giString" name="includePath" value="/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE/"/>
+  <attribute type="giString" name="netlistLanguage" value="HSPICE"/>
+  <attribute type="giInt" name="numGPUProcesses" value="1"/>
+  <attribute type="giInt" name="numProcesses" value="1"/>
+  <attribute type="giString" name="outputDataFormat" value="wdf"/>
+  <attribute type="giString" name="stopViewList" value="hspice hspiceD"/>
+  <attribute type="giString" name="switchViewList" value="hspice hspiceD schematic spice veriloga"/>
+  <attribute type="giBoolean" name="use64Bit" value="1"/>
+ </object>
+</file-format>

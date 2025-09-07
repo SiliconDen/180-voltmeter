@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version W-2024.09-SP1-2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="nlAMSAlwaysGetScalarizeTermsFromWorker" value="true"/>
+	<pref name="nlAMSCompatiblePortOrder" value="false"/>
+	<pref name="nlAMSErrorOnDuplicateTextViews" value="true"/>
+	<pref name="nlAMSGroupModulesByLibrary" value="false"/>
+	<pref name="nlAMSIgnorePropNames" value=""/>
+	<pref name="nlAMSIncludeTextViews" value=""/>
+	<pref name="nlAMSKeepLeafModuleNames" value="false"/>
+	<pref name="nlAMSMapMultiViewCells" value="false"/>
+	<pref name="nlAMSResolveXInstPrefix" value="false"/>
+	<pref name="nlBackgroundNetlistingUseNtiShell" value="true"/>
+	<pref name="nlCDLAddCellNameAffix" value="false"/>
+	<pref name="nlCDLBusStyle" value="&lt;&gt;"/>
+	<pref name="nlCDLCellNamePrefix" value=""/>
+	<pref name="nlCDLCellNameSuffix" value=""/>
+	<pref name="nlCDLCellsAffixFilterType" value="ignore"/>
+	<pref name="nlCDLCheckBusTerminalTypeConsistency" value="false"/>
+	<pref name="nlCDLCompatiblePortOrder" value="true"/>
+	<pref name="nlCDLErrorOnTerminalShort" value="false"/>
+	<pref name="nlCDLGenerateEmptySubckts" value="false"/>
+	<pref name="nlCDLGlobalNets" value=""/>
+	<pref name="nlCDLIgnoreCellsAffix" value=""/>
+	<pref name="nlCDLIgnorePortOrderProp" value="false"/>
+	<pref name="nlCDLIgnorePropNames" value="lvsIgnore"/>
+	<pref name="nlCDLIncludeCDLFile" value="false"/>
+	<pref name="nlCDLIncludeCDLNetlistFile" value="false"/>
+	<pref name="nlCDLIncludeFiles" value=""/>
+	<pref name="nlCDLIsCaseSensitive" value="Sensitive"/>
+	<pref name="nlCDLPortConnectionType" value="byOrder"/>
+	<pref name="nlCDLPrependFirstChar" value="always"/>
+	<pref name="nlCDLPrintLDD" value="true"/>
+	<pref name="nlCDLPrintMFactor" value="true"/>
+	<pref name="nlCDLProcessCellsAffix" value=""/>
+	<pref name="nlCDLRemoveBangs" value="false"/>
+	<pref name="nlCDLScalarizeBitOrder" value="autoAscending"/>
+	<pref name="nlCDLScale" value="meter"/>
+	<pref name="nlCDLShortPreferredOrder" value="descending"/>
+	<pref name="nlCDLTopVirtualTerms" value="useDefaultNetName"/>
+	<pref name="nlCDLUseSingleQuote" value="true"/>
+	<pref name="nlCDLWriteParamDefaults" value="false"/>
+	<pref name="nlCheckDesign" value="timestamp"/>
+	<pref name="nlCheckNonNetlistableCellSeverity" value="error"/>
+	<pref name="nlCheckOutdatedDesignsSeverity" value="warning"/>
+	<pref name="nlConnDefDefaultsAsGlobals" value="false"/>
+	<pref name="nlEldoBusStyle" value="&lt;&gt;"/>
+	<pref name="nlEldoCompatiblePortOrder" value="true"/>
+	<pref name="nlEldoDefaultStringParameters" value="model"/>
+	<pref name="nlEldoGlobalNets" value="0 gnd! ground gnd"/>
+	<pref name="nlEldoHierDelimiter" value="."/>
+	<pref name="nlEldoIgnorePropNames" value=""/>
+	<pref name="nlEldoIsCaseSensitive" value="Lower"/>
+	<pref name="nlEldoScalarizeBitOrder" value="autoAscending"/>
+	<pref name="nlEldoWriteParamDefaults" value="false"/>
+	<pref name="nlEnableVirtualTerminals" value="true"/>
+	<pref name="nlErrorOnAbsentInstTerm" value="true"/>
+	<pref name="nlErrorOnCrossViewCheckViolation" value="false"/>
+	<pref name="nlFilterInstParamsByCDFUse" value="false"/>
+	<pref name="nlHSPICEBusStyle" value="&lt;&gt;"/>
+	<pref name="nlHSPICECompatiblePortOrder" value="true"/>
+	<pref name="nlHSPICECopyIncludedTextFile" value="false"/>
+	<pref name="nlHSPICEDefaultStringParameters" value="model"/>
+	<pref name="nlHSPICEDiffStbProbeFile" value="$SYNOPSYS_CUSTOM_ANALOG_LIB/diffstbprobe/hspiceD/diffstbprobe.spi"/>
+	<pref name="nlHSPICEGlobalNets" value="0 gnd! ground gnd"/>
+	<pref name="nlHSPICEIgnoreBehavioralModules" value="false"/>
+	<pref name="nlHSPICEIgnoreLeavesInAutoSetXPrefix" value="false"/>
+	<pref name="nlHSPICEIgnorePortOrderProp" value="false"/>
+	<pref name="nlHSPICEIgnorePropNames" value=""/>
+	<pref name="nlHSPICEIncludeFiles" value=""/>
+	<pref name="nlHSPICEIncludeHSPICEFile" value="true"/>
+	<pref name="nlHSPICEIncludeHSPICENetlistFile" value="false"/>
+	<pref name="nlHSPICEIsCaseSensitive" value="Lower"/>
+	<pref name="nlHSPICELocalsAsGlobals" value=""/>
+	<pref name="nlHSPICEPrependFirstChar" value="auto"/>
+	<pref name="nlHSPICERemoveBangs" value="false"/>
+	<pref name="nlHSPICEScalarizeBitOrder" value="autoAscending"/>
+	<pref name="nlHSPICESkipEmptyDC" value="false"/>
+	<pref name="nlHSPICEUseSingleQuote" value="true"/>
+	<pref name="nlHSPICEWriteParamDefaults" value="false"/>
+	<pref name="nlHSPICEWritePinInfo" value="false"/>
+	<pref name="nlIgnoreCDFModuleName" value="false"/>
+	<pref name="nlIgnoreCell" value=""/>
+	<pref name="nlIgnoreParasiticDevices" value="false"/>
+	<pref name="nlLibrariesIgnoringEvalErrors" value="sheets"/>
+	<pref name="nlMapParameterCase" value="false"/>
+	<pref name="nlMaxNumConsoleWarnings" value="256"/>
+	<pref name="nlMaximumPartialEvaluation" value="false"/>
+	<pref name="nlMessageCallbackProc" value=""/>
+	<pref name="nlMessageCallbackTypes" value="information warning error"/>
+	<pref name="nlMultiplicationParamName" value="m"/>
+	<pref name="nlNanoSimBusStyle" value="&lt;&gt;"/>
+	<pref name="nlNanoSimCompatiblePortOrder" value="true"/>
+	<pref name="nlNanoSimGlobalNets" value="gnd"/>
+	<pref name="nlNanoSimIgnorePropNames" value=""/>
+	<pref name="nlNanoSimIncludeNanoSimFile" value="false"/>
+	<pref name="nlNanoSimIsCaseSensitive" value="Lower"/>
+	<pref name="nlNanoSimScalarizeBitOrder" value="autoAscending"/>
+	<pref name="nlNanoSimWriteParamDefaults" value="false"/>
+	<pref name="nlOpenNetlistViewer" value="true"/>
+	<pref name="nlPerformanceReport" value="false"/>
+	<pref name="nlPrintMessages" value="to console"/>
+	<pref name="nlProcessOutdatedConnectivity" value="update"/>
+	<pref name="nlProcessUnconnectedSymbolPinForVirtual" value="false"/>
+	<pref name="nlPropagateGlobalToTerminalShorts" value="false"/>
+	<pref name="nlReportIgnoredDevices" value="false"/>
+	<pref name="nlRevertOutdatedDesigns" value="false"/>
+	<pref name="nlRunInBackground" value="false"/>
+	<pref name="nlShortExprPropNames" value="lxRemoveDevice lvsRemoveDevice"/>
+	<pref name="nlSimulatorAliases" value="{hspiceD hspice} {spectre spectre} {auCdl auCdl} {verilog verilog}"/>
+	<pref name="nlSpectreAMSCompatiblePortOrder" value="false"/>
+	<pref name="nlSpectreAMSErrorOnDuplicateTextViews" value="true"/>
+	<pref name="nlSpectreAMSGroupModulesByLibrary" value="false"/>
+	<pref name="nlSpectreAMSIgnorePropNames" value=""/>
+	<pref name="nlSpectreAMSKeepLeafModuleNames" value="false"/>
+	<pref name="nlSpectreAMSMapMultiViewCells" value="false"/>
+	<pref name="nlSpectreAlwaysRemasterVerilogATextModules" value="false"/>
+	<pref name="nlSpectreCompatiblePortOrder" value="true"/>
+	<pref name="nlSpectreDefaultStringParameters" value="model"/>
+	<pref name="nlSpectreDiffStbProbeFile" value="$SYNOPSYS_CUSTOM_ANALOG_LIB/diffstbprobe/spectre/diffstbprobe.scs"/>
+	<pref name="nlSpectreDoubleQuoteMode" value="auto"/>
+	<pref name="nlSpectreIgnorePortOrderProp" value="false"/>
+	<pref name="nlSpectreIgnorePropNames" value=""/>
+	<pref name="nlSpectreIgnoreTerminalsByNlAction" value="true"/>
+	<pref name="nlSpectreIncludeFiles" value=""/>
+	<pref name="nlSpectreIncludeSpectreFile" value="false"/>
+	<pref name="nlSpectreScalarizeBitOrder" value="autoAscending"/>
+	<pref name="nlSpectreWriteParamDefaults" value="true"/>
+	<pref name="nlSpectreWritePinInfo" value="false"/>
+	<pref name="nlStopOnConnectivityImplicitChange" value="false"/>
+	<pref name="nlTextViewCheckMethod" value="None"/>
+	<pref name="nlTopVirtualTerms" value="useDefaultNetName"/>
+	<pref name="nlUseDirectionInShortPriority" value="false"/>
+	<pref name="nlUseNlIgnoreForShort" value="false"/>
+	<pref name="nlUseViewInfoTermOrder" value="true"/>
+	<pref name="nlVHDLBitOrderAscending" value="true"/>
+	<pref name="nlVHDLBusBitOrder" value="Ascending"/>
+	<pref name="nlVHDLCompatiblePortOrder" value="true"/>
+	<pref name="nlVHDLCopyDirectory" value=""/>
+	<pref name="nlVHDLIgnorePropNames" value=""/>
+	<pref name="nlVHDLIllegalCharacterMapping" value="escaped"/>
+	<pref name="nlVHDLInheritedConnectionDataType" value="bit"/>
+	<pref name="nlVHDLModelsDirectory" value=""/>
+	<pref name="nlVHDLNetlistFiles" value="single"/>
+	<pref name="nlVHDLPackageOptions" value=" {Standard.all 0} {IEEE.STD_Logic_1164.all 0} "/>
+	<pref name="nlVHDLScalarDataType" value="bit"/>
+	<pref name="nlVHDLUserDataTypeList" value=""/>
+	<pref name="nlVHDLVectorDataType" value="bit_vector"/>
+	<pref name="nlVerilogAddCellNameAffix" value="false"/>
+	<pref name="nlVerilogCellNamePrefix" value=""/>
+	<pref name="nlVerilogCellNameSuffix" value=""/>
+	<pref name="nlVerilogCellsAffixFilterType" value="process"/>
+	<pref name="nlVerilogCheckBusTerminalTypeConsistency" value="true"/>
+	<pref name="nlVerilogCheckLeafTerminals" value="false"/>
+	<pref name="nlVerilogCompatiblePortOrder" value="true"/>
+	<pref name="nlVerilogCopyIncludedTextFile" value="false"/>
+	<pref name="nlVerilogDeclareSupplyNetsForTerminals" value="false"/>
+	<pref name="nlVerilogDefaultNetType" value="wire"/>
+	<pref name="nlVerilogDesignVariableMode" value="macro"/>
+	<pref name="nlVerilogDesignVariables" value=""/>
+	<pref name="nlVerilogGlobalParameterDefault" value="0"/>
+	<pref name="nlVerilogICCAddCellNameAffix" value="false"/>
+	<pref name="nlVerilogICCCellNamePrefix" value=""/>
+	<pref name="nlVerilogICCCellNameSuffix" value=""/>
+	<pref name="nlVerilogICCCellsAffixFilterType" value="process"/>
+	<pref name="nlVerilogICCCompatiblePortOrder" value="true"/>
+	<pref name="nlVerilogICCGroundConnectDefs" value=""/>
+	<pref name="nlVerilogICCIgnoreCellsAffix" value=""/>
+	<pref name="nlVerilogICCIgnoreConnectDef" value=""/>
+	<pref name="nlVerilogICCIgnorePropNames" value=""/>
+	<pref name="nlVerilogICCIncludeSupplies" value="false"/>
+	<pref name="nlVerilogICCPortConnectionType" value="byName"/>
+	<pref name="nlVerilogICCPowerConnectDefs" value=""/>
+	<pref name="nlVerilogICCPrintInstanceParameters" value="true"/>
+	<pref name="nlVerilogICCProcessCellsAffix" value=""/>
+	<pref name="nlVerilogICCRangeDelimiterCharacter" value=""/>
+	<pref name="nlVerilogICCSupplyNameMap" value=""/>
+	<pref name="nlVerilogICCTerminalShort" value="byAssign"/>
+	<pref name="nlVerilogICCVectorExpansion" value="true"/>
+	<pref name="nlVerilogIgnoreCellsAffix" value=""/>
+	<pref name="nlVerilogIgnorePortOrderProp" value="false"/>
+	<pref name="nlVerilogIgnorePropNames" value=""/>
+	<pref name="nlVerilogIgnoreTerminalsConnectType" value=""/>
+	<pref name="nlVerilogIgnoredNetTypesForPropagation" value="reg"/>
+	<pref name="nlVerilogIgnoredSigTypes" value=""/>
+	<pref name="nlVerilogIllegalCharacterMapping" value="escaped"/>
+	<pref name="nlVerilogIncludeSupplies" value="true"/>
+	<pref name="nlVerilogIncludeVerilogFile" value="false"/>
+	<pref name="nlVerilogMSBLSB" value="true"/>
+	<pref name="nlVerilogNetTypeConflictSolutions" value=""/>
+	<pref name="nlVerilogNetTypeUnsolvedConflictResult" value="interconnect"/>
+	<pref name="nlVerilogNetTypesAsArray" value="real wreal scalar voltage_r current_r wreal1driver wreal4state wrealsum wrealavg wrealmin wrealmax"/>
+	<pref name="nlVerilogNumericFormat" value="asIs"/>
+	<pref name="nlVerilogPortConnectionType" value="byOrder"/>
+	<pref name="nlVerilogPrintInstTermNetsAligned" value="false"/>
+	<pref name="nlVerilogPrintParamName" value="true"/>
+	<pref name="nlVerilogPrintPortsByLine" value="false"/>
+	<pref name="nlVerilogPrintScalarWires" value="true"/>
+	<pref name="nlVerilogPrintTimeScale" value="true"/>
+	<pref name="nlVerilogProcessCellsAffix" value=""/>
+	<pref name="nlVerilogRangeDelimiterCharacter" value="_"/>
+	<pref name="nlVerilogRemoveBangs" value="false"/>
+	<pref name="nlVerilogRenameBusNetsWithPartialTerm" value="false"/>
+	<pref name="nlVerilogRenameSameBaseVectorInsts" value="false"/>
+	<pref name="nlVerilogScopeCollisions" value="error"/>
+	<pref name="nlVerilogSplitModules" value="false"/>
+	<pref name="nlVerilogSupply0NetName" value=""/>
+	<pref name="nlVerilogSupply1NetName" value=""/>
+	<pref name="nlVerilogTie0NetName" value=""/>
+	<pref name="nlVerilogTie1NetName" value=""/>
+	<pref name="nlVerilogTimeScalePrecision" value="1ns"/>
+	<pref name="nlVerilogTimeScaleTimeUnits" value="1ns"/>
+	<pref name="nlVerilogVectorExpansion" value="false"/>
+	<pref name="nlVerilogWireNetTypeList" value="trireg tri0 tri1 supply0 supply1 triand trior wand wor wire real wreal scalar voltage_r current_r wreal1driver wreal4state wrealsum wrealavg wrealmin wrealmax interconnect"/>
+	<pref name="nlVirtualTerminalsFormat" value="%PREFIX_%NAME_%DEFAULT"/>
+	<pref name="nlVirtualTerminalsPrefix" value="vt"/>
+	<pref name="seCheckAmbiguousConn" value="enable true severity warning dynamic true"/>
+	<pref name="seCheckAssignAssignment" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckAutoPopUpConsole" value="never"/>
+	<pref name="seCheckAutoSave" value="promptOnErrors"/>
+	<pref name="seCheckAutoSaveWhenPass" value="always"/>
+	<pref name="seCheckAutoStartBrowser" value="onErrors"/>
+	<pref name="seCheckByNameConnectionsBetweenSheets" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckCellViewAssign" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckCircularReference" value="enable false severity error dynamic false"/>
+	<pref name="seCheckConnDefDefault" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckConnDefNonGlobalDefault" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckConnDefOnNamedNet" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckConnDefOnNonGlobal" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckConnDefOnTermConflict" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckConnDefOnTermDefault" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckConnDefTermExpr" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckConnectByName" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckCreateMarkerInDesign" value="true"/>
+	<pref name="seCheckCrossViews" value="true"/>
+	<pref name="seCheckDeletePreexistingMarkersMode" value="all"/>
+	<pref name="seCheckDuplicateCells" value="enable false severity error dynamic false"/>
+	<pref name="seCheckDuplicateCellsCaseSensitive" value="true"/>
+	<pref name="seCheckDuplicateCellsCurrentView" value="enable false severity error dynamic false"/>
+	<pref name="seCheckDynamic" value="false"/>
+	<pref name="seCheckFloatingInOutInstPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingInOutPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingInputInstPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingInputPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingNet" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingOutputInstPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingOutputPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingSwitchInstPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingSwitchPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingTristateInstPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckFloatingTristatePin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckForced" value="true"/>
+	<pref name="seCheckGlobalHierNetShort" value="enable false severity error dynamic false"/>
+	<pref name="seCheckGlobalInst" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckGlobalNetName" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckGlobalNetShort" value="enable true severity error dynamic true"/>
+	<pref name="seCheckHiddenWireLabel" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckHspiceNamespace" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckIgnoreOverlapsWithGlobals" value="false"/>
+	<pref name="seCheckImplicitVectoredNet" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckInstOverlap" value="enable true severity warning dynamic true"/>
+	<pref name="seCheckInstUnsupportedParameters" value="enable true severity warning dynamic true"/>
+	<pref name="seCheckLibraryFilter" value=""/>
+	<pref name="seCheckLibraryFilterIsExclude" value="false"/>
+	<pref name="seCheckMaximumViolationDisplay" value="20"/>
+	<pref name="seCheckMultiVFlagConnection" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckNameShort" value="enable true severity error dynamic true"/>
+	<pref name="seCheckNoMarkers" value="false"/>
+	<pref name="seCheckNonOrthogonalConn" value="enable true severity warning dynamic true"/>
+	<pref name="seCheckOffGridObject" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckOffSheetObjects" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckOnOpenChecks" value="{Template Self-Coherence} Out-of-Date-Intent {Connectivity Mismatch} {Missing Master} Out-of-Date"/>
+	<pref name="seCheckOrphanWireLabel" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckOverlapTypeIsPartial" value="true"/>
+	<pref name="seCheckOverlayClipMaskBorder" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckOverlayMaskBorder" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckOverlayMaskedPin" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckPEL" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckPinBittermInconsistency" value="enable true severity error dynamic false"/>
+	<pref name="seCheckPinOnNamedNet" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckPortOrderMismatch" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckPrintMessages" value="to console"/>
+	<pref name="seCheckPromptCurrent" value="onErrors"/>
+	<pref name="seCheckSamePinOnDifferentSheets" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckShortedOutput" value="enable true severity warning dynamic true"/>
+	<pref name="seCheckShortedTerms" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckSignalWithouthSource" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckSkipReadOnlyLibraries" value="false"/>
+	<pref name="seCheckSolderOnCross" value="enable true severity warning dynamic true"/>
+	<pref name="seCheckTemplateCoherence" value="enable true severity error dynamic false"/>
+	<pref name="seCheckTemplateIntentTimestamp" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckTemplateMismatch" value="enable true severity error dynamic false"/>
+	<pref name="seCheckTemplateMissingMaster" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckTemplateTimestamp" value="enable true severity warning dynamic false"/>
+	<pref name="seCheckTextViewCellName" value="warning"/>
+	<pref name="seCheckUnboundInstances" value="enable true severity error dynamic false"/>
+	<pref name="seCheckUnconnectedWire" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckVerilogNamespace" value="enable false severity warning dynamic false"/>
+	<pref name="seCheckViewFilter" value=""/>
+	<pref name="seCheckViewFilterIsExclude" value="false"/>
+	<pref name="seCheckWidthMismatch" value="enable true severity error dynamic true"/>
+	<pref name="seCheckWireLabelNetConflict" value="enable true severity error dynamic true"/>
+</preferences>
+

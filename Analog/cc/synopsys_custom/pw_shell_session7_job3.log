@@ -1,0 +1,88 @@
+[11:04:17.06] /o 
+              /c                          PrimeWave Design Environment 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eea5061164a898209ca82bbda58325a9da73eb6ddaf230aa49f93a5ef511cc936b5ef0baf39c0e895013571b556f5d616d -python 0 -log pw_shell_session7_job3 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Sat Sep  6 11:04:15 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[11:04:20.46] /m Information: Registering ICV PERC package...
+[11:04:20.78] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[11:04:20.78] /i catch {source /tmp/copyScript53088}; ::sa::_backgroundSaeShell::signalProcessReady 1757171053 307650
+[11:04:20.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[11:04:20.88] /o 
+[11:04:20.88] /i ::sa::_backgroundSaeShell::runScript /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName diff_mode_gain resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[11:04:21.02] /m Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
+              /c WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
+              /c To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
+[11:04:21.07] /m Information: Loading preferences from /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/pw_shell_session_prefs.xml
+[11:04:21.15] /o Loading: Callback files...
+[11:04:21.15] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[11:04:21.15] /o 
+[11:04:21.19] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[11:04:21.19] /o 	#######################################
+[11:04:21.19] /o 	CC-PDK Library Name	: gf180MCU Open
+[11:04:21.19] /o 	#######################################
+[11:04:21.19] /o 
+[11:04:21.28] /m Information: Start incremental database creation...
+[11:04:21.28] /m Information: Create Iter role param id map
+[11:04:21.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName diff_mode_gain resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[11:04:21.29] /o false
+[11:06:30.79] /i ::sa::_backgroundSaeShell::runScript /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName diff_mode_gain resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[11:06:30.79] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[11:06:30.81] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[11:06:30.97] /m Information: Loading preferences from /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/pw_shell_session_prefs.xml
+[11:06:31.10] /m Information: Start incremental database creation...
+[11:06:31.11] /m Information: Create Iter role param id map
+[11:06:31.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName diff_mode_gain resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[11:06:31.11] /o false
+[11:06:31.12] /o 
+[11:09:16.28] /i ::sa::_backgroundSaeShell::runScript /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName diff_mode_gain resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[11:09:16.29] /m Information: Feature 'SynopsysCustomSAE' checked in. (LICENSE-004)
+[11:09:16.30] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[11:09:16.41] /m Information: Loading preferences from /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/pw_shell_session_prefs.xml
+[11:09:16.55] /m Information: Start incremental database creation...
+[11:09:16.56] /m Information: Create Iter role param id map
+[11:09:16.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName diff_mode_gain resultsDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results testSuiteDir /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric databaseName /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1 saveImages true invokeFrom SIM_DONE
+[11:09:16.56] /o false
+[11:09:16.56] /o 
+[11:12:41.37] /i ::sa::_backgroundSaeShell::exit
+[11:12:41.37] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[11:12:42.21] /o Shutdown time: Sat Sep  6 11:12:42 2025
+[11:12:42.21] /o Elapsed session real time: 8.43 minutes
+[11:12:42.21] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_6_110415_2023115.log

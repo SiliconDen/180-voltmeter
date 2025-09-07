@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Wed Aug 27 14:16:02 2025
+<!-- created by PrimeWave Design Environment (TM), build #, on Sat Sep  6 19:14:12 2025
 -->
-<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+<synopsysFile name="synopsysFavoriteDevices" version="1.0">
         <favoriteDevices viewType="maskLayout"/>
         <favoriteDevices viewType="schematic">
-                <cellView cell="vdc" library="analogLib" view="symbol">
+                <cellView view="symbol" library="analogLib" cell="res">
+                        <alias name="res"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="gf180mcu" cell="nfet_03v3">
+                        <alias name="nfet_03v3"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="gf180mcu" cell="pfet_03v3">
+                        <alias name="pfet_03v3"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" library="analogLib" cell="vdc">
                         <alias name="vdc"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView cell="gnd" library="analogLib" view="symbol">
+                <cellView view="symbol" library="analogLib" cell="gnd">
                         <alias name="gnd"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView cell="ideal_balun" library="analogLib" view="symbol">
-                        <alias name="ideal_balun"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView cell="cap" library="analogLib" view="symbol">
-                        <alias name="cap"/>
-                        <category name="Recently Placed"/>
-                </cellView>
-                <cellView cell="res" library="analogLib" view="symbol">
-                        <alias name="res"/>
                         <category name="Recently Placed"/>
                 </cellView>
         </favoriteDevices>

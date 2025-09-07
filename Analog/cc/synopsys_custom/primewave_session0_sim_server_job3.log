@@ -1,0 +1,43 @@
+[14:10:21.62] /o 
+              /c                          PrimeWave Design Environment 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eee09b438f4fa566fdd6c7980de498070fc2511cd128a4b2dec1cb7792ad947542a876587ccc942835e18a22a5bc872a2b -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job3 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Wed Aug 27 14:10:20 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[14:10:25.00] /m Information: Registering ICV PERC package...
+[14:10:25.27] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[14:10:25.38] /o 
+[14:10:25.39] /i source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/sim_server_init.tcl
+[14:10:25.50] /o SimServer socket started on claws-compute3.ece.ncsu.edu:34951
+[14:10:25.54] /m Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs &&  /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_gy93Tm -unique_string 424077b79e1069ee81eba9e6bd5008e8a82bbda58325a9da73eb6ddaf230aa49f93a5ef511cc936b2fbd9b5d04ce318945f6a400ed2cbee2e83de96803d3d8be -lic_type 2   -parent_cc_pid 360902  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.integrator.tb_main_opamp.schematic.session0/logs/viewer.log 2>&1"
+[14:10:39.38] /o ==== Received Msg ====
+              /c len=8 sourceSoc=sock4d992830 msgIndex=9 rawMsg=idleExit
+[14:10:39.38] /o 
+[14:10:39.46] /m Information: Exiting simulation server process. (PW_GUI-984)
+[14:10:40.23] /o Shutdown time: Wed Aug 27 14:10:40 2025
+[14:10:40.23] /o Elapsed session real time: 0.31 minutes
+[14:10:40.23] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_8_27_141020_360902.log
+[14:10:40.24] /e Error: {}

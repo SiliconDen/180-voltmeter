@@ -1,0 +1,78 @@
+[11:04:06.31] /o 
+              /c                                    pw_worker™ 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application pw_worker -gui 0 -localDir /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.2020886/logs/w1
+              /c Execution time: Sat Sep  6 11:04:04 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[11:04:10.37] /m Information: Registering ICV PERC package...
+[11:04:10.37] /w Warning: Error: "Job group named 'PrimeWave' already exists under this parent." (IPC-100)
+[11:04:10.87] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[11:04:11.06] /o source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.2020886/ccFile.tcl OK
+[11:04:11.06] /o LibDefs : /home/argershm/180-voltmeter/Analog/cc/lib.defs
+[11:04:11.27] /o new worker create session at loading state!
+[11:04:11.27] /o history_1
+[11:04:11.31] /m Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
+              /c WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
+              /c To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
+[11:04:11.47] /o Loading: Callback files...
+[11:04:11.47] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[11:04:11.47] /o 
+[11:04:11.51] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[11:04:11.51] /o 	#######################################
+[11:04:11.51] /o 	CC-PDK Library Name	: gf180MCU Open
+[11:04:11.51] /o 	#######################################
+[11:04:11.51] /o 
+[11:04:11.63] /o source /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/.nw_preference_script.tcl OK!
+[11:04:11.63] /o DSPF Options: {hierDelim==|}||{termDelim==:}||{fingerChar==@}||{multiplierString==_nettran_}||{aggregateCurrent==1}||{MOSTermNames==d g s b}||{MOSTermOrder==D G S B}||{MOSTermDspfNames==DRC GATE SRC BULK}||{firstChars==XM}||{probeHierDelim==/}||{caseSensitive==1}||{firstChar==M}||{hierPrefix==X}||{nodePrefix==M}||{plotTermVoltageForNet==0}||{mapNetToMosTerminal==}||{mapSlashDelimToDot==1}||{probePortCurrent==1}||{busBit==[]}||{removeNodePrefix==1}||{nlConDelim==.}||{mosModelType==auto}||{keepSchName==0}
+[11:04:11.63] /o _workerLoadStateAction done!
+[11:04:11.66] /o pw_worker _createCalculateEngine got job!
+[11:04:11.66] /o pw_worker _createCalculateEngine OK!
+[11:04:11.66] /o _getSimulationDetails : 
+[11:04:11.66] /o tbName=diff_mode_gain, Mtb=0
+[11:04:11.66] /o Got stb tb ok!
+[11:04:11.66] /o Self resultsDir: ./simulation
+[11:04:11.66] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[11:04:11.67] /o source /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/sae/matlab_script.tcl OK
+[11:04:11.81] /o _createResultsMap done!
+[11:04:11.81] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L_bias=0.6u,L_gm=2u,W_gm=10u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[11:04:11.81] /o 
+[11:04:11.86] /o pw_worker child CE begin!
+[11:04:11.86] /o pw_worker invokes measurement finished.
+[11:04:11.86] /o pw_worker writeSimMap finsied.
+[11:04:11.86] /o _simulationDoneAction done without exception!
+[11:04:12.27] /o New Worker New CE ready proc entered.
+[11:04:12.87] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L_bias=0.6u,L_gm=2u,W_gm=10u/results/.unitedSimFinished
+[11:04:12.87] /o Calc Job Done!
+[11:04:12.87] /o New Worker New CE exit
+[11:04:14.95] /o Shutdown time: Sat Sep  6 11:04:14 2025
+[11:04:14.95] /o Elapsed session real time: 0.15 minutes
+[11:04:14.95] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.2020886/logs/w1/logs/pw_worker.argershm.2025_9_6_110404_2021738.log

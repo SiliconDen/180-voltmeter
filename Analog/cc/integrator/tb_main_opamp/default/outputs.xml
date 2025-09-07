@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Aug 27 13:09:01 2025-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saOutputs" name="outputs">
+  <collection name="customPlotModes"/>
+  <attribute type="giBoolean" name="importMeasures" value="1"/>
+  <attribute type="giString" name="outputSet" value="default"/>
+  <collection name="outputSets">
+   <object version="1" type="saOutputSet" name="outputSets">
+    <collection name="histogramCharts"/>
+    <attribute type="giString" name="name" value="default"/>
+    <collection name="outputs"/>
+    <collection name="qqCharts"/>
+    <attribute type="giString" name="reductionString" value=""/>
+    <collection name="scatterCharts"/>
+   </object>
+  </collection>
+  <attribute type="giString" name="plotMode" value="replace"/>
+ </object>
+</file-format>

@@ -1,0 +1,2167 @@
+[Sat Sep  6 23:02:59 UTC 2025]Running pw_worker -i /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.3012351 -t 10000
+/mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/custom_shell
+
+PWDP2: start1: [09-06-2025 19:03:01] \ 
+ -- args: /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.3012351:10000
+ -- New worker cdpl started... /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.3012351 10000
+PWDP: new worker flow start...
+
+New worker log dir:/home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.3012351/logs/w1
+
+[09-06-2025 19:03:01] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=1.1u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.1u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=1.1u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,
+
+ -- New worker cdpl initialized finished. [09-06-2025 19:03:01]
+
+PWDP2: start2: [09-06-2025 19:03:07]
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+ -- New worker ci side loading finished.
+
+source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.3012351/ccFile.tcl OK
+> 
+LibDefs : /home/argershm/180-voltmeter/Analog/cc/lib.defs
+> 
+ open lib.defs:/home/argershm/180-voltmeter/Analog/cc/lib.defs
+new worker create session at loading state!
+> 
+history_1
+> 
+Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
+WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
+To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
+> 
+Loading: Callback files...
+> 
+
+[INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+
+ if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+> 
+
+> 
+Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+> 
+	#######################################
+> 
+	CC-PDK Library Name	: gf180MCU Open
+> 
+	#######################################
+> 
+
+> 
+source /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/.nw_preference_script.tcl OK!
+> 
+DSPF Options: {hierDelim==|}||{termDelim==:}||{fingerChar==@}||{multiplierString==_nettran_}||{aggregateCurrent==1}||{MOSTermNames==d g s b}||{MOSTermOrder==D G S B}||{MOSTermDspfNames==DRC GATE SRC BULK}||{firstChars==XM}||{probeHierDelim==/}||{caseSensitive==1}||{firstChar==M}||{hierPrefix==X}||{nodePrefix==M}||{plotTermVoltageForNet==0}||{mapNetToMosTerminal==}||{mapSlashDelimToDot==1}||{probePortCurrent==1}||{busBit==[]}||{removeNodePrefix==1}||{nlConDelim==.}||{mosModelType==auto}||{keepSchName==0}
+> 
+_workerLoadStateAction done!
+> 
+New worker app start done.
+PWDP: **information** Worker instantiate primewave handle success!
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [2] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_3
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+source /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/sae/matlab_script.tcl OK
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.1u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+New Worker New CE ready proc entered.
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.1u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> worker W1 task time :8.
+[09-06-2025 19:03:09] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=1.3u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.3u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=1.3u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [4] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_5
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.3u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.3u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.3u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:11] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=1.6u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.6u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=1.6u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [7] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_8
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.6u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.6u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.6u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:14] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=2u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=2u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [11] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_12
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:16] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=2.3u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.3u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=2.3u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [14] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_15
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.3u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.3u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.3u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:18] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=2.6u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.6u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=2.6u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [17] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_18
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.6u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.6u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.6u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:20] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=2.8u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.8u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=2.8u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [19] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_20
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.8u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.8u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.8u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:22] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=3u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=3u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [21] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_22
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:25] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=3.3u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.3u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=3.3u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [24] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_25
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.3u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.3u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.3u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:27] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=3.7u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.7u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=3.7u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [28] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_29
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.7u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.7u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.7u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:29] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=4.1u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.1u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=4.1u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [32] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_33
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.1u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.1u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.1u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:31] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=4.2u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.2u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=4.2u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [33] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_34
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.2u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.2u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.2u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:33] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=4.5u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.5u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=4.5u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [36] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_37
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.5u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.5u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.5u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:36] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=4.8u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.8u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=4.8u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [39] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_40
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.8u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.8u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=4.8u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:38] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=5.1u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.1u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=5.1u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [42] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_43
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.1u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.1u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.1u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:40] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=5.5u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.5u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=5.5u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [46] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_47
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.5u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.5u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.5u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:42] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=5.8u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.8u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=5.8u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [49] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_50
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.8u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.8u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.8u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:44] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=6u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=6u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [51] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_52
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:46] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=6.3u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.3u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=6.3u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [54] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_55
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.3u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.3u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.3u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:49] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=6.6u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.6u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=6.6u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [57] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_58
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.6u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.6u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.6u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:51] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=6.9u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.9u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=6.9u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [60] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_61
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.9u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.9u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.9u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:53] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=7.2u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.2u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=7.2u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [63] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_64
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.2u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.2u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.2u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:55] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=7.5u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.5u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=7.5u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [66] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_67
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.5u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.5u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.5u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:03:57] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=7.8u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.8u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=7.8u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [69] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_70
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.8u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.8u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=7.8u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:04:00] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=8.1u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.1u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=8.1u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [72] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_73
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.1u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.1u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.1u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:04:02] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=8.4u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.4u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=8.4u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [75] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_76
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.4u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.4u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.4u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:04:04] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=8.7u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.7u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=8.7u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [78] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_79
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.7u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.7u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=8.7u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:04:06] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=9u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=9u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [81] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_82
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:04:08] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=9.3u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.3u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=9.3u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [84] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_85
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.3u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.3u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.3u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+[09-06-2025 19:04:11] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+sweep=L=9.6u
+nominal=0
+uniqueName=saeSession4
+testbench=diff_mode_gain
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.6u/results
+runMode=new
+historyIndex=1
+preRun=0
+session=saeSession4
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+logInfo={point: L=9.6u}
+diskTestSuiteName,integrator,tb_main_opamp,schematic
+
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+> 
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results,/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+
+pw_worker _createCalculateEngine got job!
+> 
+pw_worker _createCalculateEngine OK!
+> 
+PWDP: job [87] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_88
+PWDP: request pilot begin ... 
+PWDP: got PILOTOK.
+PWDP: request pilot done.
+New Worker New CE ready proc entered.
+> 
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+> 
+_createResultsMap done!
+> 
+###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.6u/results
+ masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+ UniqueName=saeSession4, isPilot=false
+> 
+
+> 
+pw_worker child CE begin!
+> 
+pw_worker invokes measurement finished.
+> 
+pw_worker writeSimMap finsied.
+> 
+_simulationDoneAction done without exception!
+> 
+Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.6u/results/.ceFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=9.6u/results/.unitedSimFinished
+> 
+Calc Job Done!
+> 
+New Worker New CE exit
+> 
+Shutdown time: Sat Sep  6 19:04:17 2025
+> 
+Elapsed session real time: 1.25 minutes
+> 
+Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.0.3012351/logs/w1/logs/pw_worker.argershm.2025_9_6_190301_3013339.log
+> 
+PWDP: new worker flow quit.
+
+Information: Feature 'SynopsysCustomLayout' checked in. (LICENSE-004)
+> 
+Information: Feature 'CustomInfrastructure' checked in. (LICENSE-004)
+> 

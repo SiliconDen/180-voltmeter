@@ -1,0 +1,41 @@
+[17:45:32.92] /o 
+              /c                          PrimeWave Design Environment 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069ee007c9cb2fe8bc338d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754292c65341b6b6f71b1c681244033e4698 -python 0 -log pw_shell_session4_job1 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Thu Sep  4 17:45:31 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[17:45:36.37] /m Information: Registering ICV PERC package...
+[17:45:36.70] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[17:45:36.70] /i catch {source /tmp/copyScript59184}; ::sa::_backgroundSaeShell::signalProcessReady 1757022329 3878190
+[17:45:36.71] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 7
+[17:45:36.88] /o 
+[17:45:36.88] /i ::wf::updateViewerLicense 2
+[17:45:36.89] /i ::wf::updateViewerLicense 2
+[17:50:34.38] /i ::sa::_backgroundSaeShell::exit
+[17:50:34.38] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[17:50:34.98] /o Shutdown time: Thu Sep  4 17:50:34 2025
+[17:50:34.98] /o Elapsed session real time: 5.05 minutes
+[17:50:34.98] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_4_174531_3934594.log

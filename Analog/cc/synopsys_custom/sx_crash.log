@@ -1,0 +1,393 @@
+### WaveView ADV log file, revision W-2024.09-SP1-2 (build Jan 15, ) ###
+### created at 18:23:26 on Fri Sep  5 2025 (Linux AMD64) ###
+### Host Name: claws-compute3.ece.ncsu.edu   User ID: argershm   PID: 1447533   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+#source {/mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
+#source TCL files from directory {/mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc}
+#sx_set_data_directory {/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results}#
+#[18:23:47.870] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:23:47.890] I| wvpp_output_all start
+#[18:23:47.900] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/primesim_wdf/ac.ac
+#[18:23:47.900] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave
+#[18:23:47.900] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post2.wave
+#::wf::_scalarValueDB::scalarValue2098098797
+#::wf::_scalarValueDB::scalarValue2098098797
+#[18:23:48.020] I| wvpp_output_all end
+wv_resize_browser {WaveView} {} {ac:1} 1018 618
+wv_resize_browser {WaveView} {} {ac:1} 1018 617
+wv_resize_browser {WaveView} {} {ac:1} 1018 618
+#[18:25:55.750] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:25:55.760] I| wvpp_output_all start
+#[18:25:55.770] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/primesim_wdf/ac.ac
+#[18:25:55.770] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave
+#[18:25:55.770] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post2.wave
+#::wf::_scalarValueDB::scalarValue1290168560
+#::wf::_scalarValueDB::scalarValue1290168560
+#[18:25:55.790] I| wvpp_output_all end
+#[18:45:43.470] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:45:43.480] I| wvpp_output_all start
+#[18:45:43.490] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/resultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/ac.ac
+#[18:45:43.490] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post1.wave
+#[18:45:43.490] I| Open section (null) for /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/postResultsMap.xml, ref:/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post2.wave
+#::wf::_scalarValueDB::scalarValue3682171353
+#::wf::_scalarValueDB::scalarValue3682171353
+#[18:45:43.550] I| wvpp_output_all end
+wv_select_menu_item {WaveView} {} {File.Open Waveform} 
+wv_select_dialog {FileDialog} 
+wv_resize_window {FileDialog} 390 604
+wv_resize_window {FileDialog} 476 605
+wv_resize_window {FileDialog} 655 610
+wv_resize_window {FileDialog} 768 611
+wv_resize_window {FileDialog} 772 611
+wv_resize_window {FileDialog} 772 610
+wv_resize_window {FileDialog} 749 601
+wv_resize_window {FileDialog} 739 601
+wv_resize_window {FileDialog} 740 603
+wv_resize_window {FileDialog} 789 603
+wv_move_window {FileDialog} {} 976 224
+wv_resize_window {FileDialog} 861 603
+wv_move_window {FileDialog} {} 904 224
+wv_resize_window {FileDialog} 881 603
+wv_move_window {FileDialog} {} 884 224
+wv_resize_window {FileDialog} 901 603
+wv_move_window {FileDialog} {} 864 224
+wv_resize_window {FileDialog} 902 603
+wv_resize_window {FileDialog} 938 603
+wv_move_window {FileDialog} {} 827 224
+wv_resize_window {FileDialog} 974 603
+wv_move_window {FileDialog} {} 791 224
+wv_resize_window {FileDialog} 986 603
+wv_move_window {FileDialog} {} 779 224
+wv_resize_window {FileDialog} 987 603
+wv_resize_window {FileDialog} 1022 603
+wv_move_window {FileDialog} {} 743 224
+wv_resize_window {FileDialog} 1026 603
+wv_move_window {FileDialog} {} 739 224
+wv_select_combox_item {FileDialog} {} {Path} "results/" 13
+wv_move_scrollbar {FileDialog} {} {FileList.HScrollBar} {2411}
+wv_select_list_item {FileDialog} {} {FileList} {opBegin_0.info} 100
+wv_select_list_item {FileDialog} {} {FileList} {opBegin_0.info} 100
+wv_dclick_list_item {FileDialog} {} {FileList} {opBegin_0.info} 100
+wv_select_waveview 1 {ac}
+wv_select_wv_item WV1.PANEL1:1.LINE3
+wv_drag_item_to WV1 40 80
+wv_select_line WV1.PANEL1:1.LINE3
+wv_drag_item_to WV1 40 80
+wv_select_waveview 1 {ac}
+wv_select_wv_item WV1.PANEL1:1.LINE1
+wv_drag_item_to WV1 48 47
+wv_select_line WV1.PANEL1:1.LINE1
+wv_drag_item_to WV1 48 47
+wv_press_tool_button {WaveView} {ac:1} {Waveview.CloseBtn} 
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+## TYPE S abort
+## memory usage 1135.82MB
+#0x91299C /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv() [0x91299c]
+#0x912F36 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv() [0x912f36]
+#0x21AAFCF /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv() [0x21aafcf]
+#0x188125AF /lib64/libc.so.6(+0x4e5af) [0x7f61188125af]
+#0xAC0BA6 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv(cdDragClearHint+0x9) [0xac0ba6]
+#0xF0C920 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv() [0xf0c920]
+#0x16C2426 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv(_ZN12QX_TimerProc11runCallbackEv+0x6) [0x16c2426]
+#0x16C27F1 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv() [0x16c27f1]
+#0x217D149B /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(+0x2f749b) [0x7f61217d149b]
+#0x217D5B66 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN6QTimer7timeoutENS_14QPrivateSignalE+0x26) [0x7f61217d5b66]
+#0x217C86C4 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN7QObject5eventEP6QEvent+0x1c4) [0x7f61217c86c4]
+#0x20FC47B5 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xa5) [0x7f6120fc47b5]
+#0x20FCCFD7 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x187) [0x7f6120fccfd7]
+#0x2179ECF1 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x171) [0x7f612179ecf1]
+#0x217F233A /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN14QTimerInfoList14activateTimersEv+0x3aa) [0x7f61217f233a]
+#0x217F2B3B /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(+0x318b3b) [0x7f61217f2b3b]
+#0x174F0AEC /lib64/libglib-2.0.so.0(g_main_context_dispatch+0x15c) [0x7f61174f0aec]
+#0x174F0EA7 /lib64/libglib-2.0.so.0(+0x4dea7) [0x7f61174f0ea7]
+#0x174F0F3F /lib64/libglib-2.0.so.0(g_main_context_iteration+0x2f) [0x7f61174f0f3f]
+#0x217F2D79 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x69) [0x7f61217f2d79]
+#0x2179BABA /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x11a) [0x7f612179baba]
+#0x217A37CB /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/lib/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x7b) [0x7f61217a37cb]
+#0x16DF0D0 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv(qxLoop+0x27) [0x16df0d0]
+#0x903061 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv(main+0x29b6) [0x903061]
+#0x187FE7E4 /lib64/libc.so.6(__libc_start_main+0xe4) [0x7f61187fe7e4]
+#0x900543 /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin/../auxx/auxx_for_cc/../../linux64/swv/platforms/linux64/bin/swv() [0x900543]
+#session saved in: 'sx_crash.sx'
+### auto-generated spxrc ###
+archive_data_on_crash false
+quick_bar_position false
+bar_grip_scroll false
+browser_width_last 0
+waveview_geom_last 0
+calc_eng false
+disable_star_expand_tree false
+hide_cursor_distance false
+normal_eyediagram_cursor false
+hide_ribbon false
+hide_signaltype false
+hiersensitive_filter false
+keep_signalsearchstring false
+limit_zoom_range false
+load_data_at_open false
+panel_fs_margin 0
+panel_fs_margin_x 0
+panel_fs_margin_y 0
+plotsig_bottompanel false
+ref_cursor_value_indv false
+cursor_type vertical
+cursor_font 0
+drawingtool_font 0
+sensitive_filter false
+show_console false
+show_wvrbbar false
+show_wvtbbar true
+show_cross_label false
+hide_cross_label_x_value false
+show_ytype false
+show_unit_prefix false
+show_x_param_string false
+show_value_unit false
+smart_hsort false
+snap_interp false
+snap_marker false
+SNR_inc_floor_noise false
+spice_inst_casesensitive false
+spice_parm_casesensitive false
+spice_smart_sort false
+spice_sort_subckt_cells false
+support_substr_search false
+suppress_eqn_func_completion false
+SX_DM_DMScale false
+SX_DM_ResultPanelScale false
+use_qtfsb false
+okbtn_autocenter false
+wdf_filter allfiles
+gui_color bright
+group_display_order file
+signal_filter_option glob
+grid_brightness normal
+spice_netlist_erc off
+cds_link_plot_mode replace
+logic_style_default vcd
+left_button_action zoom
+def_zoom_dir xyzoom
+init_xy_mode hvsel
+def_ac_stack magphase
+def_acy_type linear
+def_trx_type linear
+def_try_type linear
+signal_dnd_mode move
+signal_mode 0
+enable_panel_selection 0
+disable_autocopy_clipboard false
+delete_confirm true
+exit_confirm true
+reload_confirm false
+disable_autostrip0 false
+private_colormap false
+a2d_single_threshold true
+auto_connect_split_files true
+click_move_cursor true
+d2a_fullext true
+d2a_xtol true
+dynamic_filter true
+logic_cursor_snap true
+logic_glitch_highlight true
+real_time_scroll true
+show_eqn_err_msg 1
+spice_cell_index_depth true
+wv_iconizable 1
+cds_link_update_mode append
+grid_default on
+def_acx_type log
+def_noise_xscale db10
+def_noise_yscale auto
+def_sp_xscale db10
+def_sp_yscale auto
+def_stb_xscale db10
+def_stb_yscale auto
+def_acmatch_xscale db10
+def_acmatch_yscale auto
+def_dcmatch_xscale db10
+def_dcmatch_yscale auto
+def_pz_xscale db10
+def_pz_yscale auto
+def_xf_xscale db10
+def_xf_yscale auto
+def_sens_xscale db10
+def_sens_yscale auto
+def_include_xscale db10
+def_include_yscale auto
+def_pss_xscale db10
+def_pss_yscale auto
+def_pac_xscale db10
+def_pac_yscale auto
+def_pxf_xscale db10
+def_pxf_yscale auto
+def_pnoise_xscale db10
+def_pnoise_yscale auto
+def_psp_xscale db10
+def_psp_yscale auto
+def_pstb_xscale db10
+def_pstb_yscale auto
+def_hb_xscale db10
+def_hb_yscale auto
+def_hbac_xscale db10
+def_hbac_yscale auto
+def_hbxf_xscale db10
+def_hbxf_yscale auto
+def_hbnoise_xscale db10
+def_hbnoise_yscale auto
+def_hbsp_xscale db10
+def_hbsp_yscale auto
+def_hbstb_xscale db10
+def_hbstb_yscale auto
+def_envlp_xscale db10
+def_envlp_yscale auto
+def_fft_xscale linear
+def_fft_yscale db
+def_fft_display pwl
+cycle_color_by panel+waveview
+y_label_width 30
+horizontal_slider_step 50
+zoom_in_ratio 50
+startup_mode viewer
+axis_font 0
+lines_per_panel 0
+max_visible_panels 0
+panel_spacing 0
+unit_scale 0
+user_colors false
+include_sub_sig false
+waveview_TabPos top
+waveview_background black
+gui_font small
+center_axis_label false
+analog_panel_height 120
+browser_width 250
+default_hist_binsize 10
+default_panels_perrow 4
+max_log_span 25
+min_panel_height 20
+horz_panel_height 80
+logic_panel_height 24
+precision_digits 3
+trace_param_precision_digits 6
+read_top_hier_threshold    5.000E+00
+replay_delay 1
+add_toplevel_for_fsdb false
+alias_signal_name_only false
+auto_x_extend false
+bus_diff_color false
+case_sens_tr0 false
+convert_s_to_yz false
+default_hist_one true
+disable_reload_wdf_confirm false
+disable_update_equation false
+disable_update_signal false
+dm_diff_movelabel false
+enable_mul_click_items false
+extend_waveform false
+filter_byxrange false
+hide_panel_div false
+lock_color false
+auto_switch_horz off
+loop_linestyles_sweep false
+panel_mode_only false
+remove_dupsig false
+same_color_sweep false
+show_inf_data false
+show_MP_prefix false
+show_SM_button false
+auto_y_axes off
+auto_y_width off
+auto_y_margin off
+auto_x_margin off
+signame_popup true
+trace_parm_popup true
+switch_mouse_button false
+right_mouse_zoom false
+thick_line 0
+use_ade_append_replace false
+use_hspiceini false
+use_little_endian false
+use_snn false
+use_leaf_name false
+user_fixed_yrange false
+signame_width 60
+signame_align left
+signal_font normal
+signame_spacing normal
+signal_path path+name
+fast_vnc_mode false
+drag_plot_line false
+plot_single_point_sweep_on_2d false
+sync_eqnbuilder false
+show_panel_mode false
+x-probing_color_schem false
+white_label_color false
+use_cc_keybindings true
+alias_bracket true
+auto_x_extend_dig true
+clamp_ac_phase true
+enable_wv_highlight true
+enable_line_selection true
+flatten_segs true
+flatten_single_point_sweep true
+line_thickness 1
+sig_corner_fmt 2
+logic_real_pwc_fsdb true
+amsreal_pwc_fsdb false
+not_show_vhdl_processes true
+meas_file_xstart_1 false
+read_top_hier true
+sync_alias false
+adjust_small_y_range true
+default_x_var false
+stack_auto_fit on
+sweep_expand user
+xaxis_auto_grid on
+yaxis_auto_grid on
+y2axis_auto_grid on
+signal_name name+file
+d2a_low_value    0.000E+00
+dm_low_logic    0.000E+00
+d2a_fall_slew    1.000E-11
+d2a_rise_slew    1.000E-11
+lint_min_mos_length    1.000E-08
+lint_min_mos_width    1.000E-08
+lint_min_resistance    1.000E-05
+lint_max_capacitance    1.000E-03
+lint_max_mos_length    1.000E-02
+lint_max_mos_width    1.000E-02
+a2d_low_threshold    1.000E+00
+a2d_center_threshold    2.500E+00
+d2a_high_value    3.300E+00
+dm_high_logic    3.300E+00
+a2d_high_threshold    4.000E+00
+dm_low_margin    1.000E+01
+smith_char_impedance    5.000E+01
+dm_high_margin    9.000E+01
+imin 0
+vmin 0
+vmax 3.3
+inf_value    1.000E+50
+imax 1m
+lint_suppress_list 
+export_notation false
+simplified_rms_calc false
+disable_auto_close_msg false
+suppress_load_session_msg false
+merge_digital_time false
+show_tbname_in_wvtab false
+raise_wv_main_window true
+pre_signal_to_dash_line true
+check_xrange_for_yval_in_ace false
+show_wvbrowser false

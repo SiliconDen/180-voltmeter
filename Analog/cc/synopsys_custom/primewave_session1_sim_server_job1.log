@@ -1,0 +1,128 @@
+[17:49:53.16] /o 
+              /c                          PrimeWave Design Environment 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eea5061164a898209ca82bbda58325a9da73eb6ddaf230aa49f93a5ef511cc936b8d23ebfbba818a2387157fdd5a6efd40 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.gmid.gmid_nfet_3v3.schematic.session1/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session1_sim_server_job1 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+              /c Execution time: Fri Sep  5 17:49:51 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[17:49:56.63] /m Information: Registering ICV PERC package...
+[17:49:56.96] /m Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
+[17:49:57.38] /o 
+[17:49:57.39] /i source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.gmid.gmid_nfet_3v3.schematic.session1/sim_server_init.tcl
+[17:49:57.50] /o SimServer socket started on claws-compute3.ece.ncsu.edu:42373
+[17:49:57.55] /m Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.gmid.gmid_nfet_3v3.schematic.session1/logs &&  /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/../linux64/swv/bin/swv  -bg_gui -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_tj1QVf -unique_string 424077b79e1069ee40c06f247f577a14d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e149ce2bc275a73128672575fe48e583d11 -lic_type 2   -parent_cc_pid 1338572  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.gmid.gmid_nfet_3v3.schematic.session1/logs/viewer.log 2>&1"
+[17:50:10.12] /o ==== Received Msg ====
+              /c len=191 sourceSoc=sock4de392b0 msgIndex=12 rawMsg=AppendTask /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.gmid.gmid_nfet_3v3.schematic.session1/task0/sim_script0.tcl 0 saeSession1 1 overwrite
+[17:50:10.12] /o 
+[17:50:10.67] /m Information: "Starting incremental netlisting for design "gmid/gmid_nfet_3v3/schematic"..." (NETLISTING-010)
+[17:50:10.69] /o Loading: Callback files...
+[17:50:10.69] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[17:50:10.69] /o 
+[17:50:10.73] /w Warning: Could not set the value of preference xtDRCTool because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtDRCICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtDRCICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtDRCLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLVSTool because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLVSICVRunsetFile because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLVSICVIncludePaths because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLVSLayDBFormat because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLPELVSTool because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLPETool because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtLPEOpenParasiticView because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[17:50:10.73] /o 	#######################################
+[17:50:10.73] /o 	CC-PDK Library Name	: gf180MCU Open
+[17:50:10.73] /o 	#######################################
+[17:50:10.73] /o 
+[17:50:10.73] /o Netlisting
+[17:50:10.73] /o Creating output directories
+[17:50:10.82] /o No Design Integrity rule violations found in "gmid/gmid_nfet_3v3/schematic"
+[17:50:10.82] /o Scanning: gmid/gmid_nfet_3v3/schematic
+[17:50:10.95] /o Computing terminal lists
+[17:50:10.95] /o Processing terminals of module gmid/gmid_nfet_3v3/schematic
+[17:50:10.96] /o Starting netlisting
+[17:50:10.98] /m Information: "Netlisting design "gmid/gmid_nfet_3v3/schematic" finished successfully." (NETLISTING-012)
+[17:50:11.04] /# Preparing the testbench to netlist Design Parameters:'literalValues //MN0'.
+[17:50:11.06] /w Warning: The preference dmDisableLibraryLocking is enabled, which is not safe. (DATA_MANAGEMENT-125)
+[17:50:11.16] /m Information: "Starting incremental netlisting for design "temporary_lib/gmid_nfet_3v3/schematic_parameterized"..." (NETLISTING-010)
+[17:50:11.16] /o Netlisting
+[17:50:11.16] /o Creating output directories
+[17:50:11.21] /m Information: 
+[17:50:11.21] /o Checking "%OVERLAY/gmid_nfet_3v3/schematic_parameterized"
+[17:50:11.21] /o No rule violations found in "%OVERLAY/gmid_nfet_3v3/schematic_parameterized"
+[17:50:11.21] /o No Design Integrity rule violations found in "%OVERLAY/gmid_nfet_3v3/schematic_parameterized"
+[17:50:11.21] /o Scanning: SNPSOverlay_temporary_lib_gmid_nfet_3v3_schematic_parameterized/gmid_nfet_3v3/schematic_parameterized
+[17:50:11.30] /o Computing terminal lists
+[17:50:11.30] /o Processing terminals of module SNPSOverlay_temporary_lib_gmid_nfet_3v3_schematic_parameterized/gmid_nfet_3v3/schematic_parameterized
+[17:50:11.30] /o Starting netlisting
+[17:50:11.31] /o Formatting SNPSOverlay_temporary_lib_gmid_nfet_3v3_schematic_parameterized/gmid_nfet_3v3/schematic_parameterized
+[17:50:11.32] /m Information: "SNPSOverlay_temporary_lib_gmid_nfet_3v3_schematic_parameterized gmid_nfet_3v3 schematic_parameterized" renetlisted. (NETLISTING-056)
+[17:50:11.33] /m Information: "Netlisting design "temporary_lib/gmid_nfet_3v3/schematic_parameterized" finished successfully." (NETLISTING-012)
+[17:50:11.34] /m Information: Loading DSPF editing package.
+[17:50:11.35] /m Information: Loading reference10 DSPF map: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/dspf/reference10.dspf_map
+[17:50:11.36] /# Composing simulator input file for design "gmid/gmid_nfet_3v3/schematic"...
+[17:50:12.35] /# Simulator input file composed successfully for design "gmid/gmid_nfet_3v3/schematic"
+[17:50:12.36] /m Information: Save ouputs to /home/argershm/180-voltmeter/Analog/cc/simulation/gmid,gmid_nfet_3v3,schematic/history_1/simulation/PrimeSim_default/PrimeSimSPICE/parametric/results/outputs.tcl for AVA evaluation.
+[17:50:12.46] /o 
+[17:50:12.61] /o                                          Composing Nominal                                         
+[17:50:12.65] /o                        Launching jobs for testbench PrimeSim_default started                       
+[17:50:12.65] /# Starting PrimeSimSPICE simulation for design: gmid/gmid_nfet_3v3/schematic
+[17:50:12.65] /o                         Creating jobs for testbench PrimeSim_default (0 / 1)                        
+[17:50:12.66] /o                           Launching 1 jobs for testbench PrimeSim_default                          
+[17:50:13.52] /o                        Launching jobs for testbench PrimeSim_default finished                       
+[17:50:13.52] /m Information: 0 of 1 testbench(es) done. (PW_GUI-714)
+[17:50:16.07] /m Information: Job distribution master (saeSession1,PrimeSim_default.Simulation_Simulation session:session0 testbench:PrimeSim_default) : up to 1 job running workers.
+[17:50:22.87] /# Simulation completed successfully for design: gmid/gmid_nfet_3v3/schematic  (PW-651)
+[17:50:22.88] /# Netlisting and simulation completed for testbench: PrimeSim_default in 12s
+[17:50:22.88] /# Evaluating and plotting outputs...
+[17:50:23.02] /m Information: Jobs distribution master quit! (PW_GUI-822)
+[17:50:23.29] /# Evaluating and plotting completed for testbench: PrimeSim_default in 1s
+[17:50:23.30] /m Information: 1 of 1 testbench(es) done. (PW_GUI-714)
+[17:50:28.48] /o ==== Received Msg ====
+              /c len=26 sourceSoc=sock4de392b0 msgIndex=15 rawMsg=evalCmd ::wf::viewerExited
+[17:50:28.48] /o 
+[17:50:29.61] /o ==== Received Msg ====
+              /c len=35 sourceSoc=sock4de392b0 msgIndex=17 rawMsg=evalCmd ::wf::updateViewerLicense 2
+[17:50:29.61] /o 
+[17:51:21.68] /o ==== Received Msg ====
+              /c len=26 sourceSoc=sock4de392b0 msgIndex=19 rawMsg=evalCmd ::wf::viewerExited
+[17:51:21.68] /o 
+[17:51:22.89] /o ==== Received Msg ====
+              /c len=35 sourceSoc=sock4de392b0 msgIndex=21 rawMsg=evalCmd ::wf::updateViewerLicense 2
+[17:51:22.89] /o 
+[17:52:06.68] /o ==== Received Msg ====
+              /c len=26 sourceSoc=sock4de392b0 msgIndex=23 rawMsg=evalCmd ::wf::viewerExited
+[17:52:06.68] /o 
+[17:52:07.91] /o ==== Received Msg ====
+              /c len=35 sourceSoc=sock4de392b0 msgIndex=25 rawMsg=evalCmd ::wf::updateViewerLicense 2
+[17:52:07.91] /o 
+[17:55:23.02] /m Information: Exiting simulation server process. (PW_GUI-984)
+[17:55:24.02] /o Shutdown time: Fri Sep  5 17:55:24 2025
+[17:55:24.02] /o Elapsed session real time: 5.51 minutes
+[17:55:24.02] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_5_174951_1338572.log
+[17:55:24.02] /e Error: {}

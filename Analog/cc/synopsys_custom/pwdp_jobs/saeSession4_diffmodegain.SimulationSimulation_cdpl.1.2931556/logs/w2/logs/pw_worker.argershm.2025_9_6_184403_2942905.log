@@ -1,0 +1,543 @@
+[18:44:04.87] /o 
+              /c                                    pw_worker™ 
+              /c 
+              /c                Version W-2024.09-SP1-2 for linux64 - Jan 15, 2025
+              /c              Based on Custom Infrastructure
+              /c Version W-2024.09-SP1-2
+              /c 
+              /c                     Copyright (c) 2004 - 2025 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c    or distribution of this software is strictly prohibited.  Licensed Products
+              /c      communicate with Synopsys servers for the purpose of providing software
+              /c     updates, detecting software piracy and verifying that customers are using
+              /c     Licensed Products in conformity with the applicable License Key for such
+              /c   Licensed Products. Synopsys will use information gathered in connection with
+              /c     this process to deliver software updates and pursue software pirates and
+              /c                                    infringers.
+              /c 
+              /c  Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+              /c             Inclusivity and Diversity" (Refer to article 000036315 at
+              /c                         https://solvnetplus.synopsys.com)
+              /c 
+              /c Build  (OPT) Config 11252589 compiled on Wed Jan 15 11:01:36 2025 for AlmaLinux 8.4
+              /c Invocation: /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/linux64/platform/bin/custom_shell -application pw_worker -gui 0 -localDir /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.1.2931556/logs/w2
+              /c Execution time: Sat Sep  6 18:44:03 2025
+              /c Host: claws-compute3.ece.ncsu.edu
+              /c Working directory: /home/argershm/180-voltmeter/Analog/cc
+              /c 
+[18:44:09.39] /m Information: Registering ICV PERC package...
+[18:44:09.40] /w Warning: Error: "Job group named 'PrimeWave' already exists under this parent." (IPC-100)
+[18:44:09.87] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:10.07] /o source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.1.2931556/ccFile.tcl OK
+[18:44:10.07] /o LibDefs : /home/argershm/180-voltmeter/Analog/cc/lib.defs
+[18:44:10.30] /o new worker create session at loading state!
+[18:44:10.30] /o history_1
+[18:44:10.34] /m Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
+              /c WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
+              /c To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
+[18:44:10.51] /o Loading: Callback files...
+[18:44:10.51] /o 
+              /c [INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+              /c 
+              /c  if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+[18:44:10.51] /o 
+[18:44:10.56] /w Warning: Could not set the value of preference xtEMIRLPEStarTcadGrdFile because it does not exist. (PREFERENCE-016)
+[18:44:10.56] /o 	#######################################
+[18:44:10.56] /o 	CC-PDK Library Name	: gf180MCU Open
+[18:44:10.56] /o 	#######################################
+[18:44:10.56] /o 
+[18:44:10.68] /o source /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/.nw_preference_script.tcl OK!
+[18:44:10.68] /o DSPF Options: {hierDelim==|}||{termDelim==:}||{fingerChar==@}||{multiplierString==_nettran_}||{aggregateCurrent==1}||{MOSTermNames==d g s b}||{MOSTermOrder==D G S B}||{MOSTermDspfNames==DRC GATE SRC BULK}||{firstChars==XM}||{probeHierDelim==/}||{caseSensitive==1}||{firstChar==M}||{hierPrefix==X}||{nodePrefix==M}||{plotTermVoltageForNet==0}||{mapNetToMosTerminal==}||{mapSlashDelimToDot==1}||{probePortCurrent==1}||{busBit==[]}||{removeNodePrefix==1}||{nlConDelim==.}||{mosModelType==auto}||{keepSchName==0}
+[18:44:10.68] /o _workerLoadStateAction done!
+[18:44:10.69] /o pw_worker _createCalculateEngine got job!
+[18:44:10.69] /o pw_worker _createCalculateEngine OK!
+[18:44:10.70] /o _getSimulationDetails : 
+[18:44:10.70] /o tbName=diff_mode_gain, Mtb=0
+[18:44:10.70] /o Got stb tb ok!
+[18:44:10.70] /o Self resultsDir: ./simulation
+[18:44:10.70] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:10.71] /o source /mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/auxx/sae/matlab_script.tcl OK
+[18:44:10.86] /o _createResultsMap done!
+[18:44:10.87] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.501187/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=true
+[18:44:10.87] /o 
+[18:44:10.93] /o pw_worker child CE begin!
+[18:44:10.93] /o ###write_master - histName=history_1 masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  incompleteType=, resultsDirectory=./simulation
+[18:44:10.93] /o 
+[18:44:11.01] /o pw_worker invokes measurement finished.
+[18:44:11.01] /o pw_worker writeSimMap finsied.
+[18:44:11.01] /o _simulationDoneAction done without exception!
+[18:44:11.32] /o New Worker New CE ready proc entered.
+[18:44:11.71] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.501187/results/.ceFinished
+[18:44:11.91] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.501187/results/.unitedSimFinished
+[18:44:11.91] /o Calc Job Done!
+[18:44:11.91] /o New Worker New CE exit
+[18:44:12.01] /o touch pilot meas done flag file: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/.pw_nw_meas_done
+[18:44:12.08] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:12.21] /o pw_worker _createCalculateEngine got job!
+[18:44:12.21] /o pw_worker _createCalculateEngine OK!
+[18:44:13.51] /o New Worker New CE ready proc entered.
+[18:44:13.69] /o _getSimulationDetails : 
+[18:44:13.69] /o tbName=diff_mode_gain, Mtb=0
+[18:44:13.69] /o Got stb tb ok!
+[18:44:13.69] /o Self resultsDir: ./simulation
+[18:44:13.69] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:13.82] /o _createResultsMap done!
+[18:44:13.82] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:13.82] /o 
+[18:44:13.83] /o pw_worker child CE begin!
+[18:44:13.84] /o pw_worker invokes measurement finished.
+[18:44:13.84] /o pw_worker writeSimMap finsied.
+[18:44:13.84] /o _simulationDoneAction done without exception!
+[18:44:13.94] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1u/results/.ceFinished
+[18:44:14.24] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1u/results/.unitedSimFinished
+[18:44:14.24] /o Calc Job Done!
+[18:44:14.24] /o New Worker New CE exit
+[18:44:14.36] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:14.48] /o pw_worker _createCalculateEngine got job!
+[18:44:14.48] /o pw_worker _createCalculateEngine OK!
+[18:44:15.79] /o New Worker New CE ready proc entered.
+[18:44:15.97] /o _getSimulationDetails : 
+[18:44:15.97] /o tbName=diff_mode_gain, Mtb=0
+[18:44:15.97] /o Got stb tb ok!
+[18:44:15.97] /o Self resultsDir: ./simulation
+[18:44:15.97] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:16.05] /o _createResultsMap done!
+[18:44:16.05] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=63.0957m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:16.05] /o 
+[18:44:16.07] /o pw_worker child CE begin!
+[18:44:16.07] /o pw_worker invokes measurement finished.
+[18:44:16.07] /o pw_worker writeSimMap finsied.
+[18:44:16.07] /o _simulationDoneAction done without exception!
+[18:44:16.17] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=63.0957m/results/.ceFinished
+[18:44:16.37] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=63.0957m/results/.unitedSimFinished
+[18:44:16.37] /o Calc Job Done!
+[18:44:16.37] /o New Worker New CE exit
+[18:44:16.57] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:16.70] /o pw_worker _createCalculateEngine got job!
+[18:44:16.70] /o pw_worker _createCalculateEngine OK!
+[18:44:18.00] /o New Worker New CE ready proc entered.
+[18:44:18.18] /o _getSimulationDetails : 
+[18:44:18.18] /o tbName=diff_mode_gain, Mtb=0
+[18:44:18.18] /o Got stb tb ok!
+[18:44:18.18] /o Self resultsDir: ./simulation
+[18:44:18.18] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:18.28] /o _createResultsMap done!
+[18:44:18.29] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.125893/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:18.29] /o 
+[18:44:18.30] /o pw_worker child CE begin!
+[18:44:18.30] /o pw_worker invokes measurement finished.
+[18:44:18.30] /o pw_worker writeSimMap finsied.
+[18:44:18.30] /o _simulationDoneAction done without exception!
+[18:44:18.40] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.125893/results/.ceFinished
+[18:44:18.70] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.125893/results/.unitedSimFinished
+[18:44:18.70] /o Calc Job Done!
+[18:44:18.70] /o New Worker New CE exit
+[18:44:18.88] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:19.00] /o pw_worker _createCalculateEngine got job!
+[18:44:19.00] /o pw_worker _createCalculateEngine OK!
+[18:44:20.31] /o New Worker New CE ready proc entered.
+[18:44:20.48] /o _getSimulationDetails : 
+[18:44:20.48] /o tbName=diff_mode_gain, Mtb=0
+[18:44:20.48] /o Got stb tb ok!
+[18:44:20.48] /o Self resultsDir: ./simulation
+[18:44:20.48] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:20.58] /o _createResultsMap done!
+[18:44:20.58] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.398107/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:20.58] /o 
+[18:44:20.59] /o pw_worker child CE begin!
+[18:44:20.59] /o pw_worker invokes measurement finished.
+[18:44:20.59] /o pw_worker writeSimMap finsied.
+[18:44:20.59] /o _simulationDoneAction done without exception!
+[18:44:20.69] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.398107/results/.ceFinished
+[18:44:20.99] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.398107/results/.unitedSimFinished
+[18:44:20.99] /o Calc Job Done!
+[18:44:20.99] /o New Worker New CE exit
+[18:44:21.17] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:21.30] /o pw_worker _createCalculateEngine got job!
+[18:44:21.30] /o pw_worker _createCalculateEngine OK!
+[18:44:22.51] /o New Worker New CE ready proc entered.
+[18:44:22.70] /o _getSimulationDetails : 
+[18:44:22.70] /o tbName=diff_mode_gain, Mtb=0
+[18:44:22.70] /o Got stb tb ok!
+[18:44:22.70] /o Self resultsDir: ./simulation
+[18:44:22.70] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:22.80] /o _createResultsMap done!
+[18:44:22.80] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.25893u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:22.80] /o 
+[18:44:22.81] /o pw_worker child CE begin!
+[18:44:22.81] /o pw_worker invokes measurement finished.
+[18:44:22.81] /o pw_worker writeSimMap finsied.
+[18:44:22.81] /o _simulationDoneAction done without exception!
+[18:44:22.91] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.25893u/results/.ceFinished
+[18:44:23.21] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.25893u/results/.unitedSimFinished
+[18:44:23.21] /o Calc Job Done!
+[18:44:23.21] /o New Worker New CE exit
+[18:44:23.39] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:23.52] /o pw_worker _createCalculateEngine got job!
+[18:44:23.52] /o pw_worker _createCalculateEngine OK!
+[18:44:24.73] /o New Worker New CE ready proc entered.
+[18:44:24.90] /o _getSimulationDetails : 
+[18:44:24.90] /o tbName=diff_mode_gain, Mtb=0
+[18:44:24.90] /o Got stb tb ok!
+[18:44:24.90] /o Self resultsDir: ./simulation
+[18:44:24.90] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:24.99] /o _createResultsMap done!
+[18:44:24.99] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.51189u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:24.99] /o 
+[18:44:25.00] /o pw_worker child CE begin!
+[18:44:25.00] /o pw_worker invokes measurement finished.
+[18:44:25.00] /o pw_worker writeSimMap finsied.
+[18:44:25.00] /o _simulationDoneAction done without exception!
+[18:44:25.10] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.51189u/results/.ceFinished
+[18:44:25.40] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=2.51189u/results/.unitedSimFinished
+[18:44:25.40] /o Calc Job Done!
+[18:44:25.40] /o New Worker New CE exit
+[18:44:25.58] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:25.70] /o pw_worker _createCalculateEngine got job!
+[18:44:25.71] /o pw_worker _createCalculateEngine OK!
+[18:44:27.01] /o New Worker New CE ready proc entered.
+[18:44:27.18] /o _getSimulationDetails : 
+[18:44:27.18] /o tbName=diff_mode_gain, Mtb=0
+[18:44:27.18] /o Got stb tb ok!
+[18:44:27.18] /o Self resultsDir: ./simulation
+[18:44:27.18] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:27.30] /o _createResultsMap done!
+[18:44:27.30] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.01187u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:27.30] /o 
+[18:44:27.31] /o pw_worker child CE begin!
+[18:44:27.31] /o pw_worker invokes measurement finished.
+[18:44:27.31] /o pw_worker writeSimMap finsied.
+[18:44:27.31] /o _simulationDoneAction done without exception!
+[18:44:27.41] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.01187u/results/.ceFinished
+[18:44:27.73] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=5.01187u/results/.unitedSimFinished
+[18:44:27.73] /o Calc Job Done!
+[18:44:27.73] /o New Worker New CE exit
+[18:44:27.90] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:28.03] /o pw_worker _createCalculateEngine got job!
+[18:44:28.03] /o pw_worker _createCalculateEngine OK!
+[18:44:29.24] /o New Worker New CE ready proc entered.
+[18:44:29.42] /o _getSimulationDetails : 
+[18:44:29.42] /o tbName=diff_mode_gain, Mtb=0
+[18:44:29.42] /o Got stb tb ok!
+[18:44:29.42] /o Self resultsDir: ./simulation
+[18:44:29.42] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:29.50] /o _createResultsMap done!
+[18:44:29.50] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=12.5893u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:29.50] /o 
+[18:44:29.51] /o pw_worker child CE begin!
+[18:44:29.51] /o pw_worker invokes measurement finished.
+[18:44:29.51] /o pw_worker writeSimMap finsied.
+[18:44:29.51] /o _simulationDoneAction done without exception!
+[18:44:29.61] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=12.5893u/results/.ceFinished
+[18:44:29.92] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=12.5893u/results/.unitedSimFinished
+[18:44:29.92] /o Calc Job Done!
+[18:44:29.92] /o New Worker New CE exit
+[18:44:30.09] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:30.22] /o pw_worker _createCalculateEngine got job!
+[18:44:30.22] /o pw_worker _createCalculateEngine OK!
+[18:44:31.52] /o New Worker New CE ready proc entered.
+[18:44:31.70] /o _getSimulationDetails : 
+[18:44:31.70] /o tbName=diff_mode_gain, Mtb=0
+[18:44:31.70] /o Got stb tb ok!
+[18:44:31.70] /o Self resultsDir: ./simulation
+[18:44:31.70] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:31.81] /o _createResultsMap done!
+[18:44:31.81] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=19.9526u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:31.81] /o 
+[18:44:31.82] /o pw_worker child CE begin!
+[18:44:31.82] /o pw_worker invokes measurement finished.
+[18:44:31.82] /o pw_worker writeSimMap finsied.
+[18:44:31.82] /o _simulationDoneAction done without exception!
+[18:44:31.92] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=19.9526u/results/.ceFinished
+[18:44:32.22] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=19.9526u/results/.unitedSimFinished
+[18:44:32.22] /o Calc Job Done!
+[18:44:32.22] /o New Worker New CE exit
+[18:44:32.35] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:32.47] /o pw_worker _createCalculateEngine got job!
+[18:44:32.47] /o pw_worker _createCalculateEngine OK!
+[18:44:33.68] /o New Worker New CE ready proc entered.
+[18:44:33.85] /o _getSimulationDetails : 
+[18:44:33.85] /o tbName=diff_mode_gain, Mtb=0
+[18:44:33.85] /o Got stb tb ok!
+[18:44:33.85] /o Self resultsDir: ./simulation
+[18:44:33.85] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:33.95] /o _createResultsMap done!
+[18:44:33.95] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=50.1187u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:33.95] /o 
+[18:44:33.96] /o pw_worker child CE begin!
+[18:44:33.96] /o pw_worker invokes measurement finished.
+[18:44:33.96] /o pw_worker writeSimMap finsied.
+[18:44:33.96] /o _simulationDoneAction done without exception!
+[18:44:34.06] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=50.1187u/results/.ceFinished
+[18:44:34.27] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=50.1187u/results/.unitedSimFinished
+[18:44:34.27] /o Calc Job Done!
+[18:44:34.27] /o New Worker New CE exit
+[18:44:34.47] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:34.60] /o pw_worker _createCalculateEngine got job!
+[18:44:34.60] /o pw_worker _createCalculateEngine OK!
+[18:44:35.90] /o New Worker New CE ready proc entered.
+[18:44:36.07] /o _getSimulationDetails : 
+[18:44:36.07] /o tbName=diff_mode_gain, Mtb=0
+[18:44:36.07] /o Got stb tb ok!
+[18:44:36.07] /o Self resultsDir: ./simulation
+[18:44:36.07] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:36.18] /o _createResultsMap done!
+[18:44:36.18] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=79.4328u/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:36.18] /o 
+[18:44:36.19] /o pw_worker child CE begin!
+[18:44:36.19] /o pw_worker invokes measurement finished.
+[18:44:36.19] /o pw_worker writeSimMap finsied.
+[18:44:36.19] /o _simulationDoneAction done without exception!
+[18:44:36.29] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=79.4328u/results/.ceFinished
+[18:44:36.60] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=79.4328u/results/.unitedSimFinished
+[18:44:36.60] /o Calc Job Done!
+[18:44:36.60] /o New Worker New CE exit
+[18:44:36.78] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:36.91] /o pw_worker _createCalculateEngine got job!
+[18:44:36.91] /o pw_worker _createCalculateEngine OK!
+[18:44:38.21] /o New Worker New CE ready proc entered.
+[18:44:38.38] /o _getSimulationDetails : 
+[18:44:38.38] /o tbName=diff_mode_gain, Mtb=0
+[18:44:38.38] /o Got stb tb ok!
+[18:44:38.38] /o Self resultsDir: ./simulation
+[18:44:38.38] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:38.47] /o _createResultsMap done!
+[18:44:38.47] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.158489m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:38.47] /o 
+[18:44:38.48] /o pw_worker child CE begin!
+[18:44:38.48] /o pw_worker invokes measurement finished.
+[18:44:38.48] /o pw_worker writeSimMap finsied.
+[18:44:38.48] /o _simulationDoneAction done without exception!
+[18:44:38.58] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.158489m/results/.ceFinished
+[18:44:38.88] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.158489m/results/.unitedSimFinished
+[18:44:38.88] /o Calc Job Done!
+[18:44:38.88] /o New Worker New CE exit
+[18:44:39.07] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:39.20] /o pw_worker _createCalculateEngine got job!
+[18:44:39.20] /o pw_worker _createCalculateEngine OK!
+[18:44:40.41] /o New Worker New CE ready proc entered.
+[18:44:40.59] /o _getSimulationDetails : 
+[18:44:40.59] /o tbName=diff_mode_gain, Mtb=0
+[18:44:40.59] /o Got stb tb ok!
+[18:44:40.59] /o Self resultsDir: ./simulation
+[18:44:40.59] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:40.69] /o _createResultsMap done!
+[18:44:40.69] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.398107m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:40.69] /o 
+[18:44:40.70] /o pw_worker child CE begin!
+[18:44:40.70] /o pw_worker invokes measurement finished.
+[18:44:40.70] /o pw_worker writeSimMap finsied.
+[18:44:40.70] /o _simulationDoneAction done without exception!
+[18:44:40.80] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.398107m/results/.ceFinished
+[18:44:41.11] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.398107m/results/.unitedSimFinished
+[18:44:41.11] /o Calc Job Done!
+[18:44:41.11] /o New Worker New CE exit
+[18:44:41.29] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:41.41] /o pw_worker _createCalculateEngine got job!
+[18:44:41.42] /o pw_worker _createCalculateEngine OK!
+[18:44:42.72] /o New Worker New CE ready proc entered.
+[18:44:42.89] /o _getSimulationDetails : 
+[18:44:42.89] /o tbName=diff_mode_gain, Mtb=0
+[18:44:42.89] /o Got stb tb ok!
+[18:44:42.89] /o Self resultsDir: ./simulation
+[18:44:42.89] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:42.97] /o _createResultsMap done!
+[18:44:42.97] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.794328m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:42.97] /o 
+[18:44:42.98] /o pw_worker child CE begin!
+[18:44:42.98] /o pw_worker invokes measurement finished.
+[18:44:42.98] /o pw_worker writeSimMap finsied.
+[18:44:42.98] /o _simulationDoneAction done without exception!
+[18:44:43.08] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.794328m/results/.ceFinished
+[18:44:43.39] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=0.794328m/results/.unitedSimFinished
+[18:44:43.39] /o Calc Job Done!
+[18:44:43.39] /o New Worker New CE exit
+[18:44:43.57] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:43.70] /o pw_worker _createCalculateEngine got job!
+[18:44:43.70] /o pw_worker _createCalculateEngine OK!
+[18:44:44.91] /o New Worker New CE ready proc entered.
+[18:44:45.09] /o _getSimulationDetails : 
+[18:44:45.09] /o tbName=diff_mode_gain, Mtb=0
+[18:44:45.09] /o Got stb tb ok!
+[18:44:45.09] /o Self resultsDir: ./simulation
+[18:44:45.09] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:45.17] /o _createResultsMap done!
+[18:44:45.18] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.58489m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:45.18] /o 
+[18:44:45.19] /o pw_worker child CE begin!
+[18:44:45.19] /o pw_worker invokes measurement finished.
+[18:44:45.19] /o pw_worker writeSimMap finsied.
+[18:44:45.19] /o _simulationDoneAction done without exception!
+[18:44:45.29] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.58489m/results/.ceFinished
+[18:44:45.59] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=1.58489m/results/.unitedSimFinished
+[18:44:45.59] /o Calc Job Done!
+[18:44:45.59] /o New Worker New CE exit
+[18:44:45.77] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:45.91] /o pw_worker _createCalculateEngine got job!
+[18:44:45.91] /o pw_worker _createCalculateEngine OK!
+[18:44:47.12] /o New Worker New CE ready proc entered.
+[18:44:47.30] /o _getSimulationDetails : 
+[18:44:47.30] /o tbName=diff_mode_gain, Mtb=0
+[18:44:47.30] /o Got stb tb ok!
+[18:44:47.30] /o Self resultsDir: ./simulation
+[18:44:47.30] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:47.37] /o _createResultsMap done!
+[18:44:47.38] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.16228m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:47.38] /o 
+[18:44:47.39] /o pw_worker child CE begin!
+[18:44:47.39] /o pw_worker invokes measurement finished.
+[18:44:47.39] /o pw_worker writeSimMap finsied.
+[18:44:47.39] /o _simulationDoneAction done without exception!
+[18:44:47.49] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.16228m/results/.ceFinished
+[18:44:47.79] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=3.16228m/results/.unitedSimFinished
+[18:44:47.79] /o Calc Job Done!
+[18:44:47.79] /o New Worker New CE exit
+[18:44:47.97] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:48.10] /o pw_worker _createCalculateEngine got job!
+[18:44:48.10] /o pw_worker _createCalculateEngine OK!
+[18:44:49.40] /o New Worker New CE ready proc entered.
+[18:44:49.60] /o _getSimulationDetails : 
+[18:44:49.60] /o tbName=diff_mode_gain, Mtb=0
+[18:44:49.60] /o Got stb tb ok!
+[18:44:49.60] /o Self resultsDir: ./simulation
+[18:44:49.60] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:49.69] /o _createResultsMap done!
+[18:44:49.69] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.30957m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:49.69] /o 
+[18:44:49.70] /o pw_worker child CE begin!
+[18:44:49.70] /o pw_worker invokes measurement finished.
+[18:44:49.70] /o pw_worker writeSimMap finsied.
+[18:44:49.70] /o _simulationDoneAction done without exception!
+[18:44:49.80] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.30957m/results/.ceFinished
+[18:44:50.10] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=6.30957m/results/.unitedSimFinished
+[18:44:50.10] /o Calc Job Done!
+[18:44:50.10] /o New Worker New CE exit
+[18:44:50.28] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:50.41] /o pw_worker _createCalculateEngine got job!
+[18:44:50.41] /o pw_worker _createCalculateEngine OK!
+[18:44:51.61] /o New Worker New CE ready proc entered.
+[18:44:51.78] /o _getSimulationDetails : 
+[18:44:51.78] /o tbName=diff_mode_gain, Mtb=0
+[18:44:51.78] /o Got stb tb ok!
+[18:44:51.78] /o Self resultsDir: ./simulation
+[18:44:51.78] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:51.87] /o _createResultsMap done!
+[18:44:51.88] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=12.5893m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:51.88] /o 
+[18:44:51.89] /o pw_worker child CE begin!
+[18:44:51.89] /o pw_worker invokes measurement finished.
+[18:44:51.89] /o pw_worker writeSimMap finsied.
+[18:44:51.89] /o _simulationDoneAction done without exception!
+[18:44:51.99] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=12.5893m/results/.ceFinished
+[18:44:52.30] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=12.5893m/results/.unitedSimFinished
+[18:44:52.30] /o Calc Job Done!
+[18:44:52.30] /o New Worker New CE exit
+[18:44:52.47] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:52.59] /o pw_worker _createCalculateEngine got job!
+[18:44:52.59] /o pw_worker _createCalculateEngine OK!
+[18:44:53.80] /o New Worker New CE ready proc entered.
+[18:44:53.98] /o _getSimulationDetails : 
+[18:44:53.98] /o tbName=diff_mode_gain, Mtb=0
+[18:44:53.98] /o Got stb tb ok!
+[18:44:53.98] /o Self resultsDir: ./simulation
+[18:44:53.98] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:54.06] /o _createResultsMap done!
+[18:44:54.06] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=19.9526m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:54.06] /o 
+[18:44:54.07] /o pw_worker child CE begin!
+[18:44:54.08] /o pw_worker invokes measurement finished.
+[18:44:54.08] /o pw_worker writeSimMap finsied.
+[18:44:54.08] /o _simulationDoneAction done without exception!
+[18:44:54.28] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=19.9526m/results/.ceFinished
+[18:44:54.48] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=19.9526m/results/.unitedSimFinished
+[18:44:54.48] /o Calc Job Done!
+[18:44:54.48] /o New Worker New CE exit
+[18:44:54.67] /o #####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic
+[18:44:54.80] /o pw_worker _createCalculateEngine got job!
+[18:44:54.80] /o pw_worker _createCalculateEngine OK!
+[18:44:56.11] /o New Worker New CE ready proc entered.
+[18:44:56.28] /o _getSimulationDetails : 
+[18:44:56.28] /o tbName=diff_mode_gain, Mtb=0
+[18:44:56.28] /o Got stb tb ok!
+[18:44:56.28] /o Self resultsDir: ./simulation
+[18:44:56.28] /o Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+[18:44:56.36] /o _createResultsMap done!
+[18:44:56.36] /o ###write_child - resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=50.1187m/results
+              /c  masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  databaseDir=/home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+              /c  UniqueName=saeSession4, isPilot=false
+[18:44:56.36] /o 
+[18:44:56.37] /o pw_worker child CE begin!
+[18:44:56.37] /o pw_worker invokes measurement finished.
+[18:44:56.37] /o pw_worker writeSimMap finsied.
+[18:44:56.37] /o _simulationDoneAction done without exception!
+[18:44:56.47] /o Got file /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=50.1187m/results/.ceFinished
+[18:44:56.78] /o touch /home/argershm/180-voltmeter/Analog/cc/simulation/integrator,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/L=50.1187m/results/.unitedSimFinished
+[18:44:56.78] /o Calc Job Done!
+[18:44:56.78] /o New Worker New CE exit
+[18:44:59.86] /o Shutdown time: Sat Sep  6 18:44:59 2025
+[18:44:59.86] /o Elapsed session real time: 0.93 minutes
+[18:44:59.86] /o Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession4_diffmodegain.SimulationSimulation_cdpl.1.2931556/logs/w2/logs/pw_worker.argershm.2025_9_6_184403_2942905.log

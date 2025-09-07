@@ -1,0 +1,4 @@
+.PROBE Gm(xMN9)
+.PROBE Gm(xMN11)
+.PROBE Gm(xMP8)
+.PROBE Gm(xMP10)

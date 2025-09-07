@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- created by pw_worker (TM), build #, on Fri Sep  5 19:10:09 2025
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout"/>
+        <favoriteDevices viewType="schematic"/>
+</synopsysFile>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Aug 27 13:09:01 2025-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saImportedFiles" name="importedFiles">
+  <collection name="files"/>
+  <attribute type="giString" name="lastImportTime" value=""/>
+ </object>
+</file-format>

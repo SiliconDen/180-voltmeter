@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      argershm
+HostName                       claws-compute3.ece.ncsu.edu
+ProcessIdentifier              307650
+ProcessCreationTime_UTC        1757099322
+ProcessCreationTime_Readable   Fri 05 Sep 2025 03:08:42 PM EDT EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/argershm/180-voltmeter/Analog/cc/integrator/tb_main_opamp/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat 06 Sep 2025 11:03:08 AM EDT EDT

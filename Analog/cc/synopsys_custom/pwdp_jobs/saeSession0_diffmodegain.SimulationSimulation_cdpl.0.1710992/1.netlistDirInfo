@@ -1,0 +1,10 @@
+total 28
+lrwxrwxrwx. 1 argershm NCSU    21 2025-09-05 20:23:34.322292239 -0400 netlist -> ../../netlist/netlist
+lrwxrwxrwx. 1 argershm NCSU    17 2025-09-05 20:23:34.322292239 -0400 cnl -> ../../netlist/cnl
+drwxr-xr-x. 4 argershm NCSU    72 2025-09-05 20:23:34.322292239 -0400 ..
+-rw-r--r--. 1 argershm NCSU    67 2025-09-05 20:23:34.326292241 -0400 .includeFile
+-rw-r--r--. 1 argershm NCSU 11234 2025-09-05 20:23:34.331292245 -0400 primesim.spi
+-rwxr--r--. 1 argershm NCSU   555 2025-09-05 20:23:34.349292257 -0400 runSimulation
+-rw-r--r--. 1 argershm NCSU  1767 2025-09-05 20:23:34.352292258 -0400 .simJobArgs.rerun
+drwxr-xr-x. 2 argershm NCSU   169 2025-09-05 20:23:34.357292261 -0400 .
+-rw-r--r--. 1 argershm NCSU   455 2025-09-05 20:23:34.401292290 -0400 .simRun.xml
