@@ -1,0 +1,56 @@
+#!/bin/sh
+
+#Created by PW DP.
+
+WDIR=`dirname $0`
+cd $WDIR
+
+if [ "x$CDPL_LOGDIR" = "x" ] ; then
+export CDPL_LOGDIR=$WDIR/logs
+fi
+
+export SYNOPSYS_USE_PW_WORKER_CI=1
+W_ID=$CDPL_WORKERID
+mkdir -p $WDIR/logs/w$W_ID
+
+export HOME=/home/argershm
+
+export PATH=/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/OA/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/PyCellStudio/linux64/3rd/bin:/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/PyCellStudio/bin:/home/argershm/.local/bin:/home/argershm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/cuda/bin:/opt/puppetlabs/bin:/mnt/apps/public/COE/synopsys_apps/syn/X-2025.06-SP1/bin:/mnt/apps/public/COE/synopsys_apps/primesim/X-2025.06/bin:/mnt/apps/public/COE/synopsys_apps/icvalidator/X-2025.06/bin/linux64:/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/bin:/mnt/apps/public/COE/synopsys_apps/primewave/W-2024.09-SP1-2/bin:/mnt/apps/public/COE/synopsys_apps/vcs/X-2025.06-1/bin:/mnt/apps/public/COE/synopsys_apps/verdi/W-2024.09-SP1/bin:/mnt/apps/public/COE/synopsys_apps/hspice/X-2025.06/hspice/bin:/mnt/apps/public/COE/synopsys_apps/hspice/X-2025.06/hspice/cdpl/bin:/bin
+
+export SYNOPSYS_DYNAMIC_DISTRIBUTION_CHECK_TMP_ERROR=1
+export SYNOPSYS_DYNAMIC_DISTRIBUTION_USE_NW_PHASE_II_WORKER=1
+export SYNOPSYS_DYNAMIC_DISTRIBUTION_CC_CUSTOM_LOCAL=/home/argershm/180-voltmeter/Analog/cc/synopsys_custom
+
+host=`hostname`
+wk_out=$WDIR/logs/worker.W$W_ID.$host.$$.out
+wks_pids=$WDIR/workers_pids
+if [ ! -e "$wks_pids" ]; then
+    echo "$$" > $wks_pids
+else
+    echo "$$" >> $wks_pids
+fi
+
+wk_start_time=`date -u`
+if [ ! -e "$wk_out" ]; then
+echo "[$wk_start_time]Running $@" > $wk_out 2>&1
+    if [ $# -eq 5 ]; then
+        export SYNOPSYS_DYNAMIC_DISTRIBUTION_PW_WORKER_CI_ARGS=$3:$5
+    fi
+
+    if [ $# -eq 7 ]; then
+        export SYNOPSYS_DYNAMIC_DISTRIBUTION_PW_WORKER_CI_ARGS=$3:$5:$7
+    fi
+
+cd /home/argershm/180-voltmeter/Analog/cc;$1_ci -gui 0 -localDir $WDIR/logs/w$W_ID >> $wk_out 2>&1
+else
+echo "[$wk_start_time]Running $@" >> $wk_out 2>&1
+    if [ $# -eq 5 ]; then
+        export SYNOPSYS_DYNAMIC_DISTRIBUTION_PW_WORKER_CI_ARGS=$3:$5
+    fi
+
+    if [ $# -eq 7 ]; then
+        export SYNOPSYS_DYNAMIC_DISTRIBUTION_PW_WORKER_CI_ARGS=$3:$5:$7
+    fi
+
+cd /home/argershm/180-voltmeter/Analog/cc;$1_ci -gui 0 -localDir $WDIR/logs/w$W_ID >> $wk_out 2>&1
+fi

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sun Sep  7 19:12:41 2025
+<!-- created by Custom Compiler (TM), build #, on Mon Sep  8 18:31:51 2025
 -->
 <synopsysFile name="synopsysRecentFiles" version="1.1">
         <recentFiles>
-                <file cell="main_ota_compensated" mode="write" library="argershm" file="schematic" view="schematic"/>
-                <file cell="tb_main_opamp" mode="write" library="argershm" file="saeState" view="diff_mode_gain"/>
-                <file cell="tb_main_opamp" mode="read" library="argershm" file="schematic" view="schematic"/>
-                <file cell="tb_main_opamp" mode="write" library="integrator" file="saeState" view="diff_mode_gain"/>
-                <file cell="main_ota_compensated" mode="write" library="integrator" file="schematic" view="schematic"/>
+                <file view="schematic" file="schematic" mode="write" library="argershm" cell="main_ota_compensated"/>
+                <file view="diff_mode_gain" file="saeState" mode="write" library="argershm" cell="tb_main_opamp"/>
+                <file view="schematic" file="schematic" mode="write" library="argershm" cell="main_opamp_parameterized"/>
+                <file view="schematic" file="schematic" mode="write" library="argershm" cell="tb_main_opamp"/>
+                <file view="schematic" file="schematic" mode="write" library="argershm" cell="main_ota_compensated_6V"/>
         </recentFiles>
 </synopsysFile>

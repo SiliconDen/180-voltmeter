@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sun Sep  7 19:12:39 2025-->
+<!--Created by Custom Compiler (TM), build , on Mon Sep  8 18:31:49 2025-->
 <file-format name="stateCategory" version="1.0">
  <object name="designVariables" type="saDesignVariables" version="1">
   <attribute name="includeGlobal" type="giBoolean" value="1"/>
@@ -38,7 +38,7 @@
       <attribute name="name" type="giString" value="vdd"/>
       <attribute name="useDpo" type="giBoolean" value="0"/>
       <attribute name="useLocal" type="giBoolean" value="1"/>
-      <attribute name="value" type="giString" value="3.3"/>
+      <attribute name="value" type="giString" value="6"/>
       <attribute name="variableType" type="enVariableType" value="none"/>
      </object>
      <object name="designVariables" type="saDesignVariable" version="1">
@@ -54,7 +54,7 @@
       <attribute name="name" type="giString" value="vcm_dc"/>
       <attribute name="useDpo" type="giBoolean" value="0"/>
       <attribute name="useLocal" type="giBoolean" value="1"/>
-      <attribute name="value" type="giString" value="1.2"/>
+      <attribute name="value" type="giString" value="3"/>
       <attribute name="variableType" type="enVariableType" value="none"/>
      </object>
      <object name="designVariables" type="saDesignVariable" version="1">
@@ -150,7 +150,7 @@
       <attribute name="name" type="giString" value="L"/>
       <attribute name="useDpo" type="giBoolean" value="0"/>
       <attribute name="useLocal" type="giBoolean" value="1"/>
-      <attribute name="value" type="giString" value="1u"/>
+      <attribute name="value" type="giString" value="10u"/>
       <attribute name="variableType" type="enVariableType" value="none"/>
      </object>
     </collection>

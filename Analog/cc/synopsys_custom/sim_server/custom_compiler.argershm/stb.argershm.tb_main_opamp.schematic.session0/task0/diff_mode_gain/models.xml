@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Sep  8 18:29:15 2025-->
+<file-format name="stateCategory" version="1.0">
+ <object name="models" type="saModelSetup" version="1">
+  <attribute name="includeGlobal" type="giBoolean" value="1"/>
+  <attribute name="includePath" type="giString" value="${PDK_DIR}/Models_HSPICE/"/>
+  <collection name="modelFiles">
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/design.ngspice"/>
+    <attribute name="section" type="giString" value=""/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064.ngspice"/>
+    <attribute name="section" type="giString" value="cap_mim"/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064.ngspice"/>
+    <attribute name="section" type="giString" value="res"/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064.ngspice"/>
+    <attribute name="section" type="giString" value="res_typical"/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064.ngspice"/>
+    <attribute name="section" type="giString" value="typical"/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064.ngspice"/>
+    <attribute name="section" type="giString" value="mimcap_typical"/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064.ngspice"/>
+    <attribute name="section" type="giString" value="typical"/>
+   </object>
+   <object name="modelFiles" type="saModelFile" version="1">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="ngspice/sm141064_mim.ngspice"/>
+    <attribute name="section" type="giString" value="cap_mim_new"/>
+   </object>
+  </collection>
+  <collection name="modelGroupDefs"/>
+  <collection name="modelGroups"/>
+ </object>
+</file-format>

@@ -1,3 +1,5 @@
+No entry for terminal type "xterm-256color";
+using dumb terminal settings.
 
 
                          PrimeWave Design Environment 
@@ -23,8 +25,8 @@ Version X-2025.06-1
                         https://solvnetplus.synopsys.com)
 
 Build  (OPT) Config 11973341 compiled on Thu Jun 19 11:23:12 2025 for CentOS64 7.3
-Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069eee7ab9d0dea0002dbd6c7980de498070fc2511cd128a4b2dec1cb7792ad947542abd5d320575340b383b46b2c7a0ed69d -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job2 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
-Execution time: Sun Sep  7 18:48:44 2025
+Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application primewave -gui 0 -uniqueString 424077b79e1069ee5b655962666fee8ed6c7980de498070fc2511cd128a4b2dec1cb7792ad9475426df20efacc7d9be08adb41ce5b5853d7 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job2 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs
+Execution time: Mon Sep  8 18:21:02 2025
 Host: claws-compute3.ece.ncsu.edu
 Working directory: /home/argershm/180-voltmeter/Analog/cc
 
@@ -35,12 +37,12 @@ Information: Registering ICV PERC package...
 > 
 Information: Feature 'SynopsysCustomSAE' checked out. (LICENSE-003)
 > 
-SimServer socket started on claws-compute3.ece.ncsu.edu:33859
+SimServer socket started on claws-compute3.ece.ncsu.edu:41905
 > 
-Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/logs &&  /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/../packages/swv/bin/swv  -bg_gui=shell  -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_QY0zHQ -unique_string 424077b79e1069ee7e5f1b0a206b60c2d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e14d2bc822b117c2b18a518f400f835448b -lic_type 2   -parent_cc_pid 3705371  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/logs/viewer.log 2>&1"
+Information: Launching Waveform Viewer "cd /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session0/logs &&  /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/../packages/swv/bin/swv  -bg_gui=shell  -k -cdesigner -ptype wv -spxkey /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/waveform/sae.spxkey -spxrc /tmp/tmp_sae_spxrc_usSM8L -unique_string 424077b79e1069ee67abb09e6aea7537d6c7980de498070fc2511cd128a4b2dec1cb7792ad94754215911dea03ed9e14dbad6253bf6b053655eb820fb25f0205 -lic_type 2   -parent_cc_pid 3973746  > /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session0/logs/viewer.log 2>&1"
 > 
 ==== Received Msg ====
-len=196 sourceSoc=sock44e41520 msgIndex=1 rawMsg=AppendTask /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session1/task0/sim_script0.tcl 0 saeSession1 1 overwrite 
+len=196 sourceSoc=sock509a68f0 msgIndex=9 rawMsg=AppendTask /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session0/task0/sim_script0.tcl 0 saeSession0 1 overwrite 
 > 
 
 > 
@@ -97,12 +99,6 @@ Netlisting
 > 
 /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/samples/analogLib
 > 
-Information: 
-> 
-Checking "argershm/tb_main_opamp/schematic"
-> 
-No rule violations found in "argershm/tb_main_opamp/schematic"
-> 
 No Design Integrity rule violations found in "argershm/tb_main_opamp/schematic"
 > 
 /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/samples/basic
@@ -123,24 +119,24 @@ Information: Save ouputs to /home/argershm/180-voltmeter/Analog/cc/simulation/ar
 > 
 Information: 0 of 1 testbench(es) done. (PW_GUI-714)
 > 
-Information: Job distribution master (saeSession1,diff_mode_gain.Simulation_Simulation session:session0 testbench:diff_mode_gain) : up to 1 job running workers.
+Information: Job distribution master (saeSession0,diff_mode_gain.Simulation_Simulation session:session0 testbench:diff_mode_gain) : up to 1 job running workers.
 > 
 Information: Jobs distribution master quit! (PW_GUI-822)
 > 
 Information: 1 of 1 testbench(es) done. (PW_GUI-714)
 > 
 ==== Received Msg ====
-len=8 sourceSoc=sock44e41520 msgIndex=3 rawMsg=idleExit
+len=8 sourceSoc=sock509a68f0 msgIndex=3 rawMsg=idleExit
 > 
 
 > 
 Information: Exiting simulation server process. (PW_GUI-984)
 > 
-Shutdown time: Sun Sep  7 18:55:26 2025
+Shutdown time: Mon Sep  8 18:26:06 2025
 > 
-Elapsed session real time: 6.68 minutes
+Elapsed session real time: 5.03 minutes
 > 
-Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_7_184844_3705371.log
+Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/logs/primewave.argershm.2025_9_8_182102_3973746.log
 > 
 Error: {}
 > 

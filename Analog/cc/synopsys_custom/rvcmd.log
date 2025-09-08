@@ -1,6 +1,6 @@
 ### WaveView ADV log file, revision X-2025.06-1 (build Jun 19, ) ###
-### created at 18:48:06 on Sun Sep  7 2025 (Linux AMD64) ###
-### Host Name: claws-compute3.ece.ncsu.edu   User ID: argershm   PID: 3696781   ###
+### created at 17:44:14 on Mon Sep  8 2025 (Linux AMD64) ###
+### Host Name: claws-compute3.ece.ncsu.edu   User ID: argershm   PID: 3873936   ###
 wv_start_log
 # (0) running in waveview only mode
 # (0) SW_SX_PERL_LIB defined
@@ -8,48 +8,144 @@ wv_start_log
 # (0) HOME defined
 #source {/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/../packages/swv/packages/SX-SNPSCUST-Link/snps_custom_link.tcl}
 #source TCL files from directory {/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx}
-#[18:48:08.260] I| Setup simulation complete: 
-#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
-#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
-#[18:48:08.260] I| Setup simulation complete: 
-#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
-#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
-#[18:48:21.460] I| Setup simulation complete: 
-#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
-#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
-#[18:48:32.850] I| Setup simulation complete: 
-#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
-#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
-#[18:48:42.500] I| Start RV Done.
-#
-#[18:48:42.500] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/post_results.db
-#[18:48:42.510] I| Finished RV Done.
-#
-#[18:50:37.310] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
-#[18:50:37.310] I| Setup simulation complete: 
+#[17:45:12.170] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:45:12.330] I| Setup simulation complete: 
 #    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
 #    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-#[18:50:46.640] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
-#[18:50:46.640] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/rv_status.db
-#[18:50:46.640] I| Setup simulation complete: 
+#[17:45:20.510] I| Start RV Done.
+#
+#Cannot get saved result file '.caldone.sim'.
+#Cannot get saved result file '.caldone.map'.
+#[17:45:20.530] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/post_results.db
+#[17:45:20.540] I| Finished RV Done.
+#
+#[17:47:21.150] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:47:21.150] I| Setup simulation complete: 
 #    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
 #    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-#[18:50:47.770] I| Start RV Done.
-#
-#[18:50:47.780] I| Finished RV Done.
-#
-#[18:59:23.760] I| Setup simulation complete: 
+#[17:47:29.560] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:47:29.560] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/rv_status.db
+#[17:47:29.560] I| Setup simulation complete: 
 #    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
 #    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-#[18:59:23.860] I| Start RV Done.
+#[17:47:31.710] I| Start RV Done.
 #
-#[18:59:23.870] I| Finished RV Done.
+#[17:47:31.720] I| Finished RV Done.
 #
-#[18:59:29.600] I| Setup simulation complete: 
+#[17:49:28.890] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+#[17:49:39.050] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results/rv_status.db
+#[17:49:39.050] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/parametric/results
+#[17:49:53.280] I| Start RV Done.
+#
+#[17:49:53.290] I| Finished RV Done.
+#
+#[17:54:11.330] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:54:11.330] I| Setup simulation complete: 
 #    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
 #    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
-#[18:59:29.680] I| Start RV Done.
+#[17:54:20.020] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:54:20.020] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/rv_status.db
+#[17:54:20.020] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[17:54:20.250] I| Start RV Done.
 #
-#[18:59:29.690] I| Finished RV Done.
+#[17:54:20.260] I| Finished RV Done.
+#
+#[17:57:49.540] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:57:49.540] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[17:57:58.520] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[17:57:58.520] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[17:57:58.520] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[17:57:58.710] I| Start RV Done.
+#
+#[17:57:58.720] I| Finished RV Done.
+#
+#[18:02:02.050] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:02:02.050] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:02:11.120] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:02:11.130] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:02:11.260] I| Start RV Done.
+#
+#[18:02:11.270] I| Finished RV Done.
+#
+#[18:04:09.970] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:04:09.980] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:04:18.620] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:04:18.630] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:04:18.630] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:04:18.760] I| Start RV Done.
+#
+#[18:04:18.770] I| Finished RV Done.
+#
+#[18:04:32.700] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:04:32.700] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:04:33.930] I| Start RV Done.
+#
+#[18:04:33.940] I| Finished RV Done.
+#
+#[18:05:14.130] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:05:14.130] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:05:24.230] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:05:24.230] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:05:24.410] I| Start RV Done.
+#
+#[18:05:24.410] I| Finished RV Done.
+#
+#[18:06:58.830] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:06:58.830] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:06:58.900] I| Start RV Done.
+#
+#[18:06:58.900] I| Finished RV Done.
+#
+#[18:21:16.590] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:21:16.590] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:21:26.750] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:21:26.750] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:21:26.750] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:21:27.940] I| Start RV Done.
+#
+#[18:21:27.950] I| Finished RV Done.
+#
+#[18:29:37.570] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:29:37.570] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:29:47.840] I| Created new database /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/post_results.db
+#[18:29:47.840] I| Old version of database is found in directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:29:47.840] I| Setup simulation complete: 
+#    results directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results 
+#    post database directory: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+#[18:29:48.060] I| Start RV Done.
+#
+#[18:29:48.070] I| Finished RV Done.
 #
 #sx_exit#

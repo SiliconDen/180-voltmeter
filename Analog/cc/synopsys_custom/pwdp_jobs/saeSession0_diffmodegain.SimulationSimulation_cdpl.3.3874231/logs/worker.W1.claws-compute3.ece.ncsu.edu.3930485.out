@@ -1,0 +1,178 @@
+[Mon Sep  8 21:54:10 UTC 2025]Running pw_worker -i /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231 -t 10000
+/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/bin/custom_shell
+
+PWDP2: start1: [09-08-2025 17:54:12] \ 
+ -- args: /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231:10000
+ -- New worker cdpl started... /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231 10000
+PWDP: new worker flow start...
+
+New worker log dir:/home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231/logs/w1
+
+[09-08-2025 17:54:12] task_id=[0] vector_id=[0] New Worker Job Details:
+isReRun=0
+simulator=PrimeSim
+workingDir=/home/argershm/180-voltmeter/Analog/cc
+historyName=history_1
+stateType=0
+nominal=1
+testbench=diff_mode_gain
+uniqueName=saeSession0
+resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+historyIndex=1
+runMode=new
+preRun=0
+session=saeSession0
+masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+diskTestSuiteName,argershm,tb_main_opamp,schematic
+
+JobData-keys: 0,PrimeSim,history_1,1,/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results,
+No entry for terminal type "xterm-256color";
+using dumb terminal settings.
+
+ -- New worker cdpl initialized finished. [09-08-2025 17:54:12]
+
+
+                                   pw_worker™ 
+
+                 Version X-2025.06-1 for linux64 - Jun 19, 2025
+               Based on Custom Infrastructure
+Version X-2025.06-1
+
+                    Copyright (c) 2004 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Build  (OPT) Config 11973341 compiled on Thu Jun 19 11:23:12 2025 for CentOS64 7.3
+Invocation: /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/linux64/platform/bin/custom_shell -application pw_worker -gui 0 -localDir /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231/logs/w1
+Execution time: Mon Sep  8 17:54:12 2025
+Host: claws-compute3.ece.ncsu.edu
+Working directory: /home/argershm/180-voltmeter/Analog/cc
+
+
+Information: Registering ICV PERC package...
+
+Warning: Error: "Job group named 'PrimeWave' already exists under this parent." (IPC-100)
+
+PWDP2: start2: [09-08-2025 17:54:18]
+#####New Worker job begin - Self history dir=/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic
+> 
+ -- New worker ci side loading finished.
+
+source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231/ccFile.tcl OK
+> 
+LibDefs : /home/argershm/180-voltmeter/Analog/cc/lib.defs
+> 
+ open lib.defs:/home/argershm/180-voltmeter/Analog/cc/lib.defs
+new worker create session at loading state!
+> 
+history_1
+> 
+Information: Info: Waveform format selected is PSF. Synopsys recommends using the WDF format with the <HSPICE/FineSim> simulator.
+WDF is an optimal format that improves viewing performance and reduces disk usage while PSF is a 3rd party format and support "as-is".
+To change the format, open the Setup -> Environment menu and select the WDF format. (PW-642)
+> 
+/mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+> 
+Loading: Callback files...
+> 
+
+[INFO] : Loading display.tcl from /mnt/designkits/gf180MCU/dk_ncsu/gf180mcu_cc_0.1/Models_HSPICE
+
+ if you wish to Load other display.tcl, please set shell environment valiable "iPDK_load_display_gf180mcu" to value = 0
+> 
+
+> 
+	#######################################
+> 
+	CC-PDK Library Name	: gf180MCU Open
+> 
+	#######################################
+> 
+
+> 
+source /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/.nw_preference_script.tcl OK!
+> 
+DSPF Options: {hierDelim==|}||{termDelim==:}||{fingerChar==@}||{multiplierString==_nettran_}||{aggregateCurrent==1}||{MOSTermNames==d g s b}||{MOSTermOrder==D G S B}||{MOSTermDspfNames==DRC GATE SRC BULK}||{firstChars==XM}||{probeHierDelim==/}||{caseSensitive==1}||{firstChar==M}||{hierPrefix==X}||{nodePrefix==M}||{plotTermVoltageForNet==0}||{mapNetToMosTerminal==}||{mapSlashDelimToDot==1}||{probePortCurrent==1}||{busBit==[]}||{removeNodePrefix==1}||{nlConDelim==.}||{mosModelType==auto}||{keepSchName==0}||{portCurrentAggregateTermLimit==500}
+> 
+_workerLoadStateAction done!
+> 
+New worker app start done.
+PWDP: **information** Worker instantiate primewave handle success!
+PWDP: job [0] exit code :[0].
+PWDP: task runs done or quit!
+PWDP: PWDP: **info** task process exit ok:PrimeSim_22
+PWDP: request pilot begin ... 
+PWDP: got DOPILOT.
+PWDP: request pilot done.
+PWDP: send back PILOTOK.
+PWDP7: pw simulation done begin ...
+Memory monitor at simulation done -  used memory size (MB): 3025
+_getSimulationDetails : 
+> 
+tbName=diff_mode_gain, Mtb=0
+> 
+Got stb tb ok!
+> 
+Self resultsDir: ./simulation
+> 
+Self databaseDir: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+> 
+source /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/sae/get_ava_extreme_value.tcl OK
+> 
+source /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/sae/get_ava_sigma_by_value.tcl OK
+> 
+source /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/sae/get_value_ava.tcl OK
+> 
+source /mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx/sae/matlab_script.tcl OK
+> 
+Nominal run.
+> 
+_createResultsMap done!
+> 
+New worker simulation done for nomial run.
+> 
+>>>resultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results,masterResultsDir=/home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results
+> 
+Information: Evaluating and plotting outputs...
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/.unitedSimFinished
+> 
+touch /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/.unitedSimFinished
+> 
+New worker simulation done for nomial run finished!
+> 
+_simulationDoneAction done without exception!
+> 
+PWDP: simulationDone ok, rc=1
+PWDP7: pw simulation done invoked ...
+touch pilot meas done flag file: /home/argershm/180-voltmeter/Analog/cc/simulation/argershm,tb_main_opamp,schematic/history_1/simulation/diff_mode_gain/PrimeSimSPICE/nominal/results/.pw_nw_meas_done
+> 
+Memory monitor at calculation done -  used memory size (MB): 3097
+PWDP7: pw simulation done finished.
+worker W1 task time :8.
+Process id=3930667, opened fh num=41, max fh num=262144.
+> 
+Shutdown time: Mon Sep  8 17:54:21 2025
+> 
+Elapsed session real time: 0.13 minutes
+> 
+Session terminated. Log is at /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.3.3874231/logs/w1/logs/pw_worker.argershm.2025_9_8_175412_3930667.log
+> 
+PWDP: new worker flow quit.
+
+Information: Feature 'SynopsysCustomLayout' checked in. (LICENSE-004)
+> 
+Information: Feature 'CustomInfrastructure' checked in. (LICENSE-004)
+> 

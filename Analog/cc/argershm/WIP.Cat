@@ -1,6 +1,4 @@
 TDMCHECKPOINT="1.0"
 keepEmptyCategory type="unknown"
 argershm/main_opamp_parameterized type="cell"
-argershm/main_ota_88dB_3kHz type="cell"
-argershm/main_ota_88dB_3kHz_TRIAL type="cell"
 argershm/r2r_opamp type="cell"

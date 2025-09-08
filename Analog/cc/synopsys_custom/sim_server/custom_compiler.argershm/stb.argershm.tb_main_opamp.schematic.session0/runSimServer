@@ -1,0 +1,16 @@
+#!/bin/sh
+
+cd /home/argershm/180-voltmeter/Analog/cc
+run_times=0
+until [ $run_times -gt 1 ]
+do
+    ((run_times++))
+    if [ $run_times -gt 1 ]
+    then
+        export SNPS_PW_SIM_SERVER_RERUN=1
+        script_pgid=`ps -o pgid= $$ | grep -o '[0-9]*'`
+        pid_with_same_pgid=`ps -eo pid,pgid | awk '$2 == "'$script_pgid'" { print $1 }'`
+        echo $pid_with_same_pgid | grep -v $$ | xargs kill -9
+    fi
+    primewave -gui 0 -uniqueString 424077b79e1069ee5b655962666fee8ed6c7980de498070fc2511cd128a4b2dec1cb7792ad947542873f9a75402e9f4669d2bea548da8e08 -python 0 -command "source /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/sim_server/custom_compiler.argershm/stb.argershm.tb_main_opamp.schematic.session0/sim_server_init.tcl" -log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job3 -libDefFile /home/argershm/180-voltmeter/Analog/cc/lib.defs >& /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/primewave_session0_sim_server_job3.out && break
+done

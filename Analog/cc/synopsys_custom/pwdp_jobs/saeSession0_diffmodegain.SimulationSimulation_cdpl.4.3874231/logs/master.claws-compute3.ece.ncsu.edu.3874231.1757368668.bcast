@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1757368668
+pid 3874231
+log /home/argershm/180-voltmeter/Analog/cc/synopsys_custom/pwdp_jobs/saeSession0_diffmodegain.SimulationSimulation_cdpl.4.3874231/logs/master.claws-compute3.ece.ncsu.edu.3874231.log
+tcp 152.14.98.53:35927
+wlog /dev/null
+status done

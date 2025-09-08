@@ -1,151 +1,151 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sun Sep  7 19:12:42 2025
+<!-- created by Custom Compiler (TM), build #, on Mon Sep  8 18:31:53 2025
 -->
 <synopsysFile name="synopsysWorkspace" version="2.2">
-    <workspace title="Layout" default="1" name="leLayout">
+    <workspace name="leLayout" default="1" title="Layout">
         <overlay windowType="leLayout"/>
     </workspace>
-    <workspace title="Schematic" default="1" name="seSchematic">
+    <workspace name="seSchematic" default="1" title="Schematic">
         <overlay windowType="seSchematic">
-            <dockArea size="0 0" side="left">
+            <dockArea side="left" size="0 0">
                 <toolbarRow level="0">
-                    <toolbar title="Schematic Capture" before="seEdit" name="seSchSchematicCapture"/>
-                    <toolbar title="Editing" before="seSchCheck" name="seEdit" position="152"/>
-                    <toolbar title="Check" name="seSchCheck" position="547"/>
+                    <toolbar name="seSchSchematicCapture" title="Schematic Capture" before="seEdit"/>
+                    <toolbar name="seEdit" title="Editing" position="152" before="seSchCheck"/>
+                    <toolbar name="seSchCheck" title="Check" position="547"/>
                 </toolbarRow>
-                <assistantGroup index="-1" length="100">
-                    <assistant name="dcDesignReviewAssistant" floating="false" show="false"/>
-                    <assistant name="seSelectionTable" floating="false" after="dcDesignReviewAssistant" show="false"/>
-                    <assistant name="heDesignNavigator" floating="false" after="seSelectionTable" show="false"/>
-                    <assistant name="deClipboard" floating="false" after="heDesignNavigator" show="false"/>
-                    <assistant name="seTemplateAssistant" floating="false" after="deClipboard" show="false"/>
-                    <assistant name="seVDRCAssistant" floating="false" after="seTemplateAssistant" show="false"/>
-                    <assistant name="seNetTracerAssistant" floating="false" after="seVDRCAssistant" show="false"/>
-                    <assistant name="deDevicePaletteAssistant" floating="false" after="seNetTracerAssistant" show="false"/>
+                <assistantGroup length="100" index="-1">
+                    <assistant show="false" name="dcDesignReviewAssistant" floating="false"/>
+                    <assistant after="dcDesignReviewAssistant" show="false" name="seSelectionTable" floating="false"/>
+                    <assistant after="seSelectionTable" show="false" name="heDesignNavigator" floating="false"/>
+                    <assistant after="heDesignNavigator" show="false" name="deClipboard" floating="false"/>
+                    <assistant after="deClipboard" show="false" name="seTemplateAssistant" floating="false"/>
+                    <assistant after="seTemplateAssistant" show="false" name="seVDRCAssistant" floating="false"/>
+                    <assistant after="seVDRCAssistant" show="false" name="seNetTracerAssistant" floating="false"/>
+                    <assistant after="seNetTracerAssistant" show="false" name="deDevicePaletteAssistant" floating="false"/>
                 </assistantGroup>
             </dockArea>
-            <dockArea size="1571 140" side="bottom">
+            <dockArea side="bottom" size="1505 140">
                 <assistantGroup>
-                    <assistant length="1571" name="giConsole" floating="false" position="43"/>
+                    <assistant length="1505" name="giConsole" floating="false" position="43"/>
                 </assistantGroup>
             </dockArea>
-            <dockArea size="290 846" side="right">
-                <assistantGroup index="10" length="846" position="94">
+            <dockArea side="right" size="290 862">
+                <assistantGroup length="862" position="94" index="10">
                     <assistant name="dePropertyEditor" floating="false"/>
-                    <assistant name="deErrorViewer" floating="false" after="dePropertyEditor" show="false"/>
-                    <assistant name="deEstimatedParasitics" floating="false" after="deErrorViewer" show="false"/>
-                    <assistant name="nlAMSAssistant" floating="false" after="deEstimatedParasitics" show="false"/>
-                    <assistant name="seDeviceLabelEditor" floating="false" after="nlAMSAssistant" show="false"/>
-                    <assistant name="deTransactionHistory" floating="false" after="seDeviceLabelEditor" show="false"/>
-                    <assistant name="deProbeAssistant" floating="false" after="deTransactionHistory" show="false"/>
-                    <assistant name="cmConstraintEditor" floating="false" after="deProbeAssistant" show="false"/>
-                    <assistant name="heHierarchyNavigator" floating="false" after="cmConstraintEditor" show="false"/>
-                    <assistant name="seSchematicObjectFilter" floating="false" after="heHierarchyNavigator" show="false"/>
-                    <assistant name="seSimAnnotationAssistant" floating="false" after="seSchematicObjectFilter" show="false"/>
+                    <assistant after="dePropertyEditor" show="false" name="deErrorViewer" floating="false"/>
+                    <assistant after="deErrorViewer" show="false" name="deEstimatedParasitics" floating="false"/>
+                    <assistant after="deEstimatedParasitics" show="false" name="nlAMSAssistant" floating="false"/>
+                    <assistant after="nlAMSAssistant" show="false" name="seDeviceLabelEditor" floating="false"/>
+                    <assistant after="seDeviceLabelEditor" show="false" name="deTransactionHistory" floating="false"/>
+                    <assistant after="deTransactionHistory" show="false" name="deProbeAssistant" floating="false"/>
+                    <assistant after="deProbeAssistant" show="false" name="cmConstraintEditor" floating="false"/>
+                    <assistant after="cmConstraintEditor" show="false" name="heHierarchyNavigator" floating="false"/>
+                    <assistant after="heHierarchyNavigator" show="false" name="seSchematicObjectFilter" floating="false"/>
+                    <assistant after="seSchematicObjectFilter" show="false" name="seSimAnnotationAssistant" floating="false"/>
                 </assistantGroup>
             </dockArea>
             <dockArea side="top">
                 <toolbarRow level="0">
-                    <toolbar title="Standard" before="seNavigation" name="seSchStandard"/>
-                    <toolbar title="Navigation" before="seHierarchy" name="seNavigation" position="263"/>
-                    <toolbar title="Hierarchy" before="seSelection" name="seHierarchy" position="569"/>
-                    <toolbar title="Selection" before="seAnnotation" name="seSelection" position="953"/>
-                    <toolbar title="Annotation" before="seObjectInfo" name="seAnnotation" position="1173"/>
+                    <toolbar name="seSchStandard" title="Standard" before="seNavigation"/>
+                    <toolbar name="seNavigation" title="Navigation" position="263" before="seHierarchy"/>
+                    <toolbar name="seHierarchy" title="Hierarchy" position="569" before="seSelection"/>
+                    <toolbar name="seSelection" title="Selection" position="979" before="seAnnotation"/>
+                    <toolbar name="seAnnotation" title="Annotation" position="1199" before="seObjectInfo"/>
                 </toolbarRow>
                 <toolbarRow level="1">
-                    <toolbar title="Overlay" before="seSchematicPVEToolbar" name="seOverlay" show="false"/>
-                    <toolbar title="PVE" name="seSchematicPVEToolbar" show="false"/>
+                    <toolbar show="false" name="seOverlay" title="Overlay" before="seSchematicPVEToolbar"/>
+                    <toolbar show="false" name="seSchematicPVEToolbar" title="PVE"/>
                 </toolbarRow>
             </dockArea>
         </overlay>
     </workspace>
-    <workspace title="Library Manager" default="1" name="dmLibraryManager">
+    <workspace name="dmLibraryManager" default="1" title="Library Manager">
         <overlay windowType="dmLibraryManager">
-            <dockArea size="0 0" side="bottom">
+            <dockArea side="bottom" size="0 0">
                 <assistantGroup>
-                    <assistant name="giConsole" floating="false" show="false"/>
+                    <assistant show="false" name="giConsole" floating="false"/>
                 </assistantGroup>
             </dockArea>
             <dockArea side="top">
                 <toolbarRow level="0">
-                    <toolbar title="Standard" name="dmLibraryManagerStandard"/>
+                    <toolbar name="dmLibraryManagerStandard" title="Standard"/>
                 </toolbarRow>
             </dockArea>
         </overlay>
     </workspace>
-    <workspace title="Floorplan" default="0" name="lxFloorplan">
+    <workspace name="lxFloorplan" default="0" title="Floorplan">
         <overlay windowType="lxFloorplan"/>
     </workspace>
-    <workspace title="Text Editor Workspace" default="1" name="teWorkspace">
+    <workspace name="teWorkspace" default="1" title="Text Editor Workspace">
         <overlay windowType="teText"/>
     </workspace>
-    <workspace title="Chaining" default="0" name="lxChaining">
+    <workspace name="lxChaining" default="0" title="Chaining">
         <overlay windowType="lxSymbolicEditor">
             <dockArea side="left">
                 <assistantGroup>
-                    <assistant length="318" name="lxSEDSchematicAssistant" floating="false" position="452" show="false"/>
+                    <assistant length="318" show="false" name="lxSEDSchematicAssistant" floating="false" position="452"/>
                 </assistantGroup>
                 <assistantGroup>
-                    <assistant before="lxSEDSchematicAssistant" forWorkspace="true" length="318" name="lxDevicePanelSDC" floating="false" position="452"/>
+                    <assistant length="318" name="lxDevicePanelSDC" floating="false" position="452" forWorkspace="true" before="lxSEDSchematicAssistant"/>
                 </assistantGroup>
             </dockArea>
         </overlay>
     </workspace>
-    <workspace title="Matching" default="0" name="lxMatching">
+    <workspace name="lxMatching" default="0" title="Matching">
         <overlay windowType="lxSymbolicEditor">
             <dockArea side="left">
                 <assistantGroup>
-                    <assistant length="318" name="lxSEDSchematicAssistant" floating="false" position="452" show="false"/>
+                    <assistant length="318" show="false" name="lxSEDSchematicAssistant" floating="false" position="452"/>
                 </assistantGroup>
                 <assistantGroup index="0">
-                    <assistant before="lxSEDSchematicAssistant" forWorkspace="true" name="lxPatternPanelMDC" floating="false"/>
-                    <assistant forWorkspace="true" name="lxDevicePanelMDC" floating="false"/>
+                    <assistant name="lxPatternPanelMDC" floating="false" forWorkspace="true" before="lxSEDSchematicAssistant"/>
+                    <assistant name="lxDevicePanelMDC" floating="false" forWorkspace="true"/>
                 </assistantGroup>
             </dockArea>
             <dockArea side="top">
                 <toolbarRow level="0">
-                    <toolbar title="Grid Size" forWorkspace="true" name="lxGridSizeMDC" after="lxSelection"/>
+                    <toolbar after="lxSelection" name="lxGridSizeMDC" title="Grid Size" forWorkspace="true"/>
                 </toolbarRow>
             </dockArea>
         </overlay>
     </workspace>
-    <workspace title="SDL" default="0" name="lxSDL">
+    <workspace name="lxSDL" default="0" title="SDL">
         <overlay windowType="leLayout">
             <menuBar>
-                <menu title="SDL" before="giWindowMenu" remove="false" name="lxSDLMenuLayout">
-                    <action before="lxShowUpdateSchematic" name="lxShowGenerateLayout"/>
-                    <action before="lxPickAndPlace" name="lxShowUpdateSchematic"/>
-                    <action before="lxEstablishCorrespondence" name="lxPickAndPlace"/>
-                    <action before="lxClone" name="lxEstablishCorrespondence"/>
-                    <action before="lxSplitDevice" name="lxClone"/>
-                    <action before="lxSDLMapping" name="lxSplitDevice"/>
-                    <action before="lxApplyPresetParams" name="lxSDLMapping"/>
-                    <action before="lxOptions" name="lxApplyPresetParams"/>
-                    <action before="giSeparator" name="lxOptions"/>
-                    <action before="lxSymbolicEditorLEMenu" name="giSeparator"/>
-                    <action before="lxViaTrackPlanner" name="lxSymbolicEditorLEMenu"/>
-                    <action before="giSeparator" name="lxViaTrackPlanner"/>
-                    <action before="lxSDLCheckAndRepairWindow" name="lxECOMenuLay"/>
-                    <action before="giSeparator" name="lxSDLCheckAndRepairWindow"/>
-                    <action before="giSeparator" name="deProbeCascade"/>
+                <menu name="lxSDLMenuLayout" title="SDL" remove="false" before="giWindowMenu">
+                    <action name="lxShowGenerateLayout" before="lxShowUpdateSchematic"/>
+                    <action name="lxShowUpdateSchematic" before="lxPickAndPlace"/>
+                    <action name="lxPickAndPlace" before="lxEstablishCorrespondence"/>
+                    <action name="lxEstablishCorrespondence" before="lxClone"/>
+                    <action name="lxClone" before="lxSplitDevice"/>
+                    <action name="lxSplitDevice" before="lxSDLMapping"/>
+                    <action name="lxSDLMapping" before="lxApplyPresetParams"/>
+                    <action name="lxApplyPresetParams" before="lxOptions"/>
+                    <action name="lxOptions" before="giSeparator"/>
+                    <action name="giSeparator" before="lxSymbolicEditorLEMenu"/>
+                    <action name="lxSymbolicEditorLEMenu" before="lxViaTrackPlanner"/>
+                    <action name="lxViaTrackPlanner" before="giSeparator"/>
+                    <action name="lxECOMenuLay" before="lxSDLCheckAndRepairWindow"/>
+                    <action name="lxSDLCheckAndRepairWindow" before="giSeparator"/>
+                    <action name="deProbeCascade" before="giSeparator"/>
                     <action name="lxLogicalSource"/>
                 </menu>
             </menuBar>
             <dockArea side="left">
                 <toolbarRow level="0">
-                    <toolbar title="SDL" forWorkspace="true" name="lxSDLToolbarLayout"/>
+                    <toolbar name="lxSDLToolbarLayout" title="SDL" forWorkspace="true"/>
                 </toolbarRow>
                 <assistantGroup>
-                    <assistant forWorkspace="true" length="318" name="lxSchematicAssistant" floating="false" position="452"/>
+                    <assistant length="318" name="lxSchematicAssistant" floating="false" position="452" forWorkspace="true"/>
                 </assistantGroup>
                 <assistantGroup>
-                    <assistant before="lxSchematicAssistant" length="318" name="heDesignNavigator" floating="false" position="452"/>
+                    <assistant length="318" name="heDesignNavigator" floating="false" position="452" before="lxSchematicAssistant"/>
                 </assistantGroup>
             </dockArea>
             <dockArea side="right">
                 <assistantGroup index="0">
-                    <assistant forWorkspace="true" name="lxTemplateManager" floating="false" show="false"/>
-                    <assistant forWorkspace="true" name="lxTemplateBrowser" floating="false" show="false"/>
+                    <assistant show="false" name="lxTemplateManager" floating="false" forWorkspace="true"/>
+                    <assistant show="false" name="lxTemplateBrowser" floating="false" forWorkspace="true"/>
                 </assistantGroup>
             </dockArea>
         </overlay>
@@ -153,14 +153,14 @@
             <attribute value="true" name="lxSDLTool"/>
         </metadata>
     </workspace>
-    <workspace title="SDL" default="0" name="lxSDLseSchematic">
+    <workspace name="lxSDLseSchematic" default="0" title="SDL">
         <overlay windowType="seSchematic">
             <menuBar>
-                <menu title="SDL" before="giWindowMenu" remove="false" name="lxSDLMenuSchematic">
-                    <action before="giSeparator" name="lxShowUpdateSchematic"/>
-                    <action before="lxECOMenuSch" name="giSeparator"/>
-                    <action before="giSeparator" name="lxECOMenuSch"/>
-                    <action before="giSeparator" name="deProbeCascade"/>
+                <menu name="lxSDLMenuSchematic" title="SDL" remove="false" before="giWindowMenu">
+                    <action name="lxShowUpdateSchematic" before="giSeparator"/>
+                    <action name="giSeparator" before="lxECOMenuSch"/>
+                    <action name="lxECOMenuSch" before="giSeparator"/>
+                    <action name="deProbeCascade" before="giSeparator"/>
                     <action name="lxInitializeFromSchematic"/>
                 </menu>
             </menuBar>
@@ -169,30 +169,30 @@
             <attribute value="true" name="lxSDLTool"/>
         </metadata>
     </workspace>
-    <workspace title="SDL" default="1" name="lxSDLFloorplan">
+    <workspace name="lxSDLFloorplan" default="1" title="SDL">
         <overlay windowType="lxFloorplan">
             <menuBar>
-                <menu title="SDL" before="giWindowMenu" remove="false" name="lxFloorplanMenu">
-                    <action before="giSeparator" name="lxRealizeLayout"/>
-                    <action before="lxOptions" name="giSeparator"/>
+                <menu name="lxFloorplanMenu" title="SDL" remove="false" before="giWindowMenu">
+                    <action name="lxRealizeLayout" before="giSeparator"/>
+                    <action name="giSeparator" before="lxOptions"/>
                     <action name="lxOptions"/>
                 </menu>
             </menuBar>
             <dockArea side="left">
                 <assistantGroup>
-                    <assistant forWorkspace="true" length="318" name="lxSchematicAssistant" floating="false" position="452"/>
+                    <assistant length="318" name="lxSchematicAssistant" floating="false" position="452" forWorkspace="true"/>
                 </assistantGroup>
                 <assistantGroup>
-                    <assistant before="lxSchematicAssistant" length="318" name="heDesignNavigator" floating="false" position="452"/>
+                    <assistant length="318" name="heDesignNavigator" floating="false" position="452" before="lxSchematicAssistant"/>
                 </assistantGroup>
             </dockArea>
         </overlay>
     </workspace>
-    <workspace title="UDD" default="0" name="ueUDDWorkspace">
+    <workspace name="ueUDDWorkspace" default="0" title="UDD">
         <overlay windowType="leLayout">
             <dockArea side="left">
                 <assistantGroup>
-                    <assistant forWorkspace="true" name="ueUDDAssistant" floating="false"/>
+                    <assistant name="ueUDDAssistant" floating="false" forWorkspace="true"/>
                 </assistantGroup>
             </dockArea>
         </overlay>
@@ -200,20 +200,20 @@
             <attribute value="true" name="ueUDDTool"/>
         </metadata>
     </workspace>
-    <workspace title="Template" default="0" name="deTemplateWorkspaceLayout">
+    <workspace name="deTemplateWorkspaceLayout" default="0" title="Template">
         <overlay windowType="leLayout">
             <dockArea side="left">
                 <assistantGroup>
-                    <assistant forWorkspace="true" name="deTemplateAttributes" floating="false" show="false"/>
+                    <assistant show="false" name="deTemplateAttributes" floating="false" forWorkspace="true"/>
                 </assistantGroup>
             </dockArea>
         </overlay>
     </workspace>
-    <workspace title="Template" default="0" name="deTemplateWorkspaceSchematic">
+    <workspace name="deTemplateWorkspaceSchematic" default="0" title="Template">
         <overlay windowType="seSchematic">
             <dockArea side="left">
                 <assistantGroup>
-                    <assistant forWorkspace="true" name="deTemplateAttributes" floating="false" show="false"/>
+                    <assistant show="false" name="deTemplateAttributes" floating="false" forWorkspace="true"/>
                 </assistantGroup>
             </dockArea>
         </overlay>

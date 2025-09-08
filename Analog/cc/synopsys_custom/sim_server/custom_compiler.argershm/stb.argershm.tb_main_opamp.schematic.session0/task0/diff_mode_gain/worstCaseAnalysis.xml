@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Sep  8 18:29:15 2025-->
+<file-format name="stateCategory" version="1.0">
+ <collection name="worstCaseAnalysis"/>
+</file-format>
