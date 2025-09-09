@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<!--Created by Custom Compiler (TM), build , on Tue Sep  9 00:30:46 2025-->
+<file-format name="stateData" version="1.0">
+ <attribute name="dcop_splitted" value="1" type="giBoolean"/>
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="design" value="jckesle/tb_misc_1/schematic" type="dmCellView"/>
+ <attribute name="dspfInfo" value="" type="giString"/>
+ <attribute name="enabled" value="1" type="giBoolean"/>
+ <attribute name="enabledJobClass" value="0" type="giBoolean"/>
+ <attribute name="migratedSimulator" value="" type="giString"/>
+ <attribute name="name" value="PrimeSim_default" type="giString"/>
+ <attribute name="openaccessState" value="jckesle/tb_misc_1/PrimeSim_default" type="dmCellView"/>
+ <attribute name="simulator" value="PrimeSim" type="giString"/>
+ <comment/>
+ <resultsDir>./simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

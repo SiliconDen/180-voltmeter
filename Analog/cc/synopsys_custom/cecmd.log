@@ -1,9 +1,0 @@
-### WaveView ADV log file, revision X-2025.06-1 (build Jun 19, ) ###
-### created at 17:44:14 on Mon Sep  8 2025 (Linux AMD64) ###
-### Host Name: claws-compute3.ece.ncsu.edu   User ID: argershm   PID: 3873921   ###
-wv_start_log
-# (0) running in waveview only mode
-# (0) SW_SX_PERL_LIB defined
-# (0) SW_SX_TCL_LIB defined
-# (0) HOME defined
-#source TCL files from directory {/mnt/apps/public/COE/synopsys_apps/customcompiler/X-2025.06-1/auxx}
