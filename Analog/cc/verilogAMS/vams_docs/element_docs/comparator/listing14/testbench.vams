@@ -1,0 +1,12 @@
+`timescale 10ns / 10ps
+`include "disciplines.vams"
+
+module testbench ();
+    electrical gnd;
+    ground gnd;
+
+    wire out;
+
+    comparator #(.offset(2.5), .hyst(0.5)) comp0 (out, in, gnd);
+    vsource #(.type("sine"), .ampl(2.5), .dc(2.5), .freq(1M)) v0 (in, gnd);
+endmodule

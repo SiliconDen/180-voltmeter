@@ -1,0 +1,25 @@
+<config.xml version="1">
+    <top_cell_view>
+        <lib>verilogAMS</lib>
+        <cell>tb_gf180vm_comparator</cell>
+        <view>schematic</view>
+    </top_cell_view>
+    <stop_list>hspice hspiceD functional behavioral symbol</stop_list>
+    <view_search_list>hspice hspiceD cmos.sch cmos_sch schematic verilog functional behavioral vhdl vhdl_config veriloga verilogams</view_search_list>
+    <constraint_vsl></constraint_vsl>
+    <view_name_groups/>
+    <library_search_list></library_search_list>
+    <lib_open_list></lib_open_list>
+    <cell_open_list></cell_open_list>
+    <property_binding_name></property_binding_name>
+    <overlay_view_name></overlay_view_name>
+    <ignore_name_list>nlAction</ignore_name_list>
+    <remove_name_list></remove_name_list>
+    <instance_data>
+        <lib>verilogAMS</lib>
+        <cell>tb_gf180vm_comparator</cell>
+        <view>schematic</view>
+        <instance_type>I0</instance_type>
+        <selection_rule_type>verilogams</selection_rule_type>
+    </instance_data>
+</config.xml>

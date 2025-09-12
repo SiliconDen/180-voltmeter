@@ -1,0 +1,4 @@
+# hdl.var
+INCLUDE $AMSHOME/tools/inca/files/hdl.var
+DEFINE WORK worklib 
+DEFINE NCVLOGOPTS -linedebug

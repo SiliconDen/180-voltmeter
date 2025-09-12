@@ -1,0 +1,8 @@
+Running this example requires a proper installed and licensed Virtuoso
+AMS Designer Simulator from Cadence Design Systems, Inc.
+
+The environment variable AMSHOME must be set to the installation
+directory of the simulator.
+
+setenv AMSHOME <full_path_to_AMS_Designer_Simulator_installation>
+

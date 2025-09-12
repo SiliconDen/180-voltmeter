@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Sep  4 15:36:44 2025-->
+<file-format name="stateCategory" version="1.0">
+ <object name="digitalFileOptions" type="saDigitalFileOptions" version="1">
+  <attribute name="extInclude" type="giBoolean" value="0"/>
+  <attribute name="libExt" type="giString" value=""/>
+  <collection name="pathOptions"/>
+  <attribute name="sverilog" type="giBoolean" value="0"/>
+  <attribute name="sverilogExt" type="giString" value=""/>
+  <attribute name="vlog2001Ext" type="giString" value=""/>
+  <attribute name="vlogAMSExt" type="giString" value=""/>
+ </object>
+</file-format>

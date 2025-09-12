@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Sep  4 15:36:44 2025-->
+<file-format name="stateCategory" version="1.0">
+ <object name="environmentOptions" type="saEnvironmentOptions" version="1">
+  <attribute name="accuracyLevel" type="giString" value="Default"/>
+  <attribute name="analogSimulatorOptions" type="giString" value=""/>
+  <attribute name="commandLineOptions" type="giString" value=""/>
+  <attribute name="compilationOptions" type="giString" value=""/>
+  <attribute name="digitalOutputDataFormat" type="giString" value="fsdb"/>
+  <attribute name="elaborationOptions" type="giString" value=""/>
+  <attribute name="enableParallelSim" type="giBoolean" value="0"/>
+  <attribute name="ignoreParasitics" type="giBoolean" value="0"/>
+  <attribute name="includeGlobal" type="giBoolean" value="1"/>
+  <attribute name="includePath" type="giString" value="${PDK_DIR}/Models_HSPICE/"/>
+  <attribute name="mergedFile" type="giBoolean" value="1"/>
+  <attribute name="netlistLanguage" type="giString" value="HSPICE"/>
+  <attribute name="numProcesses" type="giInt" value="1"/>
+  <attribute name="outputDataFormat" type="giString" value="fsdb"/>
+  <attribute name="stopViewList" type="giString" value="hspice hspiceD functional behavioral symbol"/>
+  <attribute name="switchViewList" type="giString" value="hspice hspiceD schematic verilog functional behavioral vhdl_config vhdl spice veriloga verilogams"/>
+  <attribute name="use64Bit" type="giBoolean" value="1"/>
+  <attribute name="vhdlanOptions" type="giString" value=""/>
+ </object>
+</file-format>

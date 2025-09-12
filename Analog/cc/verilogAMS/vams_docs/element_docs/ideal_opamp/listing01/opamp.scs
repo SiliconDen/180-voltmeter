@@ -1,0 +1,12 @@
+// Test resistor model
+
+simulator lang=spectre
+
+ahdl_include "opamp.vams"
+
+Vin (in 0) vsource type=sine ampl=1 freq=1
+OA1 (out 0 0 nin) ideal_opamp
+R1  (in nin) resistor r=10k
+R2  (nin out) resistor r=10k
+
+doTran tran stop=2

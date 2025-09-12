@@ -5,3 +5,4 @@ DEFINE jckesle ./jckesle
 DEFINE dhocken ./dhocken
 DEFINE COMMON ./COMMON
 DEFINE hpmcclea ./hpmcclea
+DEFINE verilogAMS ./verilogAMS

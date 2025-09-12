@@ -1,0 +1,13 @@
+#!/bin/sh
+
+rm -rf worklib
+mkdir worklib
+
+ncvlog -ams comparator.vams -messages
+ncvlog -ams testbench.vams -messages
+
+ncelab testbench -timescale 10ps/1ps -messages
+
+ncsim testbench -messages -analogcontrol run.scs -gui & 
+
+rm *.log

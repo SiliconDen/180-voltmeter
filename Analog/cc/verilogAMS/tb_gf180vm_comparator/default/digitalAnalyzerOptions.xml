@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Sep  4 15:36:44 2025-->
+<file-format name="stateCategory" version="1.0">
+ <object name="digitalAnalyzerOptions" type="saDigitalAnalyzerOptions" version="1">
+  <collection name="verilogOptionsGroups"/>
+  <collection name="vhdlOptionsGroups"/>
+ </object>
+</file-format>

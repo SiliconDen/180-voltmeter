@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Fri Sep  5 16:28:43 2025-->
+<file-format version="1.0" name="stateData">
+ <attribute value="0" type="giBoolean" name="dcop_splitted"/>
+ <attribute value="" type="giString" name="description"/>
+ <attribute value="verilogAMS/tb_gf180vm_comparator/config_vAMS" type="dmCellView" name="design"/>
+ <attribute value="" type="giString" name="dspfInfo"/>
+ <attribute value="1" type="giBoolean" name="enabled"/>
+ <attribute value="0" type="giBoolean" name="enabledJobClass"/>
+ <attribute value="" type="giString" name="migratedSimulator"/>
+ <attribute value="VCS_PrimeSimSPICE_AMS_default" type="giString" name="name"/>
+ <attribute value="//" type="dmCellView" name="openaccessState"/>
+ <attribute value="PrimeSimVCS" type="giString" name="simulator"/>
+ <comment></comment>
+ <resultsDir>./simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

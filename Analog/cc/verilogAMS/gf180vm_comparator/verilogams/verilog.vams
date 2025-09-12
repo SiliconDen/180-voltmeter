@@ -1,0 +1,58 @@
+// Derek Hockenberry
+// Inverting comparator
+// Created Thu Sep  4 12:36:00 2025
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module gf180vm_comparator (input INP, input INN, output OUT, input VDD, input VSS);
+// Ports
+electrical INP;			// reference voltage input pin
+electrical INN;			// input voltage input pin
+electrical OUT;			// comparator output
+electrical VDD;			// upper voltage rail
+electrical VSS;			// lower voltage rail
+
+// Internal nodes
+electrical Vdiff;		// continuous V(INN)-V(INP) 
+
+// Parameters
+parameter real Vos = 0;		// definable offset voltage (+ increases threshold)
+//parameter real Vsatp = 3.3;	// definable positive saturation voltage
+//parameter integer Vsatp_set = 0;	// should be set to 1 if user declares Vsatp
+//parameter real Vsatn = 0;	// definable negative saturation voltage
+//parameter integer Vsatn_set = 0;	// should be set to 1 if user declares Vsatn
+parameter real slew_rate = 5M;		// 5V/us is 5MV/s
+
+// Vars
+integer scale;
+//integer urail;
+//integer lrail;
+
+  analog begin
+	// Calculate difference
+	//V(Vdiff) <+ V(INN,INP);
+
+	// Vdiff greater than offset voltage?
+	@(cross(V(INN,INP) - Vos))
+		;
+	/*
+	if (V(Vdiff) > Vos)
+		scale = 0;
+		urail = 0;
+	else
+		scale = 1;
+		urail = 1;
+	end
+	lrail = 1-urail;
+	// Calculate output voltage
+	//V(OUT) <+ ((V(INN)-V(INP)-Vos) > 0) ? V(VSS) : V(VDD);
+	V(OUT) <+ transition(scale, 0, 10n)*(urail*V(VDD) + lrail*V(VSS));
+	*/
+	// Greater or lesser?
+	scale = V(Vdiff) - Vos;
+	// Calculate output
+	//V(OUT) <+ transition(scale, 0, 10n)*((1-scale)*V(VDD) + scale*V(VSS)); // works well enough, very snappy tho
+	V(OUT) <+ slew((1-scale)*V(VDD) + scale*V(VSS), slew_rate); // also very snappy but whatever
+  end
+endmodule

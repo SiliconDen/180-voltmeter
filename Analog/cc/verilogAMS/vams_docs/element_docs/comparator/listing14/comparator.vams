@@ -1,0 +1,35 @@
+// Comparator
+//
+// Version 1a, 1 June 04
+//
+// Olaf Zinke
+//
+// Downloaded from The Designer's Guide Community (www.designers-guide.org).
+// Post any questions on www.designers-guide.org/Forum.
+// Taken from "The Designer's Guide to Verilog-AMS" by Kundert & Zinke.
+// Chapter 4, Listing 14.
+
+`timescale 1ns / 1ps
+`include "disciplines.vams"
+
+module comparator (out, p, n);
+    parameter real offset = 0;			// Offset voltage (V)
+    parameter real hyst = 0.0 from [0:inf);	// Hysteresis (V)
+    inout p, n;
+    output out;
+    electrical p, n;
+    logic out;
+    reg out;
+    parameter real thrlo = offset - 0.5*hyst;	// Lower threshold voltage (V)
+    parameter real thrhi = offset + 0.5*hyst;	// Upper threshold voltage (V)
+
+    always @(above(V(p, n) - thrhi))
+	out = 1;
+
+    always @(above(thrlo - V(p, n)))
+	out = 0;
+
+
+
+endmodule
+

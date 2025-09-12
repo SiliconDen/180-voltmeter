@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dhocken
+HostName                       claws-compute3.ece.ncsu.edu
+ProcessIdentifier              1688653
+ProcessCreationTime_UTC        1757696723
+ProcessCreationTime_Readable   Fri 12 Sep 2025 01:05:23 PM EDT EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/dhocken/Silicon_Den/180-voltmeter/Analog/cc/verilogAMS/tb_gf180vm_comparator/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri 12 Sep 2025 01:05:49 PM EDT EDT
