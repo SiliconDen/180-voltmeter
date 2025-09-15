@@ -52,7 +52,7 @@ module state_machine (
     // Inputs from Counters
     input wire [4:0] cycle_count_i,
     input wire [9:0] pulse_count_i,
-    input wire [11:0] measurement_count_i
+    input wire [11:0] measurement_count_i,
 
     // Outputs to Counters
     output wire measurement_en_o
@@ -61,6 +61,12 @@ module state_machine (
     // ---------------------------------------------------------
     // Declarations
     // ---------------------------------------------------------
+
+    // AFE control
+    localparam AFE_IDLE = 2'b00;
+    localparam AFE_AUTO_ZERO = 2'b01;
+    localparam AFE_INTEGRATE = 2'b10;
+    localparam AFE_DEINTEGRATE = 2'b11;
 
     // State machine
     localparam S_IDLE = 2'b00;
@@ -216,16 +222,16 @@ module state_machine (
     
     // Next Range logic
     always @(*) begin
-        if(current_target_cycle == FIRST_DEINTEGRATE_CYCLE and next_target_cycle == SECOND_AUTO_ZERO_CYCLE) begin
+        if(current_target_cycle == FIRST_DEINTEGRATE_CYCLE && next_target_cycle == SECOND_AUTO_ZERO_CYCLE) begin
             next_range = RANGE_2;
         end
-        if(current_target_cycle == SECOND_DEINTEGRATE_CYCLE and next_target_cycle == THIRD_AUTO_ZERO_CYCLE) begin
+        if(current_target_cycle == SECOND_DEINTEGRATE_CYCLE && next_target_cycle == THIRD_AUTO_ZERO_CYCLE) begin
             next_range = RANGE_3;
         end
-        if(current_target_cycle == THIRD_DEINTEGRATE_CYCLE and next_target_cycle == FOURTH_AUTO_ZERO_CYCLE) begin
+        if(current_target_cycle == THIRD_DEINTEGRATE_CYCLE && next_target_cycle == FOURTH_AUTO_ZERO_CYCLE) begin
             next_range = RANGE_4;
         end
-        if(current_target_cycle == FOURTH_DEINTEGRATE_CYCLE and next_target_cycle == FIRST_AUTO_ZERO_CYCLE) begin
+        if(current_target_cycle == FOURTH_DEINTEGRATE_CYCLE && next_target_cycle == FIRST_AUTO_ZERO_CYCLE) begin
             next_range = RANGE_1;
         end
     end

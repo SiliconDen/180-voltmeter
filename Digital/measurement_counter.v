@@ -2,7 +2,7 @@ module measurement_counter (
     input wire clk_i,
     input wire rst_n_i,
     input wire measurement_en_i,
-    output wire measurement_count_o
+    output wire [11:0] measurement_count_o
 );
     reg [11:0] current_measurement_count, next_measurement_count;
 
