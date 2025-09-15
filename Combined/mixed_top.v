@@ -25,8 +25,7 @@ module mixed_top(
 
     // Digital signals
     input wire clk_i,
-    input wire rst_i, // change to rst_n_i
-    input wire [1:0] mode_sel_i,
+    input wire rst_n_i,
 
     // -- SPI signals
     input wire spi_sclk_i,

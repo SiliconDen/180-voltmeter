@@ -21,19 +21,15 @@
 module digital_top (
     // Analog Signals
     input wire comp_i,
-    input wire sat_hi_i,
-    input wire sat_lo_i,
-    input wire ref_ok_i,
+    input wire analog_ready_i,
 
     // Digital Signals
     input wire clk_i,
     input wire rst_n_i,
 
     // -- State Machine Signals
-    input wire [1:0] mode_sel_i,
     output wire [1:0] afe_sel_o,
-    output wire [2:0] range_sel_o,
-    output wire afe_reset_o,
+    output wire mode_sel_o,
     output wire ref_sign_o,
 
     // -- SPI Signals
@@ -69,17 +65,18 @@ module digital_top (
     //---------------------------------------------------------
 
     // Analog 
-    analog_sanitizer analog_sanitizer_inst (
+    sync_and_filter sync_and_filter_comp_inst (
         .clk_i(clk_i),
         .rst_n_i(rst_n_i),
-        .comp_i(comp_i),
-        .sat_hi_i(sat_hi_i),
-        .sat_lo_i(sat_lo_i),
-        .ref_ok_i(ref_ok_i),
-        .comp_o(comp_o),
-        .sat_hi_o(sat_hi_o),
-        .sat_lo_o(sat_lo_o),
-        .ref_ok_o(ref_ok_o)
+        .async_i(comp_i),
+        .clean_out_o(comp_o)
+    );
+
+    sync_and_filter sync_and_filter_analog_ready_inst (
+        .clk_i(clk_i),
+        .rst_n_i(rst_n_i),
+        .async_i(analog_ready_i),
+        .clean_out_o(analog_ready_o)
     );
 
     // State Machine
@@ -87,14 +84,10 @@ module digital_top (
         .clk_i(clk_i),
         .rst_n_i(rst_n_i),
         .comp_i(comp_o),
-        .sat_hi_i(sat_hi_o),
-        .sat_lo_i(sat_lo_o),
-        .ref_ok_i(ref_ok_o),
+        .analog_ready_i(analog_ready_o),
         .afe_sel_o(afe_sel_o),
-        .range_sel_o(range_sel_o),
-        .afe_reset_o(afe_reset_o),
+        .mode_sel_o(mode_sel_o),
         .ref_sign_o(ref_sign_o),
-        .range_error_o(range_error_o),
         .done_o(done),
         .counter_done_i(counter_done),
         .counter_busy_i(counter_busy),
