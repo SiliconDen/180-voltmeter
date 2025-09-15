@@ -39,8 +39,7 @@ module state_machine (
     input wire trigger_i,
 
     // Outputs to MCU
-    output reg digital_ready_o,
-    output reg data_valid_o,
+    output wire digital_ready_o,
 
     // Inputs from AFE
     input wire comp_i,
@@ -55,7 +54,7 @@ module state_machine (
     input wire [9:0] pulse_count_i,
     input wire [11:0] measurement_count_i
 
-    // Outputs to Counter
+    // Outputs to Counters
     output wire measurement_en_o
 );
 
@@ -149,9 +148,9 @@ module state_machine (
     // Current Target Cycle logic
     always @(posedge clk_i or negedge rst_n_i) begin
         if(!rst_n_i) begin
-            current_target_cycle = FIRST_AUTO_ZERO_CYCLE;
+            current_target_cycle <= FIRST_AUTO_ZERO_CYCLE;
         end else begin
-            current_target_cycle = next_target_cycle;
+            current_target_cycle <= next_target_cycle;
         end
     end
 
@@ -168,7 +167,7 @@ module state_machine (
                 if(current_target_cycle == THIRD_DEINTEGRATE_CYCLE) begin
                     next_target_cycle = FOURTH_AUTO_ZERO_CYCLE;
                 end
-                if(current_target_cycle == FOURTH_DEINTEGRATE_CYCLE) begin
+                if(current_target_cycle == FOURTH_DEINTEGRATE_CYCLE || measurement_count_i >= 12'd360) begin
                     next_target_cycle = FIRST_AUTO_ZERO_CYCLE;
                 end
             end
@@ -209,9 +208,9 @@ module state_machine (
     // Current Range logic
     always @(posedge clk_i or negedge rst_n_i) begin
         if(!rst_n_i) begin
-            current_range = RANGE_1;
+            current_range <= RANGE_1;
         end else begin
-            current_range = next_range;
+            current_range <= next_range;
         end
     end
     
@@ -273,9 +272,9 @@ module state_machine (
     // Current Target Pulse logic
     always @(posedge clk_i or negedge rst_n_i) begin
         if(!rst_n_i) begin
-            current_target_pulse = 10'd100;
+            current_target_pulse <= 10'd100;
         end else begin
-            current_target_pulse = next_target_pulse;
+            current_target_pulse <= next_target_pulse;
         end 
     end
 
@@ -297,14 +296,15 @@ module state_machine (
     // Comp Previous logic
     always @(posedge clk_i or negedge rst_n_i) begin
         if(!rst_n_i) begin
-            comp_prev = 1'b0;
+            comp_prev <= 1'b0;
         end else begin
             if((current_state == S_INTEGRATE) && (next_state == S_DEINTEGRATE)) begin
-                comp_prev = comp_i;
+                comp_prev <= comp_i;
             end 
         end
     end
 
+    assign digital_ready_o = (current_state == S_IDLE);;
     assign measurement_en_o = (current_state == S_DEINTEGRATE);
     assign ref_sign_o = comp_prev;
 

@@ -46,19 +46,20 @@ module digital_top (
     //---------------------------------------------------------
     // Declarations
     //---------------------------------------------------------
+    wire comp, analog_ready;  // Sanitized analog signals
 
-    wire [15:0] counter_limit;  // Counter limit value from state machine
-    wire [15:0] counter_count;  // Current counter value
-    wire counter_en;           // Counter enable signal
-    wire counter_clear;        // Counter clear signal
-    wire counter_busy;         // Counter busy status
-    wire counter_done;         // Counter done status
-    wire done;                // State machine done signal
-    wire range_error_o;       // Range error signal
-    wire comp_o, sat_hi_o, sat_lo_o, ref_ok_o;  // Sanitized analog signals
- 
+    wire trigger;
+    wire digital_ready;
+    wire [4:0] cycle_count;
+    wire [9:0] pulse_count;
+    wire stop;
+    wire increment;
+
     wire [31:0] tx_data_in;
     wire [31:0] tx_data_out;
+
+    wire measurement_en;
+    wire [11:0] measurement_count;
 
     //---------------------------------------------------------
     // Instantiations
@@ -69,45 +70,57 @@ module digital_top (
         .clk_i(clk_i),
         .rst_n_i(rst_n_i),
         .async_i(comp_i),
-        .clean_out_o(comp_o)
+        .clean_out_o(comp)
     );
 
     sync_and_filter sync_and_filter_analog_ready_inst (
         .clk_i(clk_i),
         .rst_n_i(rst_n_i),
         .async_i(analog_ready_i),
-        .clean_out_o(analog_ready_o)
+        .clean_out_o(analog_ready)
     );
 
     // State Machine
     state_machine state_machine_inst (
         .clk_i(clk_i),
         .rst_n_i(rst_n_i),
-        .comp_i(comp_o),
-        .analog_ready_i(analog_ready_o),
+        .trigger_i(trigger),
+        .digital_ready_o(digital_ready),
+        .comp_i(comp),
+        .analog_ready_i(analog_ready),
         .afe_sel_o(afe_sel_o),
-        .mode_sel_o(mode_sel_o),
         .ref_sign_o(ref_sign_o),
-        .done_o(done),
-        .counter_done_i(counter_done),
-        .counter_busy_i(counter_busy),
-        .counter_clear_o(counter_clear),
-        .counter_en_o(counter_en),
-        .counter_limit_o(counter_limit)
+        .cycle_count_i(cycle_count),
+        .pulse_count_i(pulse_count),
+        .measurement_count_i(measurement_count),
+        .measurement_en_o(measurement_en)
     );
 
-    // Counter
-    counter counter_inst (
+    // Counters
+    cycle_counter cycle_counter_inst (
         .clk_i(clk_i),
         .rst_n_i(rst_n_i),
-        .en_i(counter_en),
-        .clear_i(counter_clear),
-        .limit_i(counter_limit),
-        .busy_o(counter_busy),
-        .done_o(counter_done),
-        .count_o(counter_count)
+        .increment_i(increment),
+        .stop_o(stop),
+        .cycle_count_o(cycle_count)
     );
 
+    pulse_counter pulse_counter_inst (
+        .clk_i(clk_i),
+        .rst_n_i(rst_n_i),
+        .trigger_i(trigger),
+        .stop_i(stop),
+        .increment_o(increment),
+        .pulse_count_o(pulse_count)
+    );
+
+    measurement_counter measurement_counter_inst (
+        .clk_i(clk_i),
+        .rst_n_i(rst_n_i),
+        .measurement_en_i(measurement_en),
+        .measurement_count_o(measurement_count)
+    );
+    
     // SPI slave instance
     spi_slave #(
         .SPI_MODE(0)
@@ -116,7 +129,7 @@ module digital_top (
         .i_Clk(clk_i),
         .o_RX_DV(interrupt_o),
         .o_RX_Byte(tx_data_in),
-        .i_TX_DV(done),
+        .i_TX_DV(stop),
         .i_TX_Byte(tx_data_out),
         .i_SPI_Clk(spi_sclk_i),
         .o_SPI_MISO(spi_miso_o),
@@ -129,11 +142,11 @@ module digital_top (
     //---------------------------------------------------------
 
     // Debug Status Register
-    assign tx_data_out[15:0] = counter_count;
-    assign tx_data_out[16] = comp_o;
-    assign tx_data_out[17] = sat_hi_o;
-    assign tx_data_out[18] = sat_lo_o;
-    assign tx_data_out[19] = ref_ok_o;
+    assign tx_data_out[15:0] = {4'b0, measurement_count};
+    assign tx_data_out[16] = comp;
+    assign tx_data_out[17] = analog_ready;
+    assign tx_data_out[18] = stop;
+    assign tx_data_out[19] = digital_ready;
     assign tx_data_out[21:20] = afe_sel_o;
     assign tx_data_out[24:22] = range_sel_o;
     assign tx_data_out[25] = afe_reset_o;
